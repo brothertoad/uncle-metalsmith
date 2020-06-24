@@ -1,0 +1,34 @@
+
+{% macro linkTo(label, url) %}
+  <a href="{{ url }}">{{ label }}</a>
+{% endmacro %}
+
+{% macro rlm(color) %}
+  RLM&nbsp;{{ color }}
+{% endmacro %}
+
+{% macro txf(color) %}
+  <span style="white-space: nowrap">XF-{{ color }}</span>
+{% endmacro %}
+
+{% macro tx(color) %}
+  <span style="white-space: nowrap">X-{{ color }}</span>
+{% endmacro %}
+
+{% macro mrcolor(color) %}
+  Mr.&nbsp;Color&nbsp;<span style=\"white-space: nowrap\">C-{{ color }}</span>
+{% endmacro %}
+
+{% macro buildPhotoLink(path, number) %}
+  {% set imagePath = path.slice(7, 16) + "-" + number + "-1000.jpg" %}
+  {% set url = "https://d1dems3vhrlf9r.cloudfront.net/images/builds/" + imagePath %}
+  <img src={{url}} class="build-photo">
+{% endmacro %}
+
+{% macro buildLastModified(mtime) %}
+
+{% endmacro %}
+
+{% macro buildFooter(mtime) %}
+
+{% endmacro %}

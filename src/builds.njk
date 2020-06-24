@@ -1,0 +1,37 @@
+---
+title: "Uncle Uncool: The Builds"
+banner: The Builds
+layout: body.njk
+---
+{% import "layouts/macros.njk" as mymacros %}
+<p>
+  Here is a list of my completions. Note that I do say 'completions',
+  as for each one I've completed, several have ended up as FUBAR, although
+  my batting average is improving.
+</p>
+<p>
+  The vast majority are WWII aircraft, which is my main focus. I've done a
+  few armor subjects as well. I have a large stash, which includes not only
+  aircraft and armor, but cars, motorcycles, animals and figures (both styrene
+  and resin) as well. The only thing I don't have yet is a ship.
+</p>
+<table class="build-table">
+  <thead>
+    <th>Date</th>
+    <th>Manufacturer</th>
+    <th>Scale</th>
+    <th>Description</th>
+    <th>Kit Number</th>
+  </thead>
+  <tbody>
+    {% for b in builds %}
+    <tr>
+      <td>{{ b.date }}</td>
+      <td>{{ b.brand }}</td>
+      <td>{{ b.scale }}</td>
+      <td>{{ mymacros.linkTo(b.name | safe, b.url) }}</td>
+      <td>{{ b.number }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

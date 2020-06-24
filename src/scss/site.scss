@@ -1,0 +1,283 @@
+
+$font-stack: "Merriweather Sans", "Droid Serif", Helvetica, Arial, sans-serif;
+$banner-font-stack: 'Cherry Cream Soda', cursive;
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+@mixin link-color {
+  // The color below is from number 4 on https://visme.co/blog/website-color-schemes/
+  // color: #EDF5E1;
+  // color: black;
+}
+
+body {
+  font-family: $font-stack;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  max-width: 100%;
+  font-size: 1.2em;
+  /*
+  // The color below is from number 4 on https://visme.co/blog/website-color-schemes/
+  background: #05386B;
+  */
+  background: lightgreen;
+  @include link-color;
+  // color: black;
+}
+
+@media print {
+   .noprint {
+      visibility: hidden;
+   }
+   body {
+     background: white;
+     color: black;
+   }
+}
+
+@mixin centered {
+  text-align: center;
+}
+@mixin left-align {
+  text-align: left;
+}
+
+@mixin centered-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin bold {
+  font-weight: bold;
+}
+
+@mixin strikethrough {
+  text-decoration: line-through;
+}
+
+h1 {
+  margin: 0;
+}
+
+.banner {
+    font-family: $banner-font-stack;
+    font-size: 72px;
+}
+
+.motto {
+    font-family: $banner-font-stack;
+    font-size: 36px;
+}
+
+.build-photo {
+    @include centered-photo();
+    width: 1000px;
+    max-width: 100%;
+}
+
+.build-table {
+    width: 100%;
+    max-width: 100%;
+}
+
+.tc {
+  @include centered;
+}
+
+.tl {
+  @include left-align;
+}
+
+.bold {
+  @include bold;
+}
+
+.deleted {
+  @include strikethrough;
+}
+
+.left-inline {
+  display: inline;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.right-inline {
+  display: inline;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.centered-div {
+  display: table;
+  margin: 0 auto;
+}
+
+.w-80 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full-size-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.form-row-container {
+  flex: 1 1 0;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  flex: 3 1 0;
+}
+
+.form-row input {
+  flex: 7 1 0;
+}
+
+.plain-list {
+  list-style-type: none;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+// Generic classes
+
+.row-parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.column-25c {
+  @include centered;
+  flex: 0 0 25%;
+}
+
+.column-50c {
+  @include centered;
+  flex: 0 0 50%;
+}
+
+.column-25 {
+  flex: 0 0 25%;
+}
+
+.column-50 {
+  flex: 0 0 50%;
+}
+
+.column-30 {
+  flex: 0 0 30%;
+}
+
+.column-70 {
+  flex: 0 0 70%;
+}
+
+.column {
+  @include centered;
+  flex: 1 1 0;
+}
+
+.row-parent-space-between {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.list-header {
+  @include centered;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.list-container {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.centered-block {
+  display: block;
+  @include centered;
+}
+
+.link {
+  display: block;
+  // text-decoration: none;
+  transition: color .15s ease-in;
+  @include centered;
+  /* font-weight: 600; */
+  @include link-color;
+}
+
+.link2 {
+  /* display: block; */
+  text-decoration: none;
+  transition: color .15s ease-in;
+  @include centered;
+  /* font-weight: 600; */
+}
+
+.embedded-link {
+  // text-decoration: none;
+  transition: color .15s ease-in;
+  @include link-color;
+}
+
+.link:hover, .embedded-link:hover {
+    text-decoration: underline;
+}
+
+.link:focus, .embedded-link:focus {
+    text-decoration: underline;
+}
+.link:link, .link:visited, .embedded-link:link, .embedded-link:visited {
+    transition: color .15s ease-in;
+}
+
+.link:active, .embedded-link:active {
+    transition: color .15s ease-in;
+}
+
+/////////////////////////////////////////////
+// Some color classes for testing.
+/////////////////////////////////////////////
+
+.orange {
+  background: orange;
+}
+
+.green {
+  background: green;
+}
+
+.firebrick {
+  background: firebrick;
+}

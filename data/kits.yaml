@@ -1,0 +1,578 @@
+### === Tamiya 1/48 kits
+
+TAM61013:
+    brand: Tamiya
+    number: '61013'
+    name: 'Nakajima Ki-84-IA Hayate (Frank)'
+    scale: '1/48'
+    boxart: '48/Tamiya/61013-800.jpg'
+    scalematesId: '120377-tamiya-61013-nakajima-ki-84-i-a-hayate-frank'
+
+TAM61025:
+    brand: Tamiya
+    number: '61025'
+    name: 'Mitsubishi A6M3 Zero Fighter (Hamp)'
+    scale: '1/48'
+    boxart: '48/Tamiya/61025-800.jpg'
+    scalematesId: 'tamiya-61025-a6m3-zero-fighter--133895'
+
+TAM61032:
+    brand: Tamiya
+    number: '61032'
+    name: 'Supermarine Spitfire Mk. I'
+    scale: '1/48'
+    boxart: '48/Tamiya/61032-800.jpg'
+    scalematesId: '123053-tamiya-61032-supermarine-spitfire-mk-i'
+
+TAM61033:
+    brand: Tamiya
+    number: '61033'
+    name: 'Supermarine Spitfire Mk. Vb'
+    scale: '1/48'
+    boxart: '48/Tamiya/61033-800.jpg'
+    scalematesId: '106383-tamiya-61033-supermarine-spitfire-mk-vb'
+
+TAM61034:
+    brand: Tamiya
+    number: '61034'
+    name: 'Grumman F4F-4 Wildcat'
+    scale: '1/48'
+    boxart: '48/Tamiya/61034-800.jpg'
+    scalematesId: '133906-tamiya-61034-grumman-f4f-4-wildcat'
+
+TAM61035:
+    brand: Tamiya
+    number: '61035'
+    name: 'Supermarine Spitfire Mk. Vb Trop.'
+    scale: '1/48'
+    boxart: '48/Tamiya/61035-800.jpg'
+    scalematesId: '122417-tamiya-61035-supermarine-spitfire-mk-vb-trop'
+
+TAM61037:
+    brand: Tamiya
+    number: '61037'
+    name: 'Focke-Wulf Fw 190A-3'
+    scale: '1/48'
+    boxart: '48/Tamiya/61037-800.jpg'
+    scalematesId: 'tamiya-61037-focke-wulf-fw-190a-3--107203'
+
+TAM61039:
+    brand: Tamiya
+    number: '61039'
+    name: 'Focke-Wulf Fw 190F-8'
+    scale: '1/48'
+    boxart: '48/Tamiya/61039-800.jpg'
+    scalematesId: '133918-tamiya-61039-focke-wulf-fw-190-f-8'
+
+TAM61040:
+    brand: Tamiya
+    number: '61040'
+    name: 'North American P-51D Mustang 8th AF'
+    scale: '1/48'
+    boxart: '48/Tamiya/61040-800.jpg'
+    scalematesId: '115212-tamiya-61040-north-american-p-51d-mustang-8th-af'
+
+TAM61041:
+    brand: Tamiya
+    number: '61041'
+    name: 'Focke-Wulf Fw 190D-9'
+    scale: '1/48'
+    boxart: '48/Tamiya/61041-800.jpg'
+    scalematesId: '107211-tamiya-61041-focke-wulf-fw-190d-9'
+
+TAM61042:
+    brand: Tamiya
+    number: '61042'
+    name: 'North American P-51B Mustang'
+    scale: '1/48'
+    boxart: '48/Tamiya/61042-800.jpg'
+    scalematesId: '133919-tamiya-61042-north-american-p-51b-mustang'
+
+TAM61044:
+    brand: Tamiya
+    number: '61044'
+    name: 'North American F-51D Mustang Korean War'
+    scale: '1/48'
+    boxart: '48/Tamiya/61044-800.jpg'
+    scalematesId: '122762-tamiya-61044-north-american-f-51d-mustang-korean-war'
+
+TAM61046:
+    brand: Tamiya
+    number: '61046'
+    name: 'Chance Vought F4U-1/2 Bird Cage Corsair'
+    scale: '1/48'
+    boxart: '48/Tamiya/61046-800.jpg'
+    scalematesId: 'tamiya-61046-f4u-1-2-bird-cage-corsair--106391'
+
+TAM61047:
+    brand: Tamiya
+    number: '61047'
+    name: 'North American RAF Mustang III'
+    scale: '1/48'
+    boxart: '48/Tamiya/61047-800.jpg'
+    scalematesId: 'tamiya-61047-north-american-raf-mustang-iii--121550'
+
+TAM61050:
+    brand: Tamiya
+    number: '61050'
+    name: 'Messerschmitt Bf 109E-3'
+    scale: '1/48'
+    boxart: '48/Tamiya/61050-800.jpg'
+    scalematesId: '129903-tamiya-61050-messerschmitt-bf-109-e-3'
+
+TAM61053:
+    brand: Tamiya
+    number: '61053'
+    name: 'Bristol Beaufighter Mk. VI'
+    scale: '1/48'
+    boxart: '48/Tamiya/61053-800.jpg'
+    scalematesId: '114469-tamiya-61053-bristol-beaufighter-mk-vi'
+
+TAM61061:
+    brand: Tamiya
+    number: '61061'
+    name: 'Vought F4U-1D Corsair'
+    scale: '1/48'
+    boxart: '48/Tamiya/61061-800.jpg'
+    scalematesId: '133927-tamiya-61061-vought-f4u-1d-corsair'
+
+TAM61063:
+    brand: Tamiya
+    number: '61063'
+    name: 'Messerschmitt Bf 109E-4/7 Trop'
+    scale: '1/48'
+    boxart: '48/Tamiya/61063-800.jpg'
+    scalematesId: '106349-tamiya-61063-messerschmitt-bf-109e-4-7-trop'
+
+TAM61081:
+    brand: Tamiya
+    number: '61081'
+    name: 'Focke-Wulf Fw 190D-9 JV44'
+    scale: '1/48'
+    boxart: '48/Tamiya/61081-800.jpg'
+    scalematesId: '114328-tamiya-61081-focke-wulf-fw-190d-9'
+
+TAM61086:
+    brand: Tamiya
+    number: '61086'
+    name: 'Republic P-47D Thunderbolt "Razorback"'
+    scale: '1/48'
+    boxart: '48/Tamiya/61086-800.jpg'
+    scalematesId: '121538-tamiya-61086-republic-p-47d-thunderbolt'
+
+TAM61090:
+    brand: Tamiya
+    number: '61090'
+    name: 'Republic P-47D Thunderbolt "Bubbletop"'
+    scale: '1/48'
+    boxart: '48/Tamiya/61090-800.jpg'
+    scalematesId: '106382-tamiya-61090-republic-p-47d-thunderbolt-bubbletop'
+
+TAM61095:
+    brand: Tamiya
+    number: '61095'
+    name: 'Focke-Wulf Fw 190A-8/A-8 R2'
+    scale: '1/48'
+    boxart: '48/Tamiya/61095-800.jpg'
+    scalematesId: '104771-tamiya-61095-focke-wulf-fw-190a-8-r2'
+
+### == Hasegawa 1/48 kits
+
+HAS09011:
+    brand: Hasegawa
+    number: '09011/J11'
+    name: 'Messerschmitt Bf 109F-4'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09011-800.jpg'
+    scalematesId: '120374-hasegawa-09011-messerschmitt-bf109f-4'
+
+HAS09013:
+    brand: Hasegawa
+    number: '09013/J13'
+    name: 'Messerschmitt Bf 109G-2'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09013-800.jpg'
+    scalematesId: '166321-hasegawa-09013-messerschmitt-bf-109-g-2'
+
+HAS09063:
+    brand: Hasegawa
+    number: '09063/Jt63'
+    name: 'Messerschmitt Bf 109K-4'
+    scale: '1/48'
+    # boxart: '48/Hasegawa/09063-800.jpg'
+    scalematesId: '172494-hasegawa-09063-messerschmitt-bf109-k-4'
+
+HAS09064:
+    brand: Hasegawa
+    number: '09064/Jt64'
+    name: 'Messerschmitt Bf 109G-10'
+    scale: '1/48'
+    # boxart: '48/Hasegawa/09063-800.jpg'
+    scalematesId: 'hasegawa-09064-messerschmitt-bf-109g-10--114472'
+
+HAS09067:
+    brand: Hasegawa
+    number: '09067/Jt67'
+    name: 'Nakajima Ki 84-I Type 4 Hayate (Frank)'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09067-800.jpg'
+    scalematesId: '191557-hasegawa-09067-nakajima-ki-84-i-type-4-hayate-frank'
+
+HAS09079:
+    brand: Hasegawa
+    number: '09079/Jt79'
+    name: 'Spitfire Mk. IXc'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09079-800.jpg'
+    scalematesId: '174650-hasegawa-09079-spitfire-mk-ixc'
+
+HAS09080:
+    brand: Hasegawa
+    number: '09080/Jt80'
+    name: 'Nakajima Ki 43-I Hayabusa (Oscar)'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09080-800.jpg'
+    scalematesId: '114359-hasegawa-09080-nakajima-ki43-i-hayabusa-oscar'
+
+HAS09138:
+    brand: Hasegawa
+    number: '09138/Jt38'
+    name: "Kawasaki Ki-100-I Otsu (Tony)"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09138-800.jpg'
+    scalematesId: 'hasegawa-09138-kawasaki-ki-100-i-otsu-tony--136214'
+
+HAS09144:
+    brand: Hasegawa
+    number: '09144/Jt44'
+    name: "Kawasaki Ki-100-I Koh (Tony) 'Fastback'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09144-800.jpg'
+    scalematesId: '143657-hasegawa-09144-kawasaki-ki-100-koh-tony-fastback'
+
+HAS09147:
+    brand: Hasegawa
+    number: '09147/Jt47'
+    name: 'Messerschmitt Bf 109G-6'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09147-800.jpg'
+    scalematesId: '143544-hasegawa-09147-messerschmitt-bf-109-g-6'
+
+HAS09181:
+    brand: Hasegawa
+    number: '09181/Jt121'
+    name: "Mitsubishi A6M3 Zero Fighter Type 32 'Houkoku'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09181-800.jpg'
+    scalematesId: '178438-hasegawa-09181-mitsubishi-a6m3-zero-fighter-type-32-houkoku'
+
+HAS09196:
+    brand: Hasegawa
+    number: '091967/Jt136'
+    name: 'Mitsubishi J2M5 Raiden (Jack) Type 33'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09196-800.jpg'
+    scalematesId: '178443-hasegawa-09196-mitsubishi-j2m5-raiden-jack-type-33'
+
+HAS09255:
+    brand: Hasegawa
+    number: '09255/Jt155'
+    name: "P-51D Mustang 'Checkertail Clan'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09255-800.jpg'
+    scalematesId: '946664-hasegawa-09255-p-51d-mustang-checkertail-clan'
+
+HAS09412:
+    brand: Hasegawa
+    number: '09412'
+    name: "Kawasaki Ki61-I Tei Type 3 Fighter Hien (Tony) '56th Flight Regiment'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09412-800.jpg'
+    scalematesId: '114122-hasegawa-09412-kawasaki-ki61-i-tei-type3-fighter-hien-tony-56th-flight-regiment'
+
+HAS09531:
+    brand: Hasegawa
+    number: '09531'
+    name: "Nakajima Ki44-II Hei Shoki (Tojo) '104th Flight Regiment'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09531-800.jpg'
+    scalematesId: '931556-hasegawa-09531-nakajima-ki44-ii-hei-shoki-tojo-104th-flight-regiment'
+
+HAS09571:
+    brand: Hasegawa
+    number: '09571'
+    name: "Spitfire Mk. Vb 'U.S.A.A.F.'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09571-800.jpg'
+    scalematesId: '237795-hasegawa-09571-spitfire-mk-vb-u-s-a-a-f'
+
+HAS09740:
+    brand: Hasegawa
+    number: '09740'
+    name: "P-40N Warhawk '15,000th Anniversary'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09740-800.jpg'
+    scalematesId: '141185-hasegawa-09740-p-40n-warhawk-15-000th-anniversary'
+
+HAS09870:
+    brand: Hasegawa
+    number: '09870'
+    name: "Kawanishi N1K1-Ja Shiden (George) Type 11 Koh 'Yokosuka Flying Group'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09870-800.jpg'
+    scalematesId: '101220-hasegawa-09870-kawanishi-n1k1-ja-shiden-george-type-11-koh-yokosuka-flying-group'
+
+### == Eduard 1/48 kits
+
+ED84138:
+    brand: Eduard
+    number: '84138'
+    name: 'Spitfire Mk. IXe Weekend Edition'
+    scale: '1/48'
+    boxart: '48/Eduard/84138-800.jpg'
+    scalematesId: 'eduard-84138-spitfire-mkixe--260576'
+
+### == Hasegawa 1/32 kits
+
+HAS08150:
+    brand: Hasegawa
+    number: '08150'
+    name: "Nakajima Ki43-II Hayabusa (Oscar) 'Manchoukuo Air Corps'"
+    scale: '1/32'
+    boxart: '32/Hasegawa/08150-800.jpg'
+    scalematesId: 'hasegawa-08150-nakajima-ki-43-ii-hayabusa-oscar-manchoukuo-air-corps--241314'
+
+### == Tamiya 1/35
+
+TAM35142:
+    brand: Tamiya
+    number: '35142'
+    name: 'KV-1B Russian Tank'
+    scale: '1/35'
+    boxart: '35/Tamiya/35142-800.jpg'
+    scalematesId: '132575-tamiya-35142-kv-1b'
+
+TAM35149:
+    brand: Tamiya
+    number: '35149'
+    name: 'Russian T34/76 Tank, "ChTZ" Version, 1943 Production'
+    scale: '1/35'
+    boxart: '35/Tamiya/35149-800.jpg'
+    scalematesId: 'tamiya-35149-t34-76--132582'
+
+TAM35270:
+    brand: Tamiya
+    number: '35270'
+    name: 'Sd.Kfz. 222 Leichter Panzerspähwagen (4x4)'
+    scale: '1/35'
+    boxart: '35/Tamiya/35270-800.jpg'
+    scalematesId: 'tamiya-35270-sdkfz-222-leichter-panzerspaehwagen-4x4--128398'
+
+TAM35346:
+    brand: Tamiya
+    number: '35346'
+    name: 'U.S. Medium Tank M4A3E8 Sherman "Easy Eight" European Theater'
+    scale: '1/35'
+    boxart: '35/Tamiya/35346-800.jpg'
+    scalematesId: 'tamiya-35346-m4a3e8-sherman-easy-eight--959297'
+
+TAM35353:
+    brand: Tamiya
+    number: '35353'
+    name: 'Sd.Kfz.166 Sturmpanzer IV Brummb&auml;r'
+    scale: '1/35'
+    boxart: '35/Tamiya/35353-800.jpg'
+    scalematesId: '1076227-tamiya-35353-brummbaer'
+
+### == Hasegawa 1/72 kits
+
+HAS00621:
+    brand: Hasegawa
+    number: '00621'
+    name: "Kawasaki Ki61-I Tei Hien '18th Flight Training Unit'"
+    scale: '1/72'
+    boxart: '72/Hasegawa/00621-800.jpg'
+    scalematesId: '1108715-hasegawa-00621-kawasaki-ki61-i-tei-hien-18th-flight-training-unit'
+
+HAS503:
+    brand: Hasegawa
+    number: '507'
+    name: 'Republic P-47D Razorback'
+    scale: '1/72'
+    boxart: '72/Hasegawa/507-800.jpg'
+    scalematesId: '431001-hasegawa-507-500-republic-p-47-d'
+
+HAS51631:
+    brand: Hasegawa
+    number: '51631'
+    name: 'Nakajima Ki-44-II Shoki (Tojo)'
+    scale: '1/72'
+    boxart: '72/Hasegawa/51631-800.jpg'
+    scalematesId: '177724-hasegawa-51631-nakajima-ki-44-ii-shoki-tojo'
+
+### == Monogram 1/48 kits
+
+MONO5258:
+    brand: Monogram
+    number: '5258'
+    name: 'Hawker Mk Ib Typhoon'
+    scale: '1/48'
+    boxart: '48/Monogram/5258-800.jpg'
+    scalematesId: '193477-monogram-85-5258-hawker-typhoon-mk-ib'
+
+MONO6802:
+    brand: Monogram
+    number: '6802'
+    name: 'Hawker Hurricane'
+    scale: '1/48'
+    boxart: '48/Monogram/6802-800.jpg'
+    scalematesId: 'monogram-6802-hawker-hurricane--1014866'
+
+### == Otaki 1/48 kits
+
+OT224:
+    brand: Otaki
+    number: '24'
+    name: 'Spitfire Mk. VIII'
+    scale: '1/48'
+    boxart: '48/Otaki/Spitfire-800.jpg'
+    scalematesId: '313687-otaki-ot2-24-400-spitfire-mk-viii'
+
+OT226:
+    brand: Otaki
+    number: '26'
+    name: 'Focke-Wulf Fw 190A-8'
+    scale: '1/48'
+    boxart: '48/Otaki/Fw-190-800.jpg'
+    scalematesId: '313689-otaki-ot2-26-400-focke-wulf-fw190a-8'
+
+# Note that the boxart for this kit is actually an image of the Arii boxing of the same plastic.
+OT225:
+    brand: Otaki
+    number: '25'
+    name: 'Messerschmitt Bf 109G'
+    scale: '1/48'
+    boxart: '48/Arii/Bf-109G-6-800.jpg'
+    scalematesId: '1092034-otaki-ot2-25-600-messerschmitt-bf109g'
+
+### == Hobbycraft 1/48 kits
+
+HC1538:
+    brand: Hobbycraft
+    number: 'HC1538'
+    name: 'Bf 109G-1/-2 "African Front"'
+    scale: '1/48'
+    boxart: '48/Hobbycraft/HC1538-800.jpg'
+    scalematesId: '129938-hobbycraft-hc1538-african-front-bf109g-1-2'
+
+### == Testors 1/48 kits
+
+TSTR7625:
+    brand: Testors
+    number: '7625'
+    name: 'Me-163 Komet'
+    scale: '1/48'
+    boxart: '48/Testors/625-800.jpg'
+    scalematesId: '264381-testors-7625-me-163-komet'
+
+### == Academy 1/72 kits
+
+ACA1653:
+    brand: Academy
+    number: '1653'
+    name: 'Messerschmitt Bf 109G-14'
+    scale: '1/72'
+    boxart: '72/Academy/1653-800.jpg'
+    scalematesId: '132317-academy-1653-messerschmitt-bf-109g-14'
+
+ACA1664:
+    brand: Academy
+    number: '1664'
+    name: 'Typhoon Mk Ib'
+    scale: '1/72'
+    boxart: '72/Academy/1664-800.jpg'
+    scalematesId: '247726-academy-01664-typhoon-mk-ib'
+
+ACA1670:
+    brand: Academy
+    number: '1670'
+    name: 'Messerschmitt Bf 109G-6'
+    scale: '1/72'
+    boxart: '72/Academy/1670-800.jpg'
+    scalematesId: '930788-academy-01670-messerschmitt-bf-109g-6'
+
+ACA2132:
+    brand: Academy
+    number: '2132'
+    name: 'North American P-51D Mustang'
+    scale: '1/72'
+    boxart: '72/Academy/2132-800.jpg'
+    scalematesId: '197037-academy-2132-north-american-p-51d-mustang'
+
+ACA2133:
+    brand: Academy
+    number: '2133'
+    name: 'Messerschmitt Bf 109E'
+    scale: '1/72'
+    boxart: '72/Academy/2133-800.jpg'
+    scalematesId: '203949-academy-2133-messerschmitt-bf109e'
+
+ACA2224:
+    brand: Academy
+    number: '2224'
+    name: 'F6F-3/5 Hellcat'
+    scale: '1/72'
+    boxart: '72/Academy/2224-800.jpg'
+    scalematesId: '103407-academy-2224-f6f-3-5-hellcat'
+
+### == Revell 1/72 kits
+
+REV04164:
+    brand: Revell
+    number: '04161'
+    name: 'Supermarine Spitfire Mk V'
+    scale: '1/72'
+    boxart: '72/Revell/04164-800.jpg'
+    scalematesId: '123427-revell-04164-supermarine-spitfire-mk-v'
+
+### == Meng
+
+MENGWWT002:
+    brand: Meng
+    number: 'WWT-002'
+    name: 'U.S. Medium Tank M4A1 Sherman'
+    scale: ''
+    boxart: 'other/Meng-WWT-002-800.jpg'
+    scalematesId: 'meng-model-wwt-002-sherman--1068169'
+
+MENGWWT003:
+    brand: Meng
+    number: 'WWT-003'
+    name: 'German Heavy Tank King Tiger (Porsche Turret)'
+    scale: ''
+    boxart: 'other/Meng-WWT-003-800.jpg'
+    scalematesId: 'meng-model-wwt-003-king-tiger-porsche-turret--1083483'
+
+MENGWWT006:
+    brand: Meng
+    number: 'WWT-006'
+    name: 'Soviet Medium Tank T-34/76'
+    scale: ''
+    boxart: 'other/Meng-WWT-006-800.jpg'
+    scalematesId: '1097593-meng-model-wwt-006-t-34-76'
+
+MENGWWT011:
+    brand: Meng
+    number: 'WWT-011'
+    name: 'German Light Panzer 38(t)'
+    scale: ''
+    boxart: 'other/Meng-WWT-011-800.jpg'
+    scalematesId: 'meng-model-wwt-011-panzer-38-t--1151740'
+
+MENGWWT012:
+    brand: Meng
+    number: 'WWT-012'
+    name: 'U.S. Light Tank M5 Stuart'
+    scale: ''
+    boxart: 'other/Meng-WWT-012-800.jpg'
+    scalematesId: 'meng-wwt-012-m5-stuart--1165249'
