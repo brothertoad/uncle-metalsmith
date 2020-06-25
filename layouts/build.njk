@@ -1,4 +1,5 @@
 {% extends "layout.njk" %}
+{% import "macros.njk" as m %}
 
 {% block body %}
   {% include "partials/navbar.njk" %}
@@ -7,5 +8,15 @@
   <div class="build-title-div">
     <h1 class="build-title">{{ title }}</h1>
   </div>
+  {% if scalematesUrl %}
+  <div class="build-scalemates-div">
+    {{ m.linkTo('scalemates.com link', scalematesUrl) }}
+  </div>
+  {% endif %}
+  {% if boxartUrl %}
+  <p>
+    <img class="boxart" src="{{ boxartUrl }}" alt="boxart">
+  </p>
+  {% endif %}
   {{ contents | safe }}
 {% endblock %}

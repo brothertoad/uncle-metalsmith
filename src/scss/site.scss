@@ -42,6 +42,7 @@ body {
 @mixin centered {
   text-align: center;
 }
+
 @mixin left-align {
   text-align: left;
 }
@@ -82,6 +83,17 @@ h1 {
   font-family: $font-stack;
   color: black;
   font-weight: 700;
+  font-size: 1.8em;
+}
+
+.build-scalemates-div {
+    @include centered();
+    font-size: 0.8em;
+}
+
+.boxart {
+    @include centered-photo();
+    max-width: 100%;
 }
 
 .build-photo {

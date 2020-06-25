@@ -21,6 +21,8 @@ function plugin(options){
               let build = createBuild(file, kit);
               builds.push(build);
               data.title = build.pageTitle;
+              data.boxartUrl = build.boxartUrl;
+              data.scalematesUrl = build.scalematesUrl;
             }
         });
         // Sort by key.
@@ -59,5 +61,11 @@ function createBuild(file, kit) {
   build.description = kit.brand + " " + kit.scale + " " + kit.name + " " + kit.number;
   build.pageTitle = kit.brand + " " + kit.scale + " " + kit.name + " (" + kit.number + ")";
   build.url = "/models/" + year + "/" + serial + "/";
+  if (kit.boxart) {
+    build.boxartUrl = "https://d1dems3vhrlf9r.cloudfront.net/boxart/" + kit.boxart;
+  }
+  if (kit.scalematesId) {
+    build.scalematesUrl = "http://www.scalemates.com/kits/" + kit.scalematesId;
+  }
   return build;
 }

@@ -22,7 +22,9 @@
 {% macro buildPhotoLink(path, number) %}
   {% set imagePath = path.slice(7, 16) + "-" + number + "-1000.jpg" %}
   {% set url = "https://d1dems3vhrlf9r.cloudfront.net/images/builds/" + imagePath %}
-  <img src={{url}} class="build-photo">
+  <p>
+    <img src={{url}} class="build-photo">
+  </p>
 {% endmacro %}
 
 {% macro buildLastModified(mtime) %}
