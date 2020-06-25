@@ -24,6 +24,7 @@ const permalinks = require('metalsmith-permalinks');
 const dataLoader = require('metalsmith-data-loader');
 const metadata = require('metalsmith-metadata-directory');
 const modelsAnalyzer = require('./modelsAnalyzer.js');
+const lastModified = require('./lastModified.js');
 
 const templateConfig = {
     engineOptions: {
@@ -48,6 +49,7 @@ metalsmith(__dirname)
     }))
     .use(metadata({ directory: 'data/*.yaml' }))
     .use(modelsAnalyzer())
+    .use(lastModified())
     .use(inplace(templateConfig))
     .use(layouts(templateConfig))
     .use(permalinks({ relative: false }))
