@@ -23,6 +23,7 @@ function plugin(options){
               data.title = build.pageTitle;
               data.boxartUrl = build.boxartUrl;
               data.scalematesUrl = build.scalematesUrl;
+              data.completionDate = build.completionDate;
             }
         });
         // Sort by key.
@@ -40,6 +41,21 @@ function compareBuilds(b1, b2) {
   return 0;
 }
 
+// Lookup table for month names.  This is 1-based.
+var monthName = [ '',
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December' ];
+
 // Need to add boxart and scalemates links.
 function createBuild(file, kit) {
   let build = {};
@@ -47,8 +63,10 @@ function createBuild(file, kit) {
   let year = tokens[1]; // Note that this is a string
   let serial = tokens[2].slice(0, 4);
   let month = serial.slice(0,2);
+  let iMonth = parseInt(month); // month as number, 1-based
   build.key = parseInt(year + serial);
   build.date = month + "/" + year;
+  build.completionDate = monthName[iMonth] + ', ' + year;
   build.brand = kit.brand;
   if (kit.scale === "") {
     build.scale = "N/A";
