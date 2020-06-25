@@ -2,9 +2,9 @@
 layout: build.njk
 kit: MENGWWT003
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
-    As with {{ mymacros.linkTo('my previous Meng World War Toons build', '0701/') }},
+    As with {{ m.linkTo2('my previous Meng World War Toons build', '0701/', ',') }}
     this build came about because I was frustrated with other builds.
 </p>
 <p>
@@ -15,8 +15,7 @@ kit: MENGWWT003
     to thin the paint at all.  It also dried glossy enough so that I did not need
     to spray a gloss coat prior to applying the decals.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
-{{ mymacros.buildPhotoLink(path, 4) }}
-{{ mymacros.buildLastModified(stats.mtime) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 4) }}
