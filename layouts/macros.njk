@@ -3,6 +3,14 @@
   <a href="{{ url }}">{{ label }}</a>
 {% endmacro %}
 
+{# This macro exists because Nunjucks adds a newline after each
+   macro call.  This macro was created to output a link without any
+   whitespace between the following text (suffix).  The suffix is
+   usually a period or comma, but can be anything. #}
+{% macro linkTo2(label, url, suffix) %}
+  <a href="{{ url }}">{{ label }}</a>{{ suffix }}
+{% endmacro %}
+
 {% macro rlm(color) %}
   RLM&nbsp;{{ color }}
 {% endmacro %}
