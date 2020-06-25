@@ -1,7 +1,11 @@
-{% extends "body.njk" %}
+{% extends "layout.njk" %}
 
 {% block body %}
+  {% include "partials/navbar.njk" %}
 
   {# This is where we put build-specific stuff. #}
+  <div class="build-title-div">
+    <h1 class="build-title">{{ title }}</h1>
+  </div>
   {{ contents | safe }}
 {% endblock %}

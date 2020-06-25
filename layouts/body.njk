@@ -1,5 +1,7 @@
 {% extends "layout.njk" %}
 
 {% block body %}
+  {% include "partials/header.njk" %}
+
   {{ contents | safe }}
 {% endblock %}

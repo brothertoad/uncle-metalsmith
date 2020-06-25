@@ -74,6 +74,16 @@ h1 {
     font-size: 36px;
 }
 
+.build-title-div {
+    @include centered();
+}
+
+.build-title {
+  font-family: $font-stack;
+  color: black;
+  font-weight: 700;
+}
+
 .build-photo {
     @include centered-photo();
     width: 1000px;
