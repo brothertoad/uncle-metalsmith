@@ -455,6 +455,16 @@ OT225:
     boxart: '48/Arii/Bf-109G-6-800.jpg'
     scalematesId: '1092034-otaki-ot2-25-600-messerschmitt-bf109g'
 
+### == Academy 1/48 kits
+
+ACA2155:
+    brand: Academy
+    number: '2155'
+    name: 'Republic P-47N Thunderbolt'
+    scale: '1/48'
+    boxart: '48/Academy/2155-800.jpg'
+    scalematesId: 'academy-minicraft-2155-republic-p-47n-thunderbolt--1162259'
+
 ### == Hobbycraft 1/48 kits
 
 HC1538:
@@ -552,6 +562,14 @@ MENGWWT003:
     scale: ''
     boxart: 'other/Meng-WWT-003-800.jpg'
     scalematesId: 'meng-model-wwt-003-king-tiger-porsche-turret--1083483'
+
+MENGWWT004:
+    brand: Meng
+    number: 'WWT-004'
+    name: 'Soviet Heavy Tank KV-2'
+    scale: ''
+    boxart: 'other/Meng-WWT-004-800.jpg'
+    scalematesId: 'meng-wwt-004-kv-2--1083486'
 
 MENGWWT006:
     brand: Meng
