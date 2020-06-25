@@ -15,6 +15,10 @@ const spaceToDash = function (string) {
     return string.replace(/\s+/g, "-");
 };
 
+const linkTo = function(label, url) {
+  return '<a href="' + url + '">' + label + '</a>';
+}
+
 const inplace = require('metalsmith-in-place');
 const layouts = require('metalsmith-layouts');
 const metalsmith = require('metalsmith');
@@ -30,7 +34,8 @@ const templateConfig = {
     engineOptions: {
         filters: {
             toUpper: toUpper,
-            spaceToDash: spaceToDash
+            spaceToDash: spaceToDash,
+            linkTo: linkTo
         }
     }
 };
