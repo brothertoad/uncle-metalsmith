@@ -2,13 +2,12 @@
 title: About Uncle Uncool
 layout: body.njk
 ---
-{% import "layouts/macros.njk" as mymacros %}
 
 <h3>
   The domain
 </h3>
 <p>
-  I am a member of <a href="http://www.arcair.com/">ARC</a>,
+  I am a member of {{ 'ARC' | linkTo("http://www.arcair.com/") | safe }},
   where my user name is zeus60.
   There was another member whose user name is Uncle Uncool. I was so impressed
   by his moniker that I asked him if he had a web site, and, if not, if he would
@@ -22,14 +21,24 @@ layout: body.njk
 <p>
   This is a static web site, created with <a href="https://metalsmith.io/">Metalsmith</a>,
   a static site generation tool written in Javascript.
-  The source code for this site is available on github. The web pages themselves
-  are hosted on <a href="https://aws.amazon.com/s3/">Amazon S3</a>,
+  The source code for this site is available on
+  {{ 'github' | linkTo("https://github.com/brothertoad/uncle-metalsmith") | safe }}.
+  The web pages themselves are hosted on
+  {{ 'Amazon S3' | linkTo('https://aws.amazon.com/s3/') | safe }},
   and the email is handled by
-  <a href="https://www.zoho.com/mail/">Zoho Mail</a>. The web pages
-  are written in <a href="https://mozilla.github.io/nunjucks/">Nunjucks</a>
+  {{ 'Zoho Mail' | linkTo('https://www.zoho.com/mail/') | safe }}.
+  The web pages are written in
+  {{ 'Nunjucks' | linkTo('https://mozilla.github.io/nunjucks/') | safe }}
   and the stylesheets are written in
-  <a href="https://sass-lang.com/">Sass</a>.
+  {{ 'Sass' | linkTo('https://sass-lang.com/') | safe }}.
 </p>
+<p>
+  This site was originally created using
+  {{ 'Middleman' | linkTo('https://middlemanapp.com/') | safe }}.  It was migrated
+  to Metalsmith in June 2020.  The source code for the Middleman
+  version of this website is
+  {{ 'here' | linkTo('https://github.com/brothertoad/uncle') | safe }}.
+  Note that this source code is no longer updated.
 <p>
   You can contact me at uncleATuncleuncoolDOTnet.
 </p>
