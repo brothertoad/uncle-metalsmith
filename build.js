@@ -19,6 +19,22 @@ const linkTo = function(label, url) {
   return '<a href="' + url + '">' + label + '</a>';
 }
 
+const txf = function(color) {
+  return '<span style="white-space: nowrap">XF-' + color + '</span>';
+}
+
+const tx = function(color) {
+  return '<span style="white-space: nowrap">X-' + color + '</span>';
+}
+
+const mrcolor = function(color) {
+  return 'Mr.&nbsp;Color&nbsp;<span style=\"white-space: nowrap\">C-' + color + '</span>';
+}
+
+const rlm = function(color) {
+  return 'RLM&nbsp;' + color;
+}
+
 const inplace = require('metalsmith-in-place');
 const layouts = require('metalsmith-layouts');
 const metalsmith = require('metalsmith');
@@ -33,9 +49,13 @@ const lastModified = require('./lastModified.js');
 const templateConfig = {
     engineOptions: {
         filters: {
-            toUpper: toUpper,
-            spaceToDash: spaceToDash,
-            linkTo: linkTo
+            // toUpper: toUpper,
+            // spaceToDash: spaceToDash,
+            linkTo: linkTo,
+            txf: txf,
+            tx: tx,
+            mrcolor: mrcolor,
+            rlm: rlm
         }
     }
 };
