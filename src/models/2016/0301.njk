@@ -2,7 +2,7 @@
 layout: build.njk
 kit: TAM61035
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     Here is my second Tamiya Spitfire Mk Vb Trop, kit 61035.  The first time I completed
     this kit, it was done as an RAF plane in tropical camouflage.  Since all the schemes
@@ -11,7 +11,7 @@ kit: TAM61035
     (decal set 48008).
 </p>
 <p>
-    As with {{ mymacros.linkTo('the previous build', '../2010/0801/') }}, I used a
+    As with {{ 'the previous build' | linkTo('../2010/0801/') | safe }}, I used a
     50/50 mix of Model Master Enamel Flat White and Azure Blue for the bottom.
     In an interesting twist on my previous build of this kit, I attempted to use Model
     Master Enamel for the Middlestone, but it went on badly.  So I lightly sanded it,
@@ -33,7 +33,7 @@ kit: TAM61035
 </p>
 <p>
     As I mentioned, the decals are from
-    {{ mymacros.linkTo('TigerHead decals', 'http://www.tigerheaddecals.com/148-decal-sheets') }}.
+    {{ 'TigerHead decals' | linkTo('http://www.tigerheaddecals.com/148-decal-sheets') | safe }}.
     The decals were quite thin, but not so thin as to be fragile.  However, I had a devil
     of a time making the insignia on the bottom of the wings to conform to the surface.
     I was lucky in that those were the only insignia on the aircraft, and the other
@@ -41,6 +41,6 @@ kit: TAM61035
     I decided to forgo applying the stencils (especially since I don't enjoy applying
     decals!).
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

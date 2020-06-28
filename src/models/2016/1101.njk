@@ -2,10 +2,10 @@
 layout: build.njk
 kit: ACA1664
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     Athough I sold most of my 1/72 kits, I kept this one.  I had
-    {{ mymacros.linkTo('built it', '../2010/0201/' ) }} a
+    {{ 'built it' | linkTo('../2010/0201/') | safe }} a
     number of years ago, but that one did not turn out well, particularly the
     decals.  I was determined to do a better job this time around, and was
     rather pleased with how it turned out.
@@ -21,7 +21,7 @@ kit: ACA1664
 </p>
 <p>
     I found
-    {{ mymacros.linkTo('a review', 'http://www.hyperscale.com/2013/reviews/decals/x72179reviewpm_1.htm' ) }}
+    {{ 'a review' | linkTo('http://www.hyperscale.com/2013/reviews/decals/x72179reviewpm_1.htm') | safe }}
     of an Xtradecal sheet dedicated to the Typhoon, but I didn't want to spend
     thirteen bucks or so for a kit that was about ten.  I noticed that one of
     the subjects on the sheet, HF-S, had no special markings and was personally
@@ -30,7 +30,7 @@ kit: ACA1664
     something I wanted to avoid.
     I also figured such a plane would not have any
     underwing stores, another plus, so I decided that would be the plane I
-    would model.  I had {{ mymacros.linkTo('Techmod', 'http://www.techmod.pl/' ) }}
+    would model.  I had {{ 'Techmod' | linkTo('http://www.techmod.pl/') | safe }}
     sheet 72042, which did not have those exact
     codes, but by splicing different codes I could come up with the right
     squadron markings.  I did not get the serial number though - I used DN421,
@@ -39,11 +39,11 @@ kit: ACA1664
 <p>
     I primed with Tamiya Grey Primer, from the 40 ml bottle, thinned with
     Mr. Leveling Thinner.  It sprayed very well.  For the yellow on the front of
-    the wings, I used Model Master Enamel {{ mymacros.rlm('04') }}, which is somewhat close to
+    the wings, I used Model Master Enamel {{ '04'|rlm|safe }}, which is somewhat close to
     RAF Trainer Yellow (I believe that is the actual color).  The fuselage
-    band and spinner were painted Tamiya XF-21 Sky.  I used Tamiya RAF colors
-    for the exterior - XF-83 Medium Sea Gray 2 for the bottom, and XF-82 Ocean
-    Gray 2 and XF-81 RAF Dark Green 2 for the top.  I used Eduard CX-061 mask
+    band and spinner were painted Tamiya {{ '21'|txf|safe }} Sky.  I used Tamiya RAF colors
+    for the exterior - {{ '83'|txf|safe }} Medium Sea Gray 2 for the bottom, and {{ '82'|txf|safe }} Ocean
+    Gray 2 and {{ '81'|txf|safe }} RAF Dark Green 2 for the top.  I used Eduard CX-061 mask
     to mask the canopy.
 </p>
 <p>
@@ -66,6 +66,6 @@ kit: ACA1664
     After attaching the canopy, I realized that I had the windscreen on upside
     down.  I was able to remove it, turn it around, and re-glue it.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
