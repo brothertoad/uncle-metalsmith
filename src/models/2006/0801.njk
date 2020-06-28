@@ -2,7 +2,7 @@
 layout: build.njk
 kit: TAM61013
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
 	Here is the second kit I completed since returning to the hobby. It is a 1/48
 	scale Nakajima Ki 84-IA Hayate, Allied code name "Frank". It is Tamiya kit
@@ -12,8 +12,8 @@ kit: TAM61013
 </p>
 <p>
 	For more details on the kit, refer to the review
-	{{ mymacros.linkTo('here', 'http://www.modelingmadness.com/scotts/axis/j/tam85.htm') }} on
-	{{ mymacros.linkTo2('Modeling Madness', 'http://www.modelingmadness.com', '.') }}
+	{{ 'here' | linkTo('http://www.modelingmadness.com/scotts/axis/j/tam85.htm') | safe }} on
+	{{ 'Modeling Madness' | linkTo('http://www.modelingmadness.com') | safe }}.
 </p>
 <p>
 	I used a combination of paints on this model. I first primered with Painter's
@@ -35,6 +35,6 @@ kit: TAM61013
 	the Special Attack Corps at the Miyakonojo Airfield in Miyazaki Prefecture
 	on Okinawa. (This description is straight from the instruction sheet.)
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
