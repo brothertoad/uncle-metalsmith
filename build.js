@@ -7,14 +7,6 @@
 
 'use strict';
 
-const toUpper = function (string) {
-    return string.toUpperCase();
-};
-
-const spaceToDash = function (string) {
-    return string.replace(/\s+/g, "-");
-};
-
 const linkTo = function(label, url) {
   return '<a href="' + url + '">' + label + '</a>';
 }
@@ -49,8 +41,6 @@ const lastModified = require('./lastModified.js');
 const templateConfig = {
     engineOptions: {
         filters: {
-            // toUpper: toUpper,
-            // spaceToDash: spaceToDash,
             linkTo: linkTo,
             txf: txf,
             tx: tx,
