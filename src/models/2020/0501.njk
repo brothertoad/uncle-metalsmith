@@ -2,7 +2,7 @@
 layout: build.njk
 kit: ED84138
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     This is the second attempt at building this kit.  The reputation it has for
     being a difficult kit to build is fully deserved.  I cannot honestly say that I
@@ -10,15 +10,15 @@ kit: ED84138
 </p>
 <p>
     Assembling the cockpit and getting the fuselage halves together was a pain.
-    From reading {{ mymacros.linkTo("Tom Cleaver's build", 'http://www.modelingmadness.com/review/allies/cleaver/gb/spit/tc9e.htm') }}
+    From reading {{ "Tom Cleaver's build" | linkTo('http://www.modelingmadness.com/review/allies/cleaver/gb/spit/tc9e.htm') | safe }}
     on Modeling Madness, I knew that the fit was very precise, so I was careful to
     sand off all debris from the sprue attachment points.  I still had difficulty
     getting the fuselage to close up.  I did attach the sidewalls to the fuselage
     halves before attaching the various parts, which helped a little.
 </p>
 <p>
-    The external colors are Tamiya, {{ mymacros.txf('83') }} Medium Sea Gray 2 (RAF) on the bottom,
-    and {{ mymacros.txf('82') }} Ocean Gray 2 (RAF) and {{ mymacros.txf('81') }} Dark Green 2 (RAF) on the top.
+    The external colors are Tamiya, {{'83'|txf|safe}} Medium Sea Gray 2 (RAF) on the bottom,
+    and {{'82'|txf|safe}} Ocean Gray 2 (RAF) and {{'81'|txf|safe}} Dark Green 2 (RAF) on the top.
     As with my last few RAF builds, the camouflage was freehanded.
 </p>
 <p>
@@ -33,6 +33,6 @@ kit: ED84138
     that are reasonably available are the Hasegawa ones, and I have trouble with those
     as well.  That said, it will probably be a while before I start another Eduard.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
