@@ -2,7 +2,7 @@
 layout: build.njk
 kit: HAS09531
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     It wasn't until I looked backed at my modeling history that I learned that this is my
     first Hasegawa 1/48 Ki44.  I could have sworn I did one before.  It must have been
@@ -18,14 +18,15 @@ kit: HAS09531
     Mr. Color Orange Yellow.  The exhaust was Testor's Metalizer Burnt Iron.
 </p>
 <p>
-    For the exterior, I used the same tricked Metalizer that I used on my
-    {{ mymacros.linkTo ('previous build', '1002/') }},
+    For the exterior, I used the same tricked Metalizer that I used on
+    {{ 'my previous build' | linkTo('../1002/') | safe }},
     after priming with Mr. Surfacer 1200.  I was
     pleased with how it turned out, and I was able to handle the kit without any paint lifting.
-    I used Tamiya XF-2 Flat Black for the anti-glare panel.
+    I used Tamiya {{'2'|txf|safe}} Flat Black for the anti-glare panel.
 </p>
 <p>
-    I used Mr. Color Propellor Color for the spinner and prop blades, and Orange Yellow for
+    I used {{'131'|mrcolor|safe}} Propellor Color for the spinner and prop blades, and
+    {{'58'|mrcolor|safe}} Orange Yellow for
     the tips and the small stripes near the base.  The kit comes with decals for the tips
     and the small stripes, so I originally painted the entire thing
     Propellor Color, and then attempted to apply a decal to one of the tips.
@@ -41,10 +42,11 @@ kit: HAS09531
 </p>
 <p>
     The instructions said to paint the drop tanks in a NMF, but most kits recommend either a light
-    blue or a light gray-green.  I used a Tamiya mix for {{ mymacros.rlm('65') }} - I think the mix was half XF-2 Flat White to
-    half XF-23 Light Blue.  The tires were Model Master Acryl Engine Gray, and the red over
-    the gun ports was Tamiya XF-7 Flat Red.  I thought it turned out too light.  The wheel wells were
-    Mr. Color Metallic Blue Green.  I had trouble spraying this paint in the past, and had some
+    blue or a light gray-green.  I used a Tamiya mix for {{'65'|rlm|safe}} - I think the mix was half
+    {{'2'|txf|safe}} Flat White to
+    half {{'23'|txf|safe}} Light Blue.  The tires were Model Master Acryl Engine Gray, and the red over
+    the gun ports was Tamiya {{'7'|txf|safe}} Flat Red.  I thought it turned out too light.  The wheel wells were
+    {{'57'|mrcolor|safe}} Metallic Blue Green.  I had trouble spraying this paint in the past, and had some
     trouble this time too.  It just doesn't seem to spray well - unusual for Mr. Color paints.
 </p>
 <p>
@@ -58,6 +60,6 @@ kit: HAS09531
     after painting the exterior.  Attach the covers to the landing gear struts before attaching
     the struts to the wing.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

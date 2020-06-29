@@ -2,15 +2,15 @@
 layout: build.njk
 kit: HAS09412
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
 	This is the Hasegawa 1/48 Ki61 Tony.  I have several boxings of this kit, and several aftermarket decals sheets.
 	It went together well - I don't recall any real difficult spots.  It is not as overengineered as the
-	{{ mymacros.linkTo('Ki84 Frank', '../2014/0901/') }}.  The painting was the most difficult part of this kit -
+	{{ 'Ki84 Frank' | linkTo('../../2014/0901/') | safe }}.  The painting was the most difficult part of this kit -
 	which says something, given the simple paint scheme.
 </p>
 <p>
-	The cockpit was painted Model Master Enamel {{ mymacros.rlm('79') }}.  I used Mr. Color C-28 Steel for the guns.
+	The cockpit was painted Model Master Enamel {{'79'|rlm|safe}}.  I used Mr. Color C-28 Steel for the guns.
 	The propellor blades and spinner were painted Mr. Color C-131 Propellor Color.
 	The landing gear was painted CreateFX Aluminum.
 	The tires are Model Master Acryl Flat Black.  For the exhaust, I used Model Master Metalizer Burnt Iron.  The kit
@@ -41,12 +41,12 @@ kit: HAS09412
 	where it turned out rough.  I decided to live with it.
 </p>
 <p>
-	For the wheel wells, I used Polly Scale {{ mymacros.rlm('79') }}.  This was a slightly darker shade than
+	For the wheel wells, I used Polly Scale {{'79'|rlm|safe}}.  This was a slightly darker shade than
 	the cockpit, which was Model Master Enamel, but I wanted something that would dry quickly
 	so I could apply the clear coat.
 </p>
 <p>
-	My first attempt to mask the canopy was to use the {{ mymacros.linkTo('EZMask', 'http://www.ezmasks.com') }}
+	My first attempt to mask the canopy was to use the {{ 'EZMask' | linkTo('http://www.ezmasks.com') | safe }}
 	for it, but it did not fit well.  I remove that and tried to mask by hand, but ended up
 	putting a few scratches in the canopy.  I re-Futured the canopy and tried a different
 	approach: I scanned the EZMask cover sheet, scaled it down, and used it as a template.
@@ -63,6 +63,6 @@ kit: HAS09412
 	was also a factor in this decision.  I used Right Step Matte finish, thinned with
 	Jason Jones reducer, for the flat coat.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

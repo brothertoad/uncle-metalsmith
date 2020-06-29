@@ -2,19 +2,19 @@
 layout: build.njk
 kit: HAS09870
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     This is my first Shiden, although I have four more waiting in the stash:
     Hasegawa N1K1-Jb, N1K2-Ja and N1K2-Jb,
     as well as the Tamiya N1K1-Ja (the same variant as this kit).
 </p>
 <p>
-    As with {{ mymacros.linkTo2('the Shoki', '1201/', ',') }}
+    As with {{ 'the Shoki' | linkTo('../1201/') | safe }},
     I used a lot of Mr. Color paints on this.  The cockpit, however,
     was painted Model Master Enamel Medium Field Green FS34095.  This was actually too dark.  The instructions
     called for a 50/50 mix of Nakajima and Mitsubishi cockpit colors, but a little searching on the web
     showed the color to be a dark green, similar to FS34092.
-    {{ mymacros.linkTo('This link', 'http://www.aviationofjapan.com/2010/05/shiden-kai-shiden-kyofu-colours-part.html') }}
+    {{ 'This link' | linkTo('http://www.aviationofjapan.com/2010/05/shiden-kai-shiden-kyofu-colours-part.html') | safe }}
     was helpful.  However, I intended to use FS34092 on the
     exterior, so I used something else in the cockpit for a bit of contrast.
 </p>
@@ -31,7 +31,7 @@ kit: HAS09870
 <p>
     The decals are from the kit.  I used
     Mr. Mark Setter, having had good results using it on Hasegawa decals on
-    {{ mymacros.linkTo2('the Shoki', '1201/', '.') }}
+    {{ 'the Shoki' | linkTo('../1201/') | safe }}
     It worked well here, although the decals weren't
     that good.  It turns out a similar aircraft ("8" instead of "5") is represented on
     Aeromaster 48-326, of which
@@ -44,6 +44,6 @@ kit: HAS09870
     tank, go straight down, rather than perpendicular to the fuselage surface.  I had to spread
     the struts on the drop tank a bit to get them to line up with the holes.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

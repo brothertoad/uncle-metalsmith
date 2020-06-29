@@ -2,32 +2,32 @@
 layout: build.njk
 kit: TAM61050
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
-	As with my {{ mymacros.linkTo('previous build', "0901/") }}, this is my third build of this kit.  I had
+	As with my {{ 'previous build' | linkTo('../0901/') | safe }}, this is my third build of this kit.  I had
 	started the Airfix 109 (kit A05122), and found it didn't go together very well, so I decided to build
 	this kit and use the decals from the Airfix kit.
 </p>
 <p>
-	The cockpit was painted with my Tamiya mix for {{ mymacros.rlm('02') }}.  It turned out very well, probably the
+	The cockpit was painted with my Tamiya mix for {{'02'|rlm|safe}}.  It turned out very well, probably the
 	best cockpit I've done so far.  I was so proud of it that I had a friend who is an accomplished
 	photographer (and who has a macrolens) take some photos of it, one of which is at the bottom of
 	this page.  Unfortunately, the rest of the kit did not turn out as well.
 </p>
 <p>
 	I can't remember what I primed with - it may have been Model Master Enamel Primer, as I was
-	painting this and {{ mymacros.linkTo('the Hasegawa P-51D', "1002/") }} at the same time.  The {{ mymacros.rlm('04') }} (yellow)
-	and {{ mymacros.rlm('65') }} (light blue) were Model Master Enamel.  They went on fine.  I had read on
-	{{ mymacros.linkTo('Hyperscale', "http://www.hyperscale.com") }} that Floquil Pullman Green, which I had a bottle
-	of, was a good match for {{ mymacros.rlm('71') }}, so I used that.  It went on terribly, like sandpaper, and was
+	painting this and {{ 'the Hasegawa P-51D' | linkTo('../1002/') | safe }} at the same time.  The {{'04'|rlm|safe}} (yellow)
+	and {{'65'|rlm|safe}} (light blue) were Model Master Enamel.  They went on fine.  I had read on
+	{{ 'Hyperscale' | linkTo("http://www.hyperscale.com") | safe }} that Floquil Pullman Green, which I had a bottle
+	of, was a good match for {{'71'|rlm|safe}}, so I used that.  It went on terribly, like sandpaper, and was
 	quite glossy (which I don't like).
 </p>
 <p>
 	The prop also gave me grief.  I painted the prop blades with Tamiya XF-27 Black Green, which never
 	seems to stick to plastic.  In addition, after masking it and spraying silver to represent the
 	center of the prop, I broke one of the blades trying to remove the masking.  I order an Ultracase
-	48128 Propellor and Spinner from {{ mymacros.linkTo('Sprue Brothers', "http://www.spruebrothers.com") }} to
-	replace it, and a jar of Mr. Color 18 {{ mymacros.rlm('70') }} Black Green to use on it.  This turned out much better.
+	48128 Propellor and Spinner from {{ 'Sprue Brothers' | linkTo("http://www.spruebrothers.com") | safe }} to
+	replace it, and a jar of {{'18'|mrcolor|safe}} {{'70'|rlm|safe}} Black Green to use on it.  This turned out much better.
 </p>
 <p>
 	I gloss coated with Future, cut with a homebrew reducer consisting of 91% isopropyl alcohol with
@@ -45,14 +45,14 @@ kit: TAM61050
 	section.  When attaching the canopy, attach the middle section first, to make sure that the
 	hinges align with the fuselage.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
 <p>
-	I had {{ mymacros.linkTo('a friend who is a great photographer', 'https://www.facebook.com/Nadim-Baki-Photography-726158177438522/' ) }}
+	I had {{ 'a friend who is a great photographer' | linkTo('https://www.facebook.com/Nadim-Baki-Photography-726158177438522/') | safe }}
 	to take this photo of the
 	cockpit, since it is the best one I've done so far.  I especially like
-	how the instrument panel came out.  Unfortunately, it went straight
+	how the instrument panel came out.  Unfortunately, the build went straight
 	downhill from there.
 </p>
-{{ mymacros.buildPhotoLink(path, 4) }}
+{{ m.buildPhotoLink(path, 4) }}
