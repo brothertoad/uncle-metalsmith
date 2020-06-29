@@ -2,25 +2,25 @@
 layout: build.njk
 kit: OT226
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     This is the Otaki 1/48 Fw 190A-8.
     I originally started this to use the Play-Doh techinque of masking, but
-    since it didn't work well for the {{ mymacros.linkTo('Hurricane', '0401/') }},
+    since it didn't work well for the {{ 'Hurricane' | linkTo('../0401/') | safe }},
     I didn't use it here.
 </p>
 <p>
     I primed with Krylon Gray primer. I had a little trouble covering the primer
-    with the {{ mymacros.rlm('76') }}, and had to use a couple of coats.
+    with the {{'76'|rlm|safe}}, and had to use a couple of coats.
     I did notice that in spots where I had to lay down a second coat of primer,
     the primer was much smoother. Since I always have a devil of a time trying
     to get a good gloss coat, I am going to use two coats on my next kit.
 </p>
 <p>
-    Colors are mostly Model Master Enamels, {{ mymacros.rlm('76/75/74') }} for the exterior
-    and {{ mymacros.rlm('02') }} for the wheel wells.
-    The cockpit and tires are Tamiya {{ mymacros.txf('63') }} German Grey. I masked the windscreen
-    with an {{ mymacros.linkTo('EZ Mask', 'http://www.ezmasks.com') }}, and hand masked the
+    Colors are mostly Model Master Enamels, {{'76/75/74'|rlm|safe}} for the exterior
+    and {{'02'|rlm|safe}} for the wheel wells.
+    The cockpit and tires are Tamiya {{'63'|txf|safe}} German Grey. I masked the windscreen
+    with an {{ 'EZ Mask' | linkTo('http://www.ezmasks.com') | safe }}, and hand masked the
     canopy. It came out pretty good.
 </p>
 <p>
@@ -37,6 +37,6 @@ kit: OT226
     Looking back at this kit in 2015, I realize that it should not have had the
     underwing gun pods - but I do like the look of them.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
