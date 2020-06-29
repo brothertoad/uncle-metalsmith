@@ -2,9 +2,9 @@
 layout: build.njk
 kit: HAS09571
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
-    Like {{ mymacros.linkTo('my previous build', '0901/') }}, this is a kit that I
+    Like {{ 'my previous build' | linkTo('0901/') | safe }}, this is a kit that I
     had tried to build before - twice before, as a matter of fact (although in
     a different boxing).
     Again I had to force myself to complete it, as this kit used a lot of putty.
@@ -31,7 +31,7 @@ kit: HAS09571
     As mentioned above, I had tried to build this kit twice before, but those
     attempts came from a different boxing, namely the 09105/Jt5 boxing.  That boxing
     had decals for a Turkish Spitfire, similar to the
-    {{ mymacros.linkTo('the one I built using the Tamiya kit', '0301/') }}, but with
+    {{ 'the one I built using the Tamiya kit' | linkTo('../0301/') | safe }}, but with
     a black spinner and black codes on the side.  I decided to use the Turkish
     decals, partially because there weren't that many markings!  After gloss
     coating with Future, I used Mr. Mark
@@ -47,6 +47,6 @@ kit: HAS09571
     that the starboard side of the canopy doesn't fit right.  Apparently, I
     need to be a bit more careful about that in the future.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

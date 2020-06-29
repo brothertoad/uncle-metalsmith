@@ -2,10 +2,10 @@
 layout: build.njk
 kit: MONO5258
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     What do you know - two Typhoons in a row.  Actually, I started this while I
-    was working on the {{ mymacros.linkTo2('Academy Typhoon', '1101/', ',' ) }} thinking it
+    was working on the {{ 'Academy Typhoon' | linkTo('../1101/') | safe }}, thinking it
     might be kind of interesting to work of two models of the same subject
     (although in different scale) at the same time.  It really wasn't that
     different than building two different subjects.
@@ -48,6 +48,6 @@ kit: MONO5258
     look closely, you can see that the background behind the serial number
     doesn't quite match the rest of the band.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

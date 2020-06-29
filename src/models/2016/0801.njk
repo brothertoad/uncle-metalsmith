@@ -2,7 +2,7 @@
 layout: build.njk
 kit: TAM61044
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     I decided it was time to brave another natural metal finish (NMF), so I built
     the Tamiya F-51D boxing of the P-51D.  This kit has everything the P-51D
@@ -15,7 +15,7 @@ kit: TAM61044
     panel.
 </p>
 <p>
-    As with {{ mymacros.linkTo('the Corsair', '0701/') }}, I used Model Master
+    As with {{ 'the Corsair' | linkTo('../0701/') | safe }}, I used Model Master
     Enamel FS34151 Interior Green for the cockpit.  The propellor blade tips
     were Tamiya XF-3 Flat Yellow and the propellor blades themselves were
     Gaianotes Ex-02 Flat Black.  I knew I was going to use Alclad II for the
@@ -49,6 +49,6 @@ kit: TAM61044
     applying the decals and attaching the landing gear, drop tanks, propellor
     and pitot tube, then used Acryl Clear Flat.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

@@ -2,7 +2,7 @@
 layout: build.njk
 kit: TAM61061
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     After struggling with the past few kits, I wanted something easy to paint,
     and I decided that a F4U-1D would fit the bill.  It has the reputation of
@@ -27,7 +27,7 @@ kit: TAM61061
     painted them silver.  The tires are Tamiya XF-85 Rubber Black.
 </p>
 <p>
-    As with my {{ mymacros.linkTo('previous build', '0601/') }},
+    As with my {{ 'previous build' | linkTo('../0601/') | safe }},
     I used Model Master Acryl Gloss Clear to get a gloss coat before
     applying the decals.  Regarding the decals,
     I wanted something a little different, so I used Rising Decals 48-004
@@ -54,6 +54,6 @@ kit: TAM61061
     to be a small piece that attaches to the front edge of the starboard
     wing, but you need to open a hole for it.  Yep, I forgot that one too.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
