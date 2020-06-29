@@ -2,7 +2,7 @@
 layout: build.njk
 kit: TAM61095
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     This build was much longer than expected.  I began the build in December,
     and had the underside painted by the just after Chrismas.  But then I lost my
@@ -31,12 +31,12 @@ kit: TAM61095
 </p>
 <p>
     Well, it didn't quite go as I planned.  The rudder was sprayed with Polly Scale
-    {{ mymacros.rlm('04') }}, and the underside was underside was Polly Scale {{ mymacros.rlm('76') }}.  I have
+    {{'04'|rlm|safe}}, and the underside was underside was Polly Scale {{'76'|rlm|safe}}.  I have
     discovered through my travails with using Future, that acrylics - at least the water-based
     ones - spray better at about 20 psi, which is a little higher than I normally use.
     Using this higher pressure, and by not thinning the paint at all, the Polly Scale went on well.
     But then came the two month lull, and at that point I decided to abandon my
-    experiment.  Model Master Enamel was used for the {{ mymacros.rlm('74') }} and {{ mymacros.rlm('75') }}.
+    experiment.  Model Master Enamel was used for the {{'74'|rlm|safe}} and {{'75'|rlm|safe}}.
     I used my Badger Rage Velocity, a recent acquisition, to spray the mottling, and I
     thought it came out quite well, much better than some of my previous attempts.  I
     thinned the Model Master Enamel with either Mr. Color Leveling Thinner or with
@@ -56,12 +56,12 @@ kit: TAM61095
     drop tank, and so forth.  I always seem to have trouble attaching the landing
     gear on 190's, due to the actuating arm.  The model does not sit quite level,
     but since I do not enter contests, I didn't worry about it.  The pitot tube was
-    from the {{ mymacros.linkTo('Quickboost', 'http://www.quickboost.net') }} 48120 set,
-    and the wheels were {{ mymacros.linkTo('Ultracast', 'http://www.ultracast.ca') }} 48231.
+    from the {{ 'Quickboost' | linkTo('http://www.quickboost.net') | safe }} 48120 set,
+    and the wheels were {{ 'Ultracast' | linkTo('http://www.ultracast.ca') | safe }} 48231.
     After attaching everything, I gave the model a
     final gloss coat of Future, sprayed though my Badger Anthem at about 20 psi.
     I used Right Step Matte as a final flat coat.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

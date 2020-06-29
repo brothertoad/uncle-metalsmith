@@ -2,10 +2,10 @@
 layout: build.njk
 kit: HAS09013
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     This was another one of the bagged kits that I bought from a fellow modeler
-    on {{ mymacros.linkTo('Hyperscale', 'http://www.hypescale.com' ) }}.  I wanted to test out
+    on {{ 'Hyperscale' | linkTo('http://www.hypescale.com') | safe }}.  I wanted to test out
     various clear coats, and I figured the bagged kits would be good for that.
 </p>
 <p>
@@ -17,21 +17,21 @@ kit: HAS09013
     painting it.  That bit me later in the build.
 </p>
 <p>
-    The cockpit was painted Tamiya {{ mymacros.txf('63' ) }} German Grey.  The propellor and
-    spinner were painted Tamiya {{ mymacros.txf('27') }} Black Green over Kyrlon Gray Primer.
-    I have had issues with the {{ mymacros.txf('27') }} not sticking to plastic, so now I always
+    The cockpit was painted Tamiya {{'63'|txf|safe}} German Grey.  The propellor and
+    spinner were painted Tamiya {{'27'|txf|safe}} Black Green over Kyrlon Gray Primer.
+    I have had issues with the {{'27'|txf|safe}} not sticking to plastic, so now I always
     use a primer under it.
 </p>
 <p>
     I primed the kit with Brite Touch Gray Primer from Pep Boys.  I first tried to use
-    {{ mymacros.mrcolor('C-113') }} {{ mymacros.rlm('04') }} for the yellow, but it sprayed very poorly.  I ended
-    up using my Tamiya mix for it.  For the {{ mymacros.rlm('02') }} I used Model Master Enamel
+    {{'113'|mrcolor|safe}} {{'04'|rlm|safe}} for the yellow, but it sprayed very poorly.  I ended
+    up using my Tamiya mix for it.  For the {{'02'|rlm|safe}} I used Model Master Enamel
     thinned with Xylene, and it worked well.  For the exterior, I used Model Master Enamel
-    for the {{ mymacros.rlm('76') }}, but when I tried to use the same brand for the upper colors,
+    for the {{'76'|rlm|safe}}, but when I tried to use the same brand for the upper colors,
     I found the paint was very thin, even though it was purchased quite recently.
-    I ended up using Tamiya {{ mymacros.txf('54') }} Dark Sea Grey for the {{ mymacros.rlm('75') }} and
-    a mix of roughly three parts {{ mymacros.txf('24') }} Dark Grey and one part {{ mymacros.txf('27') }}
-    Black Green for the {{ mymacros.rlm('74') }}.  This was less {{ mymacros.txf('27') }} than Tamiya calls for,
+    I ended up using Tamiya {{'54'|txf|safe}} Dark Sea Grey for the {{'75'|rlm|safe}} and
+    a mix of roughly three parts {{'24'|txf|safe}} Dark Grey and one part {{'27'|txf|safe}}
+    Black Green for the {{'74'|rlm|safe}}.  This was less {{'27'|txf|safe}} than Tamiya calls for,
     and I don't think it was quite green enough.
 </p>
 <p>
@@ -49,7 +49,7 @@ kit: HAS09013
     decided to use the insignia from the Hobbycraft HC1538 kit for the insignia on
     the tops of the wings and the fuselage - they worked better.  I did have to use
     the kit decals for the white 5 and dash and the kill markings on the tail.  For a
-    final flat coat, I used Future mixed with Tamiya {{ mymacros.tx('21') }} Flat Base.
+    final flat coat, I used Future mixed with Tamiya {{'21'|tx|safe}} Flat Base.
 </p>
 <p>
     As I mentioned earlier, I had not attempted to dry fit the canopy until I was
@@ -57,6 +57,6 @@ kit: HAS09013
     very badly.  This may very well have been due to me, rather than the kit, but there
     is a large gap at the bottom of the canopy, particlarly on the starboard side.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

@@ -2,7 +2,7 @@
 layout: build.njk
 kit: MENGWWT006
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     September was not a good month.  Three models ended up FUBAR: a Hasegawa 1/48
     P-47D, an Airfix P-51D, and a Revell King Tiger.  The P-47 was built and
@@ -22,7 +22,7 @@ kit: MENGWWT006
 </p>
 <p>
     At this point, I went looking for something simple, and I spied this kit, which
-    I had purchased from {{ mymacros.linkTo('Sprue Brothers', 'https://store.spruebrothers.com') }}
+    I had purchased from {{ 'Sprue Brothers' | linkTo('https://store.spruebrothers.com') | safe }}
     some time ago.  This kit represents a tank from World War Toons, which I believe is a
     video game.  I didn't realize it until I started working on it, but it is
     intended to be assembled without cement, although I did use some in a few places.
@@ -31,18 +31,18 @@ kit: MENGWWT006
 </p>
 <p>
     I primed the exterior with Krylon Gray Primer.  I've been trying to evaluate
-    what green to use on my next Soviet Tank.  I used Tamiya {{ mymacros.txf('73') }} Dark Green (JGSDF)
+    what green to use on my next Soviet Tank.  I used Tamiya {{'73'|txf|safe}} Dark Green (JGSDF)
     for the exterior, and I liked the way it turned out.  I don't think it is
     historically accurate, as I believe the actual color was a bit more of an olive.
     I didn't paint the tracks.  The track on the turret was painted with Tamiya
-    {{ mymacros.tx('18') }} Semi Gloss Black.
+    {{'18'|txf|safe}} Semi Gloss Black.
 </p>
 <p>
     I used Future as a gloss coat prior to applying the decals, and also as a sealer
     after the decals had been applied.  The flat coat was Model Master Acryl Flat
     Clear, thinned with
-    {{ mymacros.linkTo("Jason Jones' reducer", 'http://jason-jones.com/articles/106-airbrushing/302-homemade-reducer') }}.
+    {{ "Jason Jones' reducer" | linkTo('http://jason-jones.com/articles/106-airbrushing/302-homemade-reducer') | safe }}.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

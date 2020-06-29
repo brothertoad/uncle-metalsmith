@@ -2,13 +2,13 @@
 layout: build.njk
 kit: HAS09740
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     Here is the first P-40 I've build.  I had started an AMT P-40N some time ago, but
     that one ended up FUBAR.
 </p>
 <p>
-    As with {{ mymacros.linkTo('last month\'s build', '0701/') }}, this kit went together well.
+    As with {{ "last month's build" | linkTo('../0701/') | safe }}, this kit went together well.
     I had read enough on the web to know to be careful with the fuselage inserts, which
     all of the Hasegawa P-40 kits have.  I didn't have too much trouble, although next
     time I might attach the inserts to their respective fuselage halves before putting
@@ -22,9 +22,9 @@ kit: HAS09740
     area beneath the rear canopy section with the cockpit color, as the instructions
     called out for.  I'm not 100% sure this is historically correct.  I used Badger
     Stynylrez Gray Primer.  This is a water based primer, that you spray without thinning.
-    It went on pretty well, but it turned out to be very close to the Tamiya {{ mymacros.txf('53') }}
+    It went on pretty well, but it turned out to be very close to the Tamiya {{'53'|txf|safe}}
     Neutral Grey that I used on the underside.  It was very difficult to see where I had
-    sprayed the Neutral Grey and where I had not.  The top was Tamiya {{ mymacros.txf('51') }}
+    sprayed the Neutral Grey and where I had not.  The top was Tamiya {{'51'|txf|safe}}
     Khaki Drab, which I prefer to Tamiya's Olive Drab for aircraft.  However, it came out
     darker than I expected, perhaps due to the primer.
 </p>
@@ -35,7 +35,7 @@ kit: HAS09740
     Next time I will paint the Medium Green first, then paint the rest of the camouflage.
 </p>
 <p>
-    I used decals from {{ mymacros.linkTo('Techmod', 'http://www.techmod.pl') }} 48054.
+    I used decals from {{ 'Techmod' | linkTo('http://www.techmod.pl') | safe }} 48054.
     I had originally intended to use them on the AMT
     kit.  Because I did not check the decal sheet closely until I was halfway through the
     kit, I did not notice that the real plane did not have a mast, but did have the circular
@@ -44,14 +44,14 @@ kit: HAS09740
 </p>
 <p>
     I searched the web for tips on using Techmod decals, and found
-    {{ mymacros.linkTo('this page', 'http://aerospacehistorymodels.blogspot.com/2012/03/') }} that
+    {{ 'this page' | linkTo('http://aerospacehistorymodels.blogspot.com/2012/03/') | safe }} that
     suggested using plain water, without any decal setting solution, so that is what I
     did.  I did not have any trouble placing the decals (from what I have read, that is a
     common problem with Techmod decals), but they didn't stick that well.  I half expect them
     to come off at some point.  Because I thought I might have trouble with the decals, I
-    painted the stripes on the tail.  I used Tamiya {{ mymacros.txf('18') }} Medium Blue, which is both
+    painted the stripes on the tail.  I used Tamiya {{'18'|txf|safe}} Medium Blue, which is both
     too dark and too gray.  It should match the blue on the national insignia.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
