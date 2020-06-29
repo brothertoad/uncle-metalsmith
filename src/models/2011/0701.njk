@@ -2,7 +2,7 @@
 layout: build.njk
 kit: ACA2133
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     This is Academy's Bf109E, kit 2133.
 </p>
@@ -21,9 +21,9 @@ kit: ACA2133
     hozizontal stabilizer struts, so I used Evergreen strips, epoxied in.
 </p>
 <p>
-    Tamiya paints were used. I used {{ mymacros.txf('23') }} Light Blue for the {{ mymacros.rlm('65') }}, a custom mix
-    of roughly 50/50 {{ mymacros.txf('2') }} Flat White and {{ mymacros.txf('22') }} RLM Grey for the {{ mymacros.rlm('02') }},
-    and {{ mymacros.txf('13') }} JA Green for the {{ mymacros.rlm('71') }}. The JA Green looked a little too dark at
+    Tamiya paints were used. I used {{'23'|txf|safe}} Light Blue for the {{'65'|rlm|safe}}, a custom mix
+    of roughly 50/50 {{'2'|txf|safe}} Flat White and {{'22'|txf|safe}} RLM Grey for the {{'02'|rlm|safe}},
+    and {{'13'|txf|safe}} JA Green for the {{'71'|rlm|safe}}. The JA Green looked a little too dark at
     first, but I was happy with the end result. I did the mottling by hand,
     but I thought it came out pretty good.
 </p>
@@ -40,6 +40,6 @@ kit: ACA2133
     the Acryl thinner worked a little better, but the gloss turned out very well.
     I had no trouble putting on the decals using Microset.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

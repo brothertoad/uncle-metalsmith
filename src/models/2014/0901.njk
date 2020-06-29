@@ -2,9 +2,9 @@
 layout: build.njk
 kit: HAS09067
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
-	This is my first Hasegawa Frank, and, as with the {{ mymacros.linkTo2('Oscar', '../2011/0301/', ',') }}
+	This is my first Hasegawa Frank, and, as with the {{ 'Oscar' | linkTo('../../2011/0301/') | safe }},
 	I had a little trouble. This kit has a great reputation on the web, and it is
 	quite detailed, but I found it a bit over-engineered. For example, there are no
 	less than nine parts that attach to the cockpit floor, and that does not count
@@ -17,7 +17,7 @@ kit: HAS09067
 </p>
 <p>
 	I primed with Mr. Surfacer 1200, sprayed through my airbrush. The bottom is
-	Tamiya {{ mymacros.txf('14') }} JA Grey and the top is Tamiya {{ mymacros.txf('13') }} JA Green.
+	Tamiya {{'14'|txf|safe}} JA Grey and the top is Tamiya {{'13'|txf|safe}} JA Green.
 	The bottom looked fine, but the top looked blotchy (for want of a better term).
 	I can never consistent results when spraying large areas.
 </p>
@@ -39,20 +39,20 @@ kit: HAS09067
 </p>
 <p>
 	The engine and guns are Mr. Color Steel. The tarp on the tail wheel is Floquil
-	CN Gray #17. I had used this color on the {{ mymacros.linkTo2('Hasegawa A6M3', '../2010/0901/', ',') }}
+	CN Gray #17. I had used this color on the {{ 'Hasegawa A6M3' | linkTo('../2010/0901/') | safe }},
 	thinking it would be a light gray with a hint of green, but it turned out to be
 	a light tannish gray. It was not what I wanted for the A6M3, but it fit the bill here.
 </p>
 <p>
 	The prop blades were Model Master Enamel Green FS34258, and the yellow IFF bands
-	on the wings are Floquil Reefer Yellow. I used Tamiya {{ mymacros.txf('76') }}
+	on the wings are Floquil Reefer Yellow. I used Tamiya {{'76'|txf|safe}}
 	Grey Green (IJN),
 	which was recommended on a forum somewhere. I think it was
-	{{ mymacros.linkTo2('Britmodeller', 'http://www.britmodeller.com', ',') }} but I can't remember
+	{{ 'Britmodeller' | linkTo('http://www.britmodeller.com') | safe }}, but I can't remember
 	now. Note: Looking back at this page a few years later, I confess I have no
-	idea where I used the {{ mymacros.txf('76') }}. The inside of the cowling and the wheel
+	idea where I used the {{'76'|txf|safe}}. The inside of the cowling and the wheel
 	wells are Mr. Color Metallic
-	Blue Green, and the spinner is Tamiya {{ mymacros.txf('1') }} Flat White.
+	Blue Green, and the spinner is Tamiya {{'1'|txf|safe}} Flat White.
 </p>
 <p>
 	I used the Eduard mask for the canopy, and it fit very well.
@@ -65,6 +65,6 @@ kit: HAS09067
 	the stencils, but not all. According to the kit instructions, this represents
 	a plane from the 22nd Flight Regiment. No further information is provided.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

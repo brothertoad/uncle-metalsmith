@@ -2,9 +2,9 @@
 layout: build.njk
 kit: TAM61033
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
-	This is my second completed Tamiya Spitfire, the first being {{ mymacros.linkTo2('the Trop version', '../2010/0801/', '.') }}
+	This is my second completed Tamiya Spitfire, the first being {{ 'the Trop version' | linkTo('../../2010/0801/') | safe }}.
 	As always, I had a few issues with this kit.  This is at least the second time, and maybe the third, that
 	I've tried to build this kit, and I almost tossed it after the painting stage.  More on that below.
 </p>
@@ -61,13 +61,13 @@ kit: TAM61033
 <p>
 	With the surface being so rough, the decals did not go on well.  I used to leave decals in the
 	water for about 20 seconds, but based on my experience with the
-	{{ mymacros.linkTo2('Hasegawa Hayate', '0901/', ',' ) }} I let them sit for
+	{{ 'Hasegawa Hayate' | linkTo('../0901/') | safe }}, I let them sit for
 	45 seconds this time, and they slid off the paper much more easily.  According to the kit instructions,
 	this represents a plane from No. 316 Squadron.  I used Future with a bit of Tamiya X-21 Flat Base for
 	the final flat coat.  It added a touch of white, but does dull the finish well.
 </p>
 <p>
-	The mask for the windscreen came from the {{ mymacros.linkTo('EZ Masks', 'http://www.ezmasks.com' ) }} set number 6.
+	The mask for the windscreen came from the {{ 'EZ Masks' | linkTo('http://www.ezmasks.com') | safe }} set number 6.
 	I masked the canopy and the rear section by hand, since the edges are pretty much straight.  I used
 	FBS 48530 ProBand Fineline tape, cut into thin strips, for the canopy, and it worked very well.  There
 	was no seepage underneath it, and it did not leave any residue after removal.  It is quite thick,
@@ -77,6 +77,6 @@ kit: TAM61033
 	The canopy did not fit that well.  One thing I need to start doing is to
 	assemble the fuselage, then try to fit the canopy and sand it as needed, before masking it.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
