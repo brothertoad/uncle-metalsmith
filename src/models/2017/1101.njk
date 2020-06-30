@@ -2,11 +2,11 @@
 layout: build.njk
 kit: TAM61044
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     When I first started this kit, I intended to make it a yellow nose Mustang.
     Then I perused my past builds, and realized I
-    had {{ mymacros.linkTo('already done', '../2016/0801/') }} a yellow nose
+    had {{ 'already done' | linkTo('../../2016/0801/') | safe }} a yellow nose
     P-51, in August of last year.  I had completely forgotten - I am definitely
     getting old.  Since I had already done yellow, I went with green this time.
     I chose Josephine II from Aeromaster 48-652 Green Nose Mustangs of East Wretham
@@ -48,6 +48,6 @@ kit: TAM61044
     applying the decals and attaching the landing gear, drop tanks, and so forth,
     then used Right Step Matte as a final flat coat.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

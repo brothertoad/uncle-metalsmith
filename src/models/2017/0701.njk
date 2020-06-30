@@ -2,9 +2,9 @@
 layout: build.njk
 kit: HAS09147
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
-    This build even longer than the {{ mymacros.linkTo2('Bubbletop Thunderbolt', '0401/', '.' ) }}
+    This build even longer than the {{ 'Bubbletop Thunderbolt' | linkTo('../0401/') | safe }}.
     I definitely lost my mojo for a
     few while.  One reason was that I custom made the canopy mask for this, using
     a Silhouette Portrait vinyl cutter.  It took a while to get around to creating
@@ -18,14 +18,14 @@ kit: HAS09147
 </p>
 <p>
     There isn't too much to say about the build.  I used Model Master Enamel
-    Engine Gray FS36076 for the {{ mymacros.rlm('66') }} in the cockpit.  The underside was {{ mymacros.rlm('76') }},
-    and the upper was painted {{ mymacros.rlm('75') }} and {{ mymacros.rlm('74') }}.  All of these were also Model
-    Master Enamels, as was the {{ mymacros.rlm('04') }} on the underside of the cowling, the underside
+    Engine Gray FS36076 for the {{'66'|rlm|safe}} in the cockpit.  The underside was {{'76'|rlm|safe}},
+    and the upper was painted {{'75'|rlm|safe}} and {{'74'|rlm|safe}}.  All of these were also Model
+    Master Enamels, as was the {{'04'|rlm|safe}} on the underside of the cowling, the underside
     of the wing tips, and the fuselage stripe.  I also used Model Master Enamel
-    {{ mymacros.rlm('02') }} for the landing gear and wheel bays.  The guns were Model Master Metalizer
+    {{'02'|rlm|safe}} for the landing gear and wheel bays.  The guns were Model Master Metalizer
     Gun Metal and the exhausts were Metalizer Burnt Iron.  The spinner was part
-    {{ mymacros.rlm('21') }} Semi-Gloss White and {{ mymacros.rlm('70') }} Black Green, with some black mixed into the
-    {{ mymacros.rlm('70') }} to make it darker.  These were also Model Master Enamels.
+    {{'21'|rlm|safe}} Semi-Gloss White and {{'70'|rlm|safe}} Black Green, with some black mixed into the
+    {{'70'|rlm|safe}} to make it darker.  These were also Model Master Enamels.
 </p>
 <p>
     The mottling was applied by hand.  I have used this before in 1/72 scale, and
@@ -54,11 +54,11 @@ kit: HAS09147
     Model Master Acryl Flat Clear.  This went on rather chalky.
 </p>
 <p>
-    As with the {{ mymacros.linkTo2('Thunderbolt', '0401/', ',' ) }} I manually created an SVG file for the canopy and
+    As with the {{ 'Thunderbolt' | linkTo('../0401/') | safe }}, I manually created an SVG file for the canopy and
     used it to make my own masks.  They really didn't fit that well, so I will have
     to work on improving them for the next tiime.  I applied the canopy after weathering,
     which is why it looks pristine.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

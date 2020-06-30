@@ -2,35 +2,35 @@
 layout: build.njk
 kit: HAS09144
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     I was perusing my considerable stash, trying to decide which kit to start next,
     and this one kind of jumped out at me.  Like most Japanese aircraft, it has
     a relatively simple paint scheme, so I figured it would be reasonably quick.
 </p>
 <p>
-    Per {{ mymacros.linkTo('this discussion', 'http://www.network54.com/Forum/149674/thread/1267495108/Ki-100+interior+color+question') }}
-    on the {{ mymacros.linkTo2('Hyperscale forums', 'http://www.clubhyper.com/forums/forum.htm', ',') }}
-    the cockpit floor was supposed to be a greyish purple, which reminded me of {{ mymacros.rlm('75') }}.
-    I used Tamiya XF-82 Ocean Gray.  I used XF-13 JA Green for the rest of the
+    Per {{ 'this discussion' | linkTo('http://www.network54.com/Forum/149674/thread/1267495108/Ki-100+interior+color+question') | safe }}
+    on the {{ 'Hyperscale forums' | linkTo('http://www.clubhyper.com/forums/forum.htm') | safe }},
+    the cockpit floor was supposed to be a greyish purple, which reminded me of {{'75'|rlm|safe}}.
+    I used Tamiya {{'82'|txf|safe}} Ocean Gray.  I used {{'13'|txf|safe}} JA Green for the rest of the
     cockpit.  The same discussion said the radio panel should be greyish khaki.
-    The color sample reminded me of Tamiya XF-51 Khaki Drab, but I figured
+    The color sample reminded me of Tamiya {{'51'|txf|safe}} Khaki Drab, but I figured
     the difference in color would not be visible, so I left it in the same color
     as the rest of the cockpit wall.
 </p>
 <p>
     The underside was painted Alclad II Aluminum, with the control surfaces being
-    Tamiya XF-14 JA Gray.  The top was XF-13 JA Green, the same as the cockpit.
-    The propellor and spinner were Mr. Color C-131 Propellor Color, and the
+    Tamiya {{'14'|txf|safe}} JA Gray.  The top was {{'13'|txf|safe}} JA Green, the same as the cockpit.
+    The propellor and spinner were {{'131'|mrcolor|safe}} Propellor Color, and the
     yellow on the leading edges of the wings and the tips of the propellor
-    blades was Mr. Color C-58 Orange Yellow.  I used Tamiya
-    XF-16 Flat Aluminum for the landing gear and wheels.  This color is rather
+    blades was {{'58'|mrcolor|safe}} Orange Yellow.  I used Tamiya
+    {{'16'|txf|safe}} Flat Aluminum for the landing gear and wheels.  This color is rather
     grainy, but it is not particularly noticeable on small parts.  The tires were
-    painted Tamiya XF-69 NATO Black.  This is the first time I've used that color,
+    painted Tamiya {{'69'|txf|safe}} NATO Black.  This is the first time I've used that color,
     and I thought it looked just right.
 </p>
 <p>
-    As with the {{ mymacros.linkTo2('Bf 109K-4', '0101/', ',') }} I decided to try a different
+    As with the {{ 'Bf 109K-4' | linkTo('../0101/') | safe }}, I decided to try a different
     pre-decal gloss coat.  This time I used Model Master Metalizer Sealer.  I
     put two coats on the top, but it still didn't look that glossy.  I didn't bother
     to put it on the bottom, since the Alclad looked glossy enough.  I had a lot
@@ -40,13 +40,13 @@ kit: HAS09144
 </p>
 <p>
     The canopy was masked using
-    {{ mymacros.linkTo2('Montex Maxi Mask MM48149', 'http://www.montex-mask.com/en/oferta', '.') }}
+    {{ 'Montex Maxi Mask MM48149' | linkTo('http://www.montex-mask.com/en/oferta') | safe }}.
     This was the first time
     I used one of their products, and the canopy mask fit perfectly - much better
     than any Eduard or EZ-Mask I've ever used.  The mask set actually came with
     masks for all the outside markings except the stencils, but I was not brave
     enough to try them.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

@@ -2,7 +2,7 @@
 layout: build.njk
 kit: TAM61063
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     This yet another build of the Tamya Bf 109E-4/7 Trop.  I decided to go with
     aftermarket decals for this build, namely Aeromaster 48-248
@@ -10,12 +10,12 @@ kit: TAM61063
     on the sheet, so it was built as an E-4.
 </p>
 <p>
-    As with my {{ mymacros.linkTo2('previous build', '0701/', ',' ) }} there isn't much to
-    say about the actual assembly.  I used my usual Tamiya mix for the {{ mymacros.rlm('02') }},
-    a 50/50 mix of Tamiya XF-2 Flat While and XF-23 Light Blue for the {{ mymacros.rlm('65') }},
-    and straight XF-61 Dark Green for the {{ mymacros.rlm('71') }}.  Although I have used XF-61 for
-    {{ mymacros.rlm('71') }} several times in the past, I think it is too dark.  One page I came
-    across (but have lost the URL) suggested using XF-81 RAF Dark Green for {{ mymacros.rlm('71') }},
+    As with my {{ 'previous build' | linkTo('0701/') | safe }}, there isn't much to
+    say about the actual assembly.  I used my usual Tamiya mix for the {{'02'|rlm|safe}},
+    a 50/50 mix of Tamiya {{'2'|txf|safe}} Flat While and {{'23'|txf|safe}} Light Blue for the {{'65'|rlm|safe}},
+    and straight {{'61'|txf|safe}} Dark Green for the {{'71'|rlm|safe}}.  Although I have used {{'61'|txf|safe}} for
+    {{'71'|rlm|safe}} several times in the past, I think it is too dark.  One page I came
+    across (but have lost the URL) suggested using {{'81'|txf|safe}} RAF Dark Green for {{'71'|rlm|safe}},
     and based on some visual comparisons on the web, I think that may be a good
     choice.  Have to remember that for the next build!
 </p>
@@ -27,8 +27,8 @@ kit: TAM61063
 </p>
 <p>
     I broke the guns from the kit, so I purchased the Quickboost 48-090 set.
-    I used Tamiya X-10 Gun Metal, with some X-21 Flat Base to flatten it.
-    The X-21 didn't seem to do much.
+    I used Tamiya {{'10'|tx|safe}} Gun Metal, with some {{'21'|tx|safe}} Flat Base to flatten it.
+    The {{'21'|tx|safe}} didn't seem to do much.
 </p>
 <p>
     For the pre-decal gloss coat, I used Tamiya TS-13 Clear Spray.  Although I
@@ -43,6 +43,6 @@ kit: TAM61063
     used it to make my own masks.  This time, they fit quite well.  I used
     Oramask 810 for the masking material, which worked well.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

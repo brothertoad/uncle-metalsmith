@@ -2,16 +2,16 @@
 layout: build.njk
 kit: ACA1653
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     This is the Academy 1/72 Messerschmitt Bf109G-14, kit 1653, with
     EagleCals 72-43 decals.
 </p>
 <p>
     According to the EagleCal documentation, this represents an aircraft from 4./JG 77
-    in Schonwalde, Germany, in November 1944. The {{ mymacros.rlm('76') }} is Model Master
+    in Schonwalde, Germany, in November 1944. The {{'76'|rlm|safe}} is Model Master
     Enamel, but the 74 and 75 on the upper surfaces are Mr. Hobby Color. I had to
-    order these from Eric YY (now {{ mymacros.linkTo('Sealmodel', 'http://www.sealmodel.com') }})
+    order these from Eric YY (now {{ 'Sealmodel' | linkTo('http://www.sealmodel.com') | safe }})
     in Hong Kong, as these paints are impossible to find here
     in the US. I thinned them with Tamiya thinner, as I had heard they behaved
     much like Tamiya. They went on well, but in the future I'll probably stick
@@ -23,16 +23,16 @@ kit: ACA1653
     After that fiasco, I just used a microbrush to apply the mottle.
 </p>
 <p>
-    The cockpit was Tamiya {{ mymacros.txf('63') }} German Grey. The wheel wells were a custom mix of Tamiya
-    {{ mymacros.txf('22') }} RLM Grey and {{ mymacros.txf('2') }} Flat White. The tires were Floquil Weathered Black.
-    The {{ mymacros.rlm('04') }} under the cowling is Floquil Reefer Yellow.
+    The cockpit was Tamiya {{'63'|txf|safe}} German Grey. The wheel wells were a custom mix of Tamiya
+    {{'22'|txf|safe}} RLM Grey and {{'2'|txf|safe}} Flat White. The tires were Floquil Weathered Black.
+    The {{'04'|rlm|safe}} under the cowling is Floquil Reefer Yellow.
 </p>
 <p>
-    As with the {{ mymacros.linkTo('Academy Hellcat', '1101/') }}, I knew I would need aftermarket decals.
+    As with the {{ 'Academy Hellcat' | linkTo('../1101/') | safe }}, I knew I would need aftermarket decals.
     I went with the EagleCals set. They went on well using hot water (as they usually do).
     The only issue was that the insignias on the bottom of the wings were quite glossy,
     but nothing that a clear flat did not take care of.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

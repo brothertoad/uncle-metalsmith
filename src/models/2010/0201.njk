@@ -2,10 +2,10 @@
 layout: build.njk
 kit: ACA1664
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     I was not pleased with how this kit turned out - as a matter of fact, I have
-    since tossed the build.  I did {{ mymacros.linkTo('another build', '../2016/1101/' ) }}
+    since tossed the build.  I did {{ 'another build' | linkTo('../../2016/1101/') | safe }}
     of this kit in 2016, and it turned out much better.
 </p>
 <p>
@@ -15,6 +15,6 @@ kit: ACA1664
     peeled more after the photos below were taken.  As I am writing this, years
     after the build, I also realize I put the windscreen on upside down.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
