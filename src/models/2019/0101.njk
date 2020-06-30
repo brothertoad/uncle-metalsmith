@@ -2,7 +2,7 @@
 layout: build.njk
 kit: TAM61046
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     After struggling with several kits, I decided I wanted to build one that
     wouldn't be too much of a challenge (I find myself saying that a lot), so I
@@ -17,7 +17,7 @@ kit: TAM61046
     same color top and bottom.
 </p>
 <p>
-    This kit was going to be the same colors as {{ mymacros.linkTo('the Wildcat', '../2018/1101/') }}
+    This kit was going to be the same colors as {{ 'the Wildcat' | linkTo('../../2018/1101/') }}
     I build last year, so
     I used with Krylon White Primer again.  As with the Wildcat, the underside is Model Master
     Enamel Flat Gull Gray FS36440 and the top is Model Master Enamel Navy Blue Gray.
@@ -28,6 +28,6 @@ kit: TAM61046
     I used Future as a gloss coat prior to applying the decals, Mr. Mark Setter on the decals,
     and Model Master Acryl Flat Clear as a final flat coat.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

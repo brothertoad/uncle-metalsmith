@@ -2,29 +2,29 @@
 layout: build.njk
 kit: TAM61037
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     After struggling with the last few builds, I wanted something relatively easy,
     so of course I reached for a Tamiya kit.  I had also purchased some Hataka
-    paints from {{ mymacros.linkTo('Sprue Brothers', 'https://store.spruebrothers.com/') }}
+    paints from {{ 'Sprue Brothers' | linkTo('https://store.spruebrothers.com/') | safe }}
     and wanted to try them out, so a German subject seemed appropriate.
 </p>
 <p>
     I've built several Tamiya Fw 190's, but this is the first A-3.  I have some
     aftermarket decals for a Turkish version and a captured version, so I may
     build another of these at some point.  It went together well, as expected.
-    I used AMMO by Mig paints for the {{ mymacros.rlm('66') }} in the cockpit and the
-    {{ mymacros.rlm('02') }} in the wheel wells.  These paints were airbrushed without any
-    thinning, and they went on well.  I tried using {{ mymacros.mrcolor('113') }} {{ mymacros.rlm('04') }}
+    I used AMMO by Mig paints for the {{'66'|rlm|safe}} in the cockpit and the
+    {{'02'|rlm|safe}} in the wheel wells.  These paints were airbrushed without any
+    thinning, and they went on well.  I tried using {{'113'|mrcolor|safe}} {{'04'|rlm|safe}}
     for the rudder and the underside of the cowling, but it had a bit of a greenish
-    tinge to it, so I overpainted it with my Tamiya mix for {{ mymacros.rlm('04') }}.
+    tinge to it, so I overpainted it with my Tamiya mix for {{'04'|rlm|safe}}.
 </p>
 <p>
     Once the cowling and rudder were masked, I re-sprayed a light gray over the
     yellow overspray.  I have learned that yellow will bleed through, especially
     if the color sprayed over it is light blue (it makes the blue look slightly greenish,
-    as expected).  I then used Hataka paints for the {{ mymacros.rlm('76') }} on the bottom and
-    sides of the fuselage, and {{ mymacros.rlm('75') }} and {{ mymacros.rlm('74') }} for the camouflage.
+    as expected).  I then used Hataka paints for the {{'76'|rlm|safe}} on the bottom and
+    sides of the fuselage, and {{'75'|rlm|safe}} and {{'74'|rlm|safe}} for the camouflage.
     If I recall correctly, I thinned it with Mr. Color Thinner. It sprayed very well.
     I actually applied the mottling freehand, and was pleased with how it turned out.
 </p>
@@ -47,6 +47,6 @@ kit: TAM61037
     the build was complete, I noticed was that I forgot to put on
     the gunsight!  Oh, well.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

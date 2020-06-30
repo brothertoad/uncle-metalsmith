@@ -2,7 +2,7 @@
 layout: build.njk
 kit: TAM61086
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     My second build - my second <em>successful</em> build, I should say - of Tamiya's 1/48 P-47D
     Razorback, kit 61086.  This time, there were no major hiccups during the building
@@ -11,9 +11,9 @@ kit: TAM61086
 <p>
     I had created a few Tamiya mixes and labelled the bottles. One was labelled FS34092,
     commonly known as Euro Dark Green, and a close match to the cockpit was color of
-    P-47's.  I think this mix was one part {{ mymacros.txf('26') }} Deep Green and one part
-    {{ mymacros.txf('2') }} Flat White.  There was no blue tint, which FS34092 usually has.  I had
-    also made a mix of one part {{ mymacros.txf('70') }} Dark Green 2 and one part {{ mymacros.txf('2') }}
+    P-47's.  I think this mix was one part {{'26'|txf|safe}} Deep Green and one part
+    {{'2'|txf|safe}} Flat White.  There was no blue tint, which FS34092 usually has.  I had
+    also made a mix of one part {{'70'|rlm|safe}} Dark Green 2 and one part {{'2'|txf|safe}}
     Flat White and labelled it Bronze Green - I think that is what I should have used.
     The first mixture is more US Medium Green.  Oh, well, live and learn.
 </p>
@@ -22,20 +22,21 @@ kit: TAM61086
     as a primer.  I had decided to do Yankee Tarheel from Eagle Strike 48054 American
     Jabos part IV 405 F.G.  I couldn't decide what shade of blud to use.  I found
     a couple of builds of this plane on the web, one on
-    {{ mymacros.linkTo('Large Scale Planes', 'https://forum.largescaleplanes.com/index.php?/topic/47485-yankee-tarheel-148-tamiya-p-47d/') }}
-    and another on {{ mymacros.linkTo('Kitmaker', 'http://p47.kitmaker.net/modules.php?op=modload&name=SquawkBox&file=index&req=viewtopic&topic_id=134265') }}.
+    {{ 'Large Scale Planes' | linkTo('https://forum.largescaleplanes.com/index.php?/topic/47485-yankee-tarheel-148-tamiya-p-47d/') | safe }}
+    and another on
+    {{ 'Kitmaker' | linkTo('http://p47.kitmaker.net/modules.php?op=modload&name=SquawkBox&file=index&req=viewtopic&topic_id=134265') | safe }}.
     Both of these used a lighter blue than what the decal sheet showed, namely
     FS35180.  I originally planned to use Model Air 71.317 All SV. Gol Light Blue,
-    but when the bottle arrived from {{ mymacros.linkTo2('Sprue Brothers', 'https://store.spruebrothers.com/', ',') }}
-    it seemed too light.  I ended up using a 50/50 mixture of Tamiya {{ mymacros.txf('8') }}
-    Flat Blue and {{ mymacros.txf('2') }} Flat White, but I think that was too dark.  It does look
+    but when the bottle arrived from {{ 'Sprue Brothers' | linkTo('https://store.spruebrothers.com/') | safe }},
+    it seemed too light.  I ended up using a 50/50 mixture of Tamiya {{'8'|txf|safe}}
+    Flat Blue and {{'2'|txf|safe}} Flat White, but I think that was too dark.  It does look
     a little lighter in the photos.
 </p>
 <p>
-    As with {{ mymacros.linkTo('my previous build', '../2016/0501/') }} of this kit,
-    I used {{ mymacros.mrcolor('13') }}
-    Neutral Gray for the underside and {{ mymacros.mrcolor('12') }} Olive Drab (1) for the top.
-    I used a canopy mask from {{ mymacros.linkTo2('Pmask', 'http://www.pmask.eu/', ',') }} number 48096,
+    As with {{ 'my previous build' | linkTo('../../2016/0501/') }} of this kit,
+    I used {{'13'|mrcolor|safe}}
+    Neutral Gray for the underside and {{'12'|mrcolor|safe}} Olive Drab (1) for the top.
+    I used a canopy mask from {{ 'Pmask' | linkTo('http://www.pmask.eu/') | safe }}, number 48096,
     which worked very well.
 </p>
 <p>
@@ -45,6 +46,6 @@ kit: TAM61086
     Future.  I applied a bit more Future after the decals had been applied, and that took
     care of that.  The specific markings for Yankee Tarheel went on fine with MicroSet.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

@@ -2,15 +2,15 @@
 layout: build.njk
 kit: TAM35149
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     This is the second month in a row that I've built a Tamiya armor kit that was
     tooled long ago, in this case the T-34/76 ChTZ version.  Like the
-    {{ mymacros.linkTo('Sd.Kfz. 222', '0301/') }}, construction was pretty simple and it
+    {{ 'Sd.Kfz. 222' | linkTo('../0301/') | safe }}, construction was pretty simple and it
     went together pretty quickly.  The most
     time-consuming part was painting the tires on the road wheels.  I used an
     artist's pen to "paint" the part of each tire that touches the wheel, then
-    used Tamiya {{ mymacros.txf('1') }} Flat Black to paint the rest of each tire.  I may try
+    used Tamiya {{'1'|txf|safe}} Flat Black to paint the rest of each tire.  I may try
     to pain the wheels and tires before assemblying the two halves together next time,
     and that would make the painting a bit less awkward.
 </p>
@@ -25,8 +25,8 @@ kit: TAM35149
     the hull and the turret.  It worked fine.  The exterior is Model Master Enamel
     Medium Green FS34102.  This is the shade, albeit in the Gunze Mr. Color line, that
     Dragon recommends for Soviet armor.  I liked the way it came out.  The tracks were
-    painted my Tamiya Gun Metal mix of equal parts {{ mymacros.txf('1') }} Flat Black and
-    {{ mymacros.txf('56') }} Metallic Grey.
+    painted my Tamiya Gun Metal mix of equal parts {{'1'|txf|safe}} Flat Black and
+    {{'56'|txf|safe}} Metallic Grey.
 </p>
 <p>
     After painting, I brush painted Future on the area where the decals would go,
@@ -34,9 +34,9 @@ kit: TAM35149
     over the entire model to seal the decals.  Although I didn't weather the Sd.Kfz. 222,
     I decided to do a little to this kit, so a wash made with Turpenoid and Payne's Gray
     oil paint was applied.  The model was then sealed with a flat coat of Future and
-    Tamiya {{ mymacros.tx('21') }} Flat Base.  When I applied the wash, I thought it was a bit too
+    Tamiya {{'21'|tx|safe}} Flat Base.  When I applied the wash, I thought it was a bit too
     heavy, but after applying the flat coat I thought it turned out okay.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

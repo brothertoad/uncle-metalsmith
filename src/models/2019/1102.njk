@@ -2,7 +2,7 @@
 layout: build.njk
 kit: MONO6802
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     I built this kit several times as a kid, and once before as an adult (although
     I notice I haven't yet documented it on this site).  I picked it up for $5 at
@@ -25,7 +25,7 @@ kit: MONO6802
 </p>
 <p>
     I was not as pleased with the spinner and propellor.  I tried spraying the spinner
-    with Tamiya {{ mymacros.txf('7') }}, using a mixture of denatured alcohol and Createx 4012
+    with Tamiya {{'7'|txf|safe}}, using a mixture of denatured alcohol and Createx 4012
     reducer, but the mixture must have been mostly denatured alcohol.  The paint
     dried too quickly and appeared as a translucent pink.  I then sprayed Polly Scale
     Pacemaker Red, but it still turned out poorly.  I hand-painted the prop blades
@@ -34,10 +34,10 @@ kit: MONO6802
     why I shouldn't do that.
 </p>
 <p>
-    As with the {{ mymacros.linkTo2('Fw 190A-3', '1101/', ',' ) }} I used Glosscote and Dullcote
+    As with the {{ 'Fw 190A-3' | linkTo('../1101/') | safe }}, I used Glosscote and Dullcote
     for the clears.  I used the kit decals.  As the decals were probably a few
     decades old, I had to use very hot water, but they settled down okay.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

@@ -2,11 +2,11 @@
 layout: build.njk
 kit: MENGWWT002
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     Just like last September, January was not a good month.  I got frustrated with
     several models, so I decided to put together another Meng World War Toons kit.
-    This one did not go together quite as well as the {{ mymacros.linkTo('T-34', '../2018/0901/') }},
+    This one did not go together quite as well as the {{ 'T-34' | linkTo('../../2018/0901/') | safe }},
     but I did manage to finish it.
 </p>
 <p>
@@ -18,15 +18,15 @@ kit: MENGWWT002
 </p>
 <p>
     I primed the exterior with Krylon Gray Primer.  For the olive drab, I used a
-    mix of 3 parts Tamiya {{ mymacros.txf('62') }} Olive Drab with 1 part {{ mymacros.txf('60') }} Dark Yellow.  I have
+    mix of 3 parts Tamiya {{'62'|txf|safe}} Olive Drab with 1 part {{'60'|txf|safe}} Dark Yellow.  I have
     run across a couple of forum posts where this mix is recommended.  I thought it
     looked quite good and will use it on my next 1/35 US tank.
 </p>
 <p>
     I used Future as a gloss coat prior to applying the decals, and also as a sealer
     after the decals had been applied.  The flat coat was a mixture of Future with
-    Tamiya {{ mymacros.tx('21') }} Flat Base.
+    Tamiya {{'21'|tx|safe}} Flat Base.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
