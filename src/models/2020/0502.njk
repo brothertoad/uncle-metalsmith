@@ -2,7 +2,7 @@
 layout: build.njk
 kit: HAS09064
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     This was another of the bagged kits I bought as a bundle.  I was originally
     going to use it as a testbed for Vallejo or AMMO by Mig paints, but I ended up
@@ -13,10 +13,10 @@ kit: HAS09064
     Having assembled several Hasegawa 109's before, the build process wasn't difficult.
     The kit decals had a pinhole in them, so I used EagleCals 16-48.  (For some reason,
     I have three sets of this decal sheet.)  I am trying to use up my stock of enamel
-    paints, so I used WEMCC ACLW02 {{ '70'|rlm|safe }} and Model Master Enamel
-    {{ '21'|rlm|safe }} for the spinner.  Painting the spinner and propellor blades was a bit
+    paints, so I used WEMCC ACLW02 {{'70'|rlm|safe}} and Model Master Enamel
+    {{'21'|rlm|safe}} for the spinner.  Painting the spinner and propellor blades was a bit
     more awkward than it should have been.  I was originally going to use the kit decals,
-    and the subject had the spinner and prop blades in {{ '70'|rlm|safe }}, so I assembled
+    and the subject had the spinner and prop blades in {{'70'|rlm|safe}}, so I assembled
     the whole thing and then painted it.  Then I discovered the pinhole in the decals
     and decided on a different subject, so I had to mask and then paint the {{ '21'|rlm|safe }}.
     It ended up looking fine.
@@ -53,6 +53,6 @@ kit: HAS09064
     another, and I didn't use any setting on the second decal, for fear of
     disturbing the first.  Next time I will try using Future on both layers.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

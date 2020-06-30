@@ -2,7 +2,7 @@
 layout: build.njk
 kit: HC1538
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
     Yet another 109...  This is a kit that I had tried to build once before
     and ended up in the trash.  I think I got frustrated by the poor fit.
@@ -11,16 +11,16 @@ kit: HC1538
 </p>
 <p>
     The cockpit was painted with Floquil SP Lark Dark Gray, which I think is
-    very close to {{ mymacros.rlm('66') }}.  The propellor blades were to be {{ mymacros.rlm('70') }}.  In the past,
+    very close to {{'66'|rlm|safe}}.  The propellor blades were to be {{'70'|rlm|safe}}.  In the past,
     I've had issues with Tamiya XF-27 Black Green, namely that it does not
     adhere well (not an issue I usually have with Tamiya flats), so I decided
     to prime with Mr. Surfacer 1200.  The XF-27 adhered fine to that.
 </p>
 <p>
     The white on the spinner, wing tips, rudder and fuselage band was Model
-    Master Enamel {{ mymacros.rlm('21') }}.  The
-    underside was White Ensign Models (WEM) {{ mymacros.rlm('78') }}, and the top was Model Master
-    Enamel {{ mymacros.rlm('79') }}.  I had intended to use Model Master Enamel for the {{ mymacros.rlm(78) }},
+    Master Enamel {{'21'|rlm|safe}}.  The
+    underside was White Ensign Models (WEM) {{'78'|rlm|safe}}, and the top was Model Master
+    Enamel {{'79'|rlm|safe}}.  I had intended to use Model Master Enamel for the {{'78'|rlm|safe}},
     but discovered that paint had dried in the bottle.  This is a problem I
     often have with Testors paints.  All of these enamels were thinned with
     Ronsonol, and all sprayed well.
@@ -30,9 +30,9 @@ kit: HC1538
     Gun Metal, and the wheels were Tamiya X-18 Semi Gloss Black.  The exhaust
     was Tamiya XF-84 Dark Iron, which I wasn't terribly pleased with.  In my
     experience, Tamiya metallics don't work that well.  For the landing gear
-    and wheel wells, I started with Model Master Enamel {{ mymacros.rlm('02') }}, but that
-    didn't spray well, probably due to the age of the paint (see the {{ mymacros.rlm('78') }}
-    above).  So I switched to WEM {{ mymacros.rlm('02') }}.
+    and wheel wells, I started with Model Master Enamel {{'02'|rlm|safe}}, but that
+    didn't spray well, probably due to the age of the paint (see the {{'78'|rlm|safe}}
+    above).  So I switched to WEM {{'02'|rlm|safe}}.
 </p>
 <p>
     I decided to try something a little different this time.  My understanding
@@ -46,6 +46,6 @@ kit: HC1538
     accomplished with an airbrush!  I then used Right Step Matte Clear for
     the final flat coat.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

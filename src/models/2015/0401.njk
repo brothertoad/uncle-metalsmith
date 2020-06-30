@@ -2,20 +2,20 @@
 layout: build.njk
 kit: TAM61081
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
 	This is my second Tamiya 1/48 Dora. This is the JV44 boxing of this kit, but I used
 	EagleCals 1-48 to do Werner Zech's "Black 8" from JG 26. There was no way I was going
 	to try the red bottom with white stripes that the kit decals would have required.
 </p>
 <p>
-	I don't recall any particular problems with assembly. I used the usual of Tamiya XF-61
-	German Grey for the {{ mymacros.rlm('66') }} in the cockpit and my Tamiya mix for {{ mymacros.rlm('02') }} in the wheel wells.
-	For the greenish {{ mymacros.rlm('76') }}, I used Tamiya XF-14 JA Grey. I thought it turned out well. Others
-	have recommended XF-21 Sky, which is a bit lighter, but would have worked well also. One
+	I don't recall any particular problems with assembly. I used the usual of Tamiya {{'61'|txf|safe}}
+	German Grey for the {{'66'|rlm|safe}} in the cockpit and my Tamiya mix for {{'02'|rlm|safe}} in the wheel wells.
+	For the greenish {{'76'|rlm|safe}}, I used Tamiya {{'14'|txf|safe}} JA Grey. I thought it turned out well. Others
+	have recommended {{'21'|txf|safe}} Sky, which is a bit lighter, but would have worked well also. One
 	thing I did not do that I should have was prime. There were a few places where the JA Grey
 	rubbed off, something I have not experienced with Tamiya flat colors before. For the
-	{{ mymacros.rlm('82') }} and {{ mymacros.rlm('83') }} on top I used Model Master enamels.
+	{{'82'|rlm|safe}} and {{'83'|rlm|safe}} on top I used Model Master enamels.
 </p>
 <p>
 	Rather than trying to freehand the mottling, I used a technique I read about some time ago.
@@ -25,8 +25,8 @@ kit: TAM61081
 </p>
 <p>
 	The tires are Polly Scale Grimy Black, which really isn't dark enough. The propellor blades
-	are Tamiya XF-27 Black Green, which I have also had adhesion issues with. The spinner is
-	Tamiya X-18 Semi-Gloss Black. The guns were painted with Testors Gun Metal from
+	are Tamiya {{'27'|txf|safe}} Black Green, which I have also had adhesion issues with. The spinner is
+	Tamiya {{'18'|tx|safe}} Semi-Gloss Black. The guns were painted with Testors Gun Metal from
 	the 1/4 ounce jar. Thinned a bit, it brushed very well.
 </p>
 <p>
@@ -48,6 +48,6 @@ kit: TAM61081
 	the cover to the strut before mounting the gear, and I'm thinking it may be a bit easier
 	to do it the other way around. The bottom photo shows the misalignment - it is quite severe.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

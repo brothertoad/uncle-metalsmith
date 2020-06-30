@@ -2,7 +2,7 @@
 layout: build.njk
 kit: TAM61063
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
 	This is the third time I've built this kit, and it won't be the last.  I've got
 	three more of these in the stash.
@@ -24,16 +24,17 @@ kit: TAM61063
 	There were no real issues with construction.  I primed with Mr. Surfacer 1000.
 	I used Mr. Base White 1000 for the
 	fuselage stripe and the white on the spinner.  The red on the spinner is Model Master
-	Enamel {{ mymacros.rlm('23') }}.  The red seemed to be a bit pastelish (for want of a better term), which
+	Enamel {{'23'|rlm|safe}}.  The red seemed to be a bit pastelish (for want of a better term), which
 	I thought looked good.  I will use this color when I build a Me 163 Komet.
 </p>
 <p>
-	The {{ mymacros.rlm('78') }} on the bottom and the {{ mymacros.rlm('79') }} on the tops of the wings and fuselage are
-	from White Ensign Models.  I purchased some of these tins some time ago.  The {{ mymacros.rlm('78') }}
+	The {{'78'|rlm|safe}} on the bottom and the {{'79'|rlm|safe}} on the tops of the wings and fuselage are
+	from White Ensign Models.  I purchased some of these tins some time ago.  The {{'78'|rlm|safe}}
 	did not go on well - it was very rough and I had to sand it.  I think I did not thin it
 	enough.  Also, I used Xylene substitute from Home Depot to thin it.  I've had good results
-	with that in the past, but when I sprayed the {{ mymacros.rlm('79') }}, I decided to use regular paint
-	thinner, and to thin a bit more.  The {{ mymacros.rlm('79') }} sprayed much better.  However, the {{ mymacros.rlm('80') }} for
+	with that in the past, but when I sprayed the {{'79'|rlm|safe}}, I decided to use regular paint
+	thinner, and to thin a bit more.  The {{'79'|rlm|safe}} sprayed much better.  However,
+	the {{'80'|rlm|safe}} for
 	the mottling did not spray well at all.  I was so frustrated that I tossed the rest of
 	that tinlet and used Tamiya XF-58 Olive Green.  The only part that was done with WEM
 	was the starboard horizontal stailizer.  The colors did match well.
@@ -53,6 +54,6 @@ kit: TAM61063
 	I wanted the wings to be symmetrical, I left the other one off too.  In the future, I
 	will have to file the part that fits into the wing, so it isn't such a tight fit.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

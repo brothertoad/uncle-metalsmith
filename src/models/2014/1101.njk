@@ -2,7 +2,7 @@
 layout: build.njk
 kit: ACA1670
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
 	This kit was built because I wanted to build something quick. It didn't turn out
 	to be that quick, but that was because the paint job was something complex.
@@ -11,10 +11,10 @@ kit: ACA1670
 </p>
 <p>
 	There really isn't much to say about this kit. It went together quite well - I
-	don't recall any fit issues. I primed with Mr. Surfacer 1200. The {{ mymacros.rlm('76') }} on the
-	bottom is Model Master enamel, as is the {{ mymacros.rlm('75') }} on the top. The {{ mymacros.rlm('74') }} is
+	don't recall any fit issues. I primed with Mr. Surfacer 1200. The {{'76'|rlm|safe}} on the
+	bottom is Model Master enamel, as is the {{'75'|rlm|safe}} on the top. The {{'74'|rlm|safe}} is
 	White Ensign enamel. The propellor blades are Floquil Brunswick Green, and I
-	used Floquil Reefer Yellow for the {{ mymacros.rlm('04') }}. The exhaust is Mr. Color Burnt Iron,
+	used Floquil Reefer Yellow for the {{'04'|rlm|safe}}. The exhaust is Mr. Color Burnt Iron,
 	which I really didn't like. The Testor Metalizer is better.
 </p>
 <p>
@@ -23,6 +23,6 @@ kit: ACA1670
 	The spinner is supposed to have a thin black spiral, but I could not apply
 	the decal with any degree of accuracy, so I left it off.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}

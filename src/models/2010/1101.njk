@@ -2,9 +2,10 @@
 layout: build.njk
 kit: ACA2224
 ---
-{% import "layouts/macros.njk" as mymacros %}
+{% import "layouts/macros.njk" as m %}
 <p>
-    This is the Academy 1/72 Hellcat, kit 2224, done as a F6F-5, using Superscale 72-735 decals.
+    This is the Academy 1/72 Hellcat, kit 2224, done as a {{'F6F-5'|nowrap|safe}},
+    using Superscale {{'72-735'|nowrap|safe}} decals.
 </p>
 <p>
     I really wanted to complete something relatively quickly, so I chose the overall
@@ -21,9 +22,9 @@ kit: ACA2224
     from the same line. All the paint went on well.
 </p>
 <p>
-    According to the Superscale sheet, this represents an F6F-5 from the VF-17
-    on the USS Hornet in February 1945.
+    According to the Superscale sheet, this represents an {{'F6F-5'|nowrap|safe}}
+    from the {{'VF-17'|nowrap|safe}} on the USS Hornet in February 1945.
 </p>
-{{ mymacros.buildPhotoLink(path, 1) }}
-{{ mymacros.buildPhotoLink(path, 2) }}
-{{ mymacros.buildPhotoLink(path, 3) }}
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
