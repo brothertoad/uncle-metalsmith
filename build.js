@@ -20,11 +20,15 @@ const tx = function(color) {
 }
 
 const mrcolor = function(color) {
-  return 'Mr.&nbsp;Color&nbsp;<span style=\"white-space: nowrap\">C-' + color + '</span>';
+  return 'Mr.&nbsp;Color&nbsp;<span style="white-space: nowrap">C-' + color + '</span>';
 }
 
 const rlm = function(color) {
   return 'RLM&nbsp;' + color;
+}
+
+const nowrap = function(s) {
+  return '<span style="white-space: nowrap">' + s + '</span>';
 }
 
 const inplace = require('metalsmith-in-place');
@@ -45,7 +49,8 @@ const templateConfig = {
             txf: txf,
             tx: tx,
             mrcolor: mrcolor,
-            rlm: rlm
+            rlm: rlm,
+            nowrap: nowrap
         }
     }
 };

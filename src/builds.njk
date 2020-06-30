@@ -3,7 +3,6 @@ title: "Uncle Uncool: The Builds"
 banner: The Builds
 layout: body.njk
 ---
-{% import "layouts/macros.njk" as mymacros %}
 <p>
   Here is a list of my completions. Note that I do say 'completions',
   as for each one I've completed, several have ended up as FUBAR, although
@@ -29,7 +28,7 @@ layout: body.njk
       <td>{{ b.date }}</td>
       <td>{{ b.brand }}</td>
       <td>{{ b.scale }}</td>
-      <td>{{ mymacros.linkTo(b.name | safe, b.url) }}</td>
+      <td>{{ b.name | linkTo(b.url) | safe }}</td>
       <td>{{ b.number }}</td>
     </tr>
     {% endfor %}
