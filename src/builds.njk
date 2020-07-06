@@ -28,7 +28,11 @@ layout: body.njk
       <td>{{ b.date }}</td>
       <td>{{ b.brand }}</td>
       <td>{{ b.scale }}</td>
+      {% if b.url %}
       <td>{{ b.name | linkTo(b.url) | safe }}</td>
+      {% else %}
+      <td>{{ b.name | safe }}</td>
+      {% endif %}
       <td>{{ b.number }}</td>
     </tr>
     {% endfor %}

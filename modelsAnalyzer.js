@@ -18,7 +18,7 @@ function plugin(options){
             data.path = file;
             if (file.startsWith("models/")) {
               let kit = kits[data.kit];
-              let build = createBuild(file, kit);
+              let build = createBuild(file, data, kit);
               builds.push(build);
               data.title = build.pageTitle;
               data.boxartUrl = build.boxartUrl;
@@ -57,7 +57,7 @@ var monthName = [ '',
   'December' ];
 
 // Need to add boxart and scalemates links.
-function createBuild(file, kit) {
+function createBuild(file, data, kit) {
   let build = {};
   let tokens = file.split("/");
   let year = tokens[1]; // Note that this is a string
@@ -78,7 +78,9 @@ function createBuild(file, kit) {
   build.number = kit.number;
   build.description = kit.brand + " " + kit.scale + " " + kit.name + " " + kit.number;
   build.pageTitle = kit.brand + " " + kit.scale + " " + kit.name + " (" + kit.number + ")";
-  build.url = "/models/" + year + "/" + serial + "/";
+  if (data.draft !== true) {
+    build.url = "/models/" + year + "/" + serial + "/";
+  }
   if (kit.boxart) {
     build.boxartUrl = "https://d1dems3vhrlf9r.cloudfront.net/boxart/" + kit.boxart;
   }
