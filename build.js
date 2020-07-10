@@ -58,7 +58,7 @@ const templateConfig = {
 metalsmith(__dirname)
     .clean(true)
     .source('./src/')
-    .destination(process.env.HOME + '/www/uncle-metalsmith/')
+    .destination('./firebase-hosting/')
     .use(sass({ outputDir: 'css/' }))
     .use(dataLoader({
       removeSource: true
