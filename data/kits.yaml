@@ -503,6 +503,14 @@ ACA1664:
     boxart: '72/Academy/1664-800.jpg'
     scalematesId: '247726-academy-01664-typhoon-mk-ib'
 
+ACA1667:
+    brand: Academy
+    number: '1667'
+    name: 'P-51B Mustang'
+    scale: '1/72'
+    # boxart: '72/Academy/1667-800.jpg'
+    scalematesId: 'academy-1667-p-51b-mustang--107350'
+
 ACA1670:
     brand: Academy
     number: '1670'
@@ -534,6 +542,14 @@ ACA2224:
     scale: '1/72'
     boxart: '72/Academy/2224-800.jpg'
     scalematesId: '103407-academy-2224-f6f-3-5-hellcat'
+
+ACA12474:
+    brand: Academy
+    number: '12474'
+    name: 'P-47D "Eileen"'
+    scale: '1/72'
+    boxart: '72/Academy/12474-800.jpg'
+    scalematesId: 'academy-12474-p-47d-eileen--1233749'
 
 ### == Revell 1/72 kits
 
