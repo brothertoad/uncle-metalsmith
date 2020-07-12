@@ -1,4 +1,4 @@
-### === Tamiya 1/48 kits
+### == Tamiya 1/48 kits
 
 TAM61013:
     brand: Tamiya
@@ -384,6 +384,16 @@ TAM35353:
     boxart: '35/Tamiya/35353-800.jpg'
     scalematesId: '1076227-tamiya-35353-brummbaer'
 
+### == Tamiya 1/72 kits
+
+TAM97103:
+    brand: Tamiya
+    number: '97103'
+    name: 'Raiden Mitsubishi J2M3 "Jack"'
+    scale: '1/72'
+    boxart: '72/Tamiya/97103-800.jpg'
+    # scalematesId: '1108715-hasegawa-00621-kawasaki-ki61-i-tei-hien-18th-flight-training-unit'
+
 ### == Hasegawa 1/72 kits
 
 HAS00621:
@@ -394,7 +404,15 @@ HAS00621:
     boxart: '72/Hasegawa/00621-800.jpg'
     scalematesId: '1108715-hasegawa-00621-kawasaki-ki61-i-tei-hien-18th-flight-training-unit'
 
-HAS503:
+HAS501:
+    brand: Hasegawa
+    number: '501'
+    name: 'Nakajima Ki-43-II Hayabusa (Oscar)'
+    scale: '1/72'
+    # boxart: '72/Hasegawa/501-800.jpg'
+    scalematesId: 'hasegawa-501-nakajima-ki-43-ii-hayabusa-oscar--172620'
+
+HAS507:
     brand: Hasegawa
     number: '507'
     name: 'Republic P-47D Razorback'
@@ -409,6 +427,14 @@ HAS51631:
     scale: '1/72'
     boxart: '72/Hasegawa/51631-800.jpg'
     scalematesId: '177724-hasegawa-51631-nakajima-ki-44-ii-shoki-tojo'
+
+HASB008:
+    brand: Hasegawa
+    number: 'B008'
+    name: 'Republic P-47D Thunderbolt'
+    scale: '1/72'
+    # boxart: '72/Hasegawa/B008-800.jpg'
+    scalematesId: 'hasegawa-b8-republic-p-47d-thunderbolt--211087'
 
 ### == Monogram 1/48 kits
 
