@@ -400,7 +400,7 @@ TAM97103:
     name: 'Raiden Mitsubishi J2M3 "Jack"'
     scale: '1/72'
     boxart: '72/Tamiya/97103-800.jpg'
-    # scalematesId: '1108715-hasegawa-00621-kawasaki-ki61-i-tei-hien-18th-flight-training-unit'
+    scalematesId: '172612'
 
 ### == Hasegawa 1/72 kits
 
@@ -443,6 +443,16 @@ HASB008:
     scale: '1/72'
     # boxart: '72/Hasegawa/B008-800.jpg'
     scalematesId: 'hasegawa-b8-republic-p-47d-thunderbolt--211087'
+
+### == Hasegawa egg kits
+
+HAS60132:
+    brand: Hasegawa
+    number: '60132'
+    name: "Mikoyan-15"
+    scale: 'N/A'
+    boxart: 'other/Hasegawa-60132-800.jpg'
+    scalematesId: '170351'
 
 ### == Monogram 1/48 kits
 
@@ -488,6 +498,16 @@ OT225:
     scale: '1/48'
     boxart: '48/Arii/Bf-109G-6-800.jpg'
     scalematesId: '1092034-otaki-ot2-25-600-messerschmitt-bf109g'
+
+### == Arii 1/48 kits
+
+ARIIA325:
+    brand: Arii
+    number: 'A325'
+    name: 'Kawasaki Ki-100 Tony'
+    scale: '1/48'
+    boxart: '48/Arii/Ki100-800.jpg'
+    scalematesId: '114118'
 
 ### == Academy 1/48 kits
 
