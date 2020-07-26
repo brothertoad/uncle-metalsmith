@@ -499,6 +499,14 @@ OT225:
     boxart: '48/Arii/Bf-109G-6-800.jpg'
     scalematesId: '1092034-otaki-ot2-25-600-messerschmitt-bf109g'
 
+OT227:
+    brand: Otaki
+    number: '27'
+    name: 'Chance Voight F4U-1A Corsair'
+    scale: '1/48'
+    # boxart: '48/Arii/Bf-109G-6-800.jpg'
+    scalematesId: '211462'
+
 ### == Arii 1/48 kits
 
 ARIIA325:
