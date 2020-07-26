@@ -5,7 +5,7 @@
 
   {# This is where we put build-specific stuff. #}
   <div class="build-title-div">
-    <h1 class="build-title">{{ title }}</h1>
+    <h1 class="build-title">{{ title  | safe }}</h1>
   </div>
   {% if scalematesUrl %}
   <div class="build-scalemates-div">

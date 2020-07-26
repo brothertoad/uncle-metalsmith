@@ -597,6 +597,14 @@ ACA2224:
     boxart: '72/Academy/2224-800.jpg'
     scalematesId: '103407-academy-2224-f6f-3-5-hellcat'
 
+ACA2213:
+    brand: Academy
+    number: '2213'
+    name: 'Focke-Wulf Fw 190A-8 "Heinz B&auml;r" With K&uuml;belwagen'
+    scale: '1/72'
+    boxart: '72/Academy/2213-800.jpg'
+    scalematesId: '107451'
+
 ACA12474:
     brand: Academy
     number: '12474'
