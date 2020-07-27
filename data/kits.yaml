@@ -537,6 +537,16 @@ HC1538:
     boxart: '48/Hobbycraft/HC1538-800.jpg'
     scalematesId: '129938-hobbycraft-hc1538-african-front-bf109g-1-2'
 
+### == Hobby Boss 1/48 kits
+
+HB80357:
+    brand: Hobby Boss
+    number: '80357'
+    name: 'F8F-1B Bearcat'
+    scale: '1/48'
+    boxart: '48/HobbyBoss/80357-800.jpg'
+    scalematesId: '101382'
+
 ### == Testors 1/48 kits
 
 TSTR7625:
