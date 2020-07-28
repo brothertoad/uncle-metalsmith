@@ -352,6 +352,14 @@ HAS08150:
 
 ### == Tamiya 1/35
 
+TAM35009:
+    brand: Tamiya
+    number: '35009'
+    name: 'Panzer Kampfwagen II Ausf. F/G'
+    scale: '1/35'
+    boxart: '35/Tamiya/35009-800.jpg'
+    scalematesId: '1166601'
+
 TAM35142:
     brand: Tamiya
     number: '35142'
@@ -517,16 +525,6 @@ ARIIA325:
     boxart: '48/Arii/Ki100-800.jpg'
     scalematesId: '114118'
 
-### == Academy 1/48 kits
-
-ACA2155:
-    brand: Academy
-    number: '2155'
-    name: 'Republic P-47N Thunderbolt'
-    scale: '1/48'
-    boxart: '48/Academy/2155-800.jpg'
-    scalematesId: 'academy-minicraft-2155-republic-p-47n-thunderbolt--1162259'
-
 ### == Hobbycraft 1/48 kits
 
 HC1538:
@@ -556,6 +554,16 @@ TSTR7625:
     scale: '1/48'
     boxart: '48/Testors/625-800.jpg'
     scalematesId: '264381-testors-7625-me-163-komet'
+
+### == Academy 1/48 kits
+
+ACA2155:
+    brand: Academy
+    number: '2155'
+    name: 'Republic P-47N Thunderbolt'
+    scale: '1/48'
+    boxart: '48/Academy/2155-800.jpg'
+    scalematesId: 'academy-minicraft-2155-republic-p-47n-thunderbolt--1162259'
 
 ### == Academy 1/72 kits
 
@@ -591,6 +599,14 @@ ACA1670:
     boxart: '72/Academy/1670-800.jpg'
     scalematesId: '930788-academy-01670-messerschmitt-bf-109g-6'
 
+ACA2129:
+    brand: Academy
+    number: '2129'
+    name: 'Hurricane Mk.IIc'
+    scale: '1/72'
+    # boxart: '72/Academy/2132-800.jpg'
+    scalematesId: '1020877'
+
 ACA2132:
     brand: Academy
     number: '2132'
@@ -606,6 +622,14 @@ ACA2133:
     scale: '1/72'
     boxart: '72/Academy/2133-800.jpg'
     scalematesId: '203949-academy-2133-messerschmitt-bf109e'
+
+ACA2176:
+    brand: Academy
+    number: '2176'
+    name: 'A6M5c Zero Fighter Type 52c'
+    scale: '1/72'
+    # boxart: '72/Academy/2133-800.jpg'
+    scalematesId: '1027260'
 
 ACA2224:
     brand: Academy
