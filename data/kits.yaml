@@ -8,6 +8,14 @@ TAM61013:
     boxart: '48/Tamiya/61013-800.jpg'
     scalematesId: '120377-tamiya-61013-nakajima-ki-84-i-a-hayate-frank'
 
+TAM61016:
+    brand: Tamiya
+    number: '61016'
+    name: 'Mitsubishi A6M2 Zero Fighter'
+    scale: '1/48'
+    # boxart: '48/Tamiya/61013-800.jpg'
+    scalematesId: '1255850'
+
 TAM61025:
     brand: Tamiya
     number: '61025'
@@ -298,6 +306,14 @@ HAS09412:
     boxart: '48/Hasegawa/09412-800.jpg'
     scalematesId: '114122-hasegawa-09412-kawasaki-ki61-i-tei-type3-fighter-hien-tony-56th-flight-regiment'
 
+HAS09508:
+    brand: Hasegawa
+    number: '09508'
+    name: "Nakajima Ki43-II Hayabusa (Oscar) '248th Flight Regiment'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09508-800.jpg'
+    scalematesId: '931552'
+
 HAS09531:
     brand: Hasegawa
     number: '09531'
@@ -471,6 +487,14 @@ MONO5258:
     scale: '1/48'
     boxart: '48/Monogram/5258-800.jpg'
     scalematesId: '193477-monogram-85-5258-hawker-typhoon-mk-ib'
+
+MONO5487:
+    brand: Monogram
+    number: '5487'
+    name: 'P-47D Thunderbolt'
+    scale: '1/48'
+    # boxart: '48/Monogram/5487-800.jpg'
+    scalematesId: '234558'
 
 MONO6802:
     brand: Monogram
