@@ -504,6 +504,14 @@ MONO6802:
     boxart: '48/Monogram/6802-800.jpg'
     scalematesId: 'monogram-6802-hawker-hurricane--1014866'
 
+MONO6838:
+    brand: Monogram
+    number: '6838'
+    name: 'P-47D Thunderbolt "The Turtle"'
+    scale: '1/48'
+    # boxart: '48/Monogram/6802-800.jpg'
+    scalematesId: '159066'
+
 ### == Otaki 1/48 kits
 
 OT224:
