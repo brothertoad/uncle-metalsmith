@@ -207,7 +207,7 @@ HAS09063:
     number: '09063/Jt63'
     name: 'Messerschmitt Bf 109K-4'
     scale: '1/48'
-    # boxart: '48/Hasegawa/09063-800.jpg'
+    boxart: '48/Hasegawa/09063-800.jpg'
     scalematesId: '172494-hasegawa-09063-messerschmitt-bf109-k-4'
 
 HAS09064:
@@ -215,7 +215,7 @@ HAS09064:
     number: '09064/Jt64'
     name: 'Messerschmitt Bf 109G-10'
     scale: '1/48'
-    # boxart: '48/Hasegawa/09064-800.jpg'
+    boxart: '48/Hasegawa/09064-800.jpg'
     scalematesId: 'hasegawa-09064-messerschmitt-bf-109g-10--114472'
 
 HAS09067:
@@ -465,7 +465,7 @@ HASB008:
     number: 'B008'
     name: 'Republic P-47D Thunderbolt'
     scale: '1/72'
-    # boxart: '72/Hasegawa/B008-800.jpg'
+    boxart: 'None' # '72/Hasegawa/B008-800.jpg'
     scalematesId: 'hasegawa-b8-republic-p-47d-thunderbolt--211087'
 
 ### == Hasegawa egg kits
@@ -493,7 +493,7 @@ MONO5487:
     number: '5487'
     name: 'P-47D Thunderbolt'
     scale: '1/48'
-    # boxart: '48/Monogram/5487-800.jpg'
+    boxart: '48/Monogram/5487-800.jpg'
     scalematesId: '234558'
 
 MONO6802:
@@ -509,7 +509,7 @@ MONO6838:
     number: '6838'
     name: 'P-47D Thunderbolt "The Turtle"'
     scale: '1/48'
-    # boxart: '48/Monogram/6802-800.jpg'
+    boxart: '48/Monogram/6838-800.jpg'
     scalematesId: '159066'
 
 ### == Otaki 1/48 kits
@@ -544,7 +544,7 @@ OT227:
     number: '27'
     name: 'Chance Voight F4U-1A Corsair'
     scale: '1/48'
-    # boxart: '48/Arii/Corsair-800.jpg'
+    boxart: '48/Otaki/Corsair-800.jpg'
     scalematesId: '211462'
 
 ### == Arii 1/48 kits
@@ -620,7 +620,7 @@ ACA1667:
     number: '1667'
     name: 'P-51B Mustang'
     scale: '1/72'
-    # boxart: '72/Academy/1667-800.jpg'
+    boxart: 'None' # '72/Academy/1667-800.jpg'
     scalematesId: 'academy-1667-p-51b-mustang--107350'
 
 ACA1670:
@@ -660,7 +660,7 @@ ACA2176:
     number: '2176'
     name: 'A6M5c Zero Fighter Type 52c'
     scale: '1/72'
-    # boxart: '72/Academy/2176-800.jpg'
+    boxart: '72/Academy/2176-800.jpg'
     scalematesId: '1027260'
 
 ACA2224:

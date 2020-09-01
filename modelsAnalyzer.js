@@ -81,7 +81,7 @@ function createBuild(file, data, kit) {
   if (data.draft !== true) {
     build.url = "/models/" + year + "/" + serial + "/";
   }
-  if (kit.boxart) {
+  if (kit.boxart && kit.boxart !== 'None') {
     build.boxartUrl = "https://d1dems3vhrlf9r.cloudfront.net/boxart/" + kit.boxart;
   }
   if (kit.scalematesId) {
