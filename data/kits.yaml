@@ -13,7 +13,7 @@ TAM61016:
     number: '61016'
     name: 'Mitsubishi A6M2 Zero Fighter'
     scale: '1/48'
-    # boxart: '48/Tamiya/61013-800.jpg'
+    boxart: '48/Tamiya/61016-800.jpg'
     scalematesId: '1255850'
 
 TAM61025:
@@ -215,7 +215,7 @@ HAS09064:
     number: '09064/Jt64'
     name: 'Messerschmitt Bf 109G-10'
     scale: '1/48'
-    # boxart: '48/Hasegawa/09063-800.jpg'
+    # boxart: '48/Hasegawa/09064-800.jpg'
     scalematesId: 'hasegawa-09064-messerschmitt-bf-109g-10--114472'
 
 HAS09067:
@@ -441,7 +441,7 @@ HAS501:
     number: '501'
     name: 'Nakajima Ki-43-II Hayabusa (Oscar)'
     scale: '1/72'
-    # boxart: '72/Hasegawa/501-800.jpg'
+    boxart: '72/Hasegawa/501-800.jpg'
     scalematesId: 'hasegawa-501-nakajima-ki-43-ii-hayabusa-oscar--172620'
 
 HAS507:
@@ -544,7 +544,7 @@ OT227:
     number: '27'
     name: 'Chance Voight F4U-1A Corsair'
     scale: '1/48'
-    # boxart: '48/Arii/Bf-109G-6-800.jpg'
+    # boxart: '48/Arii/Corsair-800.jpg'
     scalematesId: '211462'
 
 ### == Arii 1/48 kits
@@ -636,7 +636,7 @@ ACA2129:
     number: '2129'
     name: 'Hurricane Mk.IIc'
     scale: '1/72'
-    # boxart: '72/Academy/2132-800.jpg'
+    boxart: '72/Academy/2129-800.jpg'
     scalematesId: '1020877'
 
 ACA2132:
@@ -660,7 +660,7 @@ ACA2176:
     number: '2176'
     name: 'A6M5c Zero Fighter Type 52c'
     scale: '1/72'
-    # boxart: '72/Academy/2133-800.jpg'
+    # boxart: '72/Academy/2176-800.jpg'
     scalematesId: '1027260'
 
 ACA2224:
