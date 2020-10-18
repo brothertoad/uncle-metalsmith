@@ -522,14 +522,6 @@ OT224:
     boxart: '48/Otaki/Spitfire-800.jpg'
     scalematesId: '313687-otaki-ot2-24-400-spitfire-mk-viii'
 
-OT226:
-    brand: Otaki
-    number: '26'
-    name: 'Focke-Wulf Fw 190A-8'
-    scale: '1/48'
-    boxart: '48/Otaki/Fw-190-800.jpg'
-    scalematesId: '313689-otaki-ot2-26-400-focke-wulf-fw190a-8'
-
 # Note that the boxart for this kit is actually an image of the Arii boxing of the same plastic.
 OT225:
     brand: Otaki
@@ -539,6 +531,14 @@ OT225:
     boxart: '48/Arii/Bf-109G-6-800.jpg'
     scalematesId: '1092034-otaki-ot2-25-600-messerschmitt-bf109g'
 
+OT226:
+    brand: Otaki
+    number: '26'
+    name: 'Focke-Wulf Fw 190A-8'
+    scale: '1/48'
+    boxart: '48/Otaki/Fw-190-800.jpg'
+    scalematesId: '313689-otaki-ot2-26-400-focke-wulf-fw190a-8'
+
 OT227:
     brand: Otaki
     number: '27'
@@ -546,6 +546,14 @@ OT227:
     scale: '1/48'
     boxart: '48/Otaki/Corsair-800.jpg'
     scalematesId: '211462'
+
+OT228:
+    brand: Otaki
+    number: '28'
+    name: 'Republic P-47D Thunderbolt'
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: '1023958'
 
 ### == Arii 1/48 kits
 
