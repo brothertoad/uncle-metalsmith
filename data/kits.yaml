@@ -194,6 +194,14 @@ HAS09011:
     boxart: '48/Hasegawa/09011-800.jpg'
     scalematesId: '120374-hasegawa-09011-messerschmitt-bf109f-4'
 
+HAS09012:
+    brand: Hasegawa
+    number: '09012/J12'
+    name: "Messerschmitt Bf 109F-4 Trop"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09012-800.jpg'
+    scalematesId: '953264'
+
 HAS09013:
     brand: Hasegawa
     number: '09013/J13'
@@ -248,7 +256,7 @@ HAS09111:
     name: "Messerschmitt Bf 109E 'Galland'"
     scale: '1/48'
     boxart: '48/Hasegawa/09111-800.jpg'
-    scalematesId: '147880' # 'hasegawa-09111-messerschmitt-bf-109-e-4--147880'
+    scalematesId: '147880'
 
 HAS09138:
     brand: Hasegawa
