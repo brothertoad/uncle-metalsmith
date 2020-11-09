@@ -314,6 +314,14 @@ HAS09412:
     boxart: '48/Hasegawa/09412-800.jpg'
     scalematesId: '114122-hasegawa-09412-kawasaki-ki61-i-tei-type3-fighter-hien-tony-56th-flight-regiment'
 
+HAS09424:
+    brand: Hasegawa
+    number: '09424'
+    name: "Spitfire Mk. IXe"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09424-800.jpg'
+    scalematesId: '958074'
+
 HAS09508:
     brand: Hasegawa
     number: '09508'
