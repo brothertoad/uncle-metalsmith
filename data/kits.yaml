@@ -392,6 +392,14 @@ TAM35009:
     boxart: '35/Tamiya/35009-800.jpg'
     scalematesId: '1166601'
 
+TAM35072:
+    brand: Tamiya
+    number: '35072'
+    name: 'Russian Tank Destroyer SU-85'
+    scale: '1/35'
+    boxart: '35/Tamiya/35072-800.png'  # note png, not jpg
+    scalematesId: '132522'
+
 TAM35142:
     brand: Tamiya
     number: '35142'
@@ -443,6 +451,14 @@ TAM97103:
     scalematesId: '172612'
 
 ### == Hasegawa 1/72 kits
+
+HAS00372:
+    brand: Hasegawa
+    number: '00372'
+    name: "P-40E Warhawk 'Aleutian Tiger'"
+    scale: '1/72'
+    boxart: '72/Hasegawa/00372-800.jpg'
+    scalematesId: '264620'
 
 HAS00621:
     brand: Hasegawa
@@ -581,6 +597,22 @@ ARIIA325:
     boxart: '48/Arii/Ki100-800.jpg'
     scalematesId: '114118'
 
+ARIIA328:
+    brand: Arii
+    number: 'A328'
+    name: "Nakajima Ki44 'Shoki' (Tojo)"
+    scale: '1/48'
+    boxart: '48/Arii/Ki44-800.jpg'
+    scalematesId: '937425'
+
+ARIIA334:
+    brand: Arii
+    number: 'A334'
+    name: 'Messerschmitt Bf109G'
+    scale: '1/48'
+    boxart: '48/Arii/Bf-109G-6-800.jpg'
+    scalematesId: '313633'
+
 ### == Hobbycraft 1/48 kits
 
 HC1538:
@@ -678,6 +710,14 @@ ACA2133:
     scale: '1/72'
     boxart: '72/Academy/2133-800.jpg'
     scalematesId: '203949-academy-2133-messerschmitt-bf109e'
+
+ACA2174:
+    brand: Academy
+    number: '2174'
+    name: 'P-47D Thunderbolt "Bubble Top"'
+    scale: '1/72'
+    boxart: 'None'
+    scalematesId: '107421'
 
 ACA2176:
     brand: Academy
