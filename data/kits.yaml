@@ -416,6 +416,14 @@ TAM35149:
     boxart: '35/Tamiya/35149-800.jpg'
     scalematesId: 'tamiya-35149-t34-76--132582'
 
+TAM35170:
+    brand: Tamiya
+    number: '35170'
+    name: 'German Panther Type G Early Version'
+    scale: '1/35'
+    boxart: '35/Tamiya/35170-800.jpg'
+    scalematesId: '132718'
+
 TAM35270:
     brand: Tamiya
     number: '35270'
