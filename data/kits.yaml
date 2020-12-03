@@ -346,6 +346,14 @@ HAS09571:
     boxart: '48/Hasegawa/09571-800.jpg'
     scalematesId: '237795-hasegawa-09571-spitfire-mk-vb-u-s-a-a-f'
 
+HAS09600:
+    brand: Hasegawa
+    number: '09600'
+    name: "F6F-5 Hellcat 'French Navy'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09600-800.jpg'
+    scalematesId: '931572'
+
 HAS09740:
     brand: Hasegawa
     number: '09740'
