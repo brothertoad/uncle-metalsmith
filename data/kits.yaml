@@ -24,6 +24,14 @@ TAM61025:
     boxart: '48/Tamiya/61025-800.jpg'
     scalematesId: 'tamiya-61025-a6m3-zero-fighter--133895'
 
+TAM61027:
+    brand: Tamiya
+    number: '61027'
+    name: 'Mitsubishi A6M5c Zero Fighter (Zeke)'
+    scale: '1/48'
+    boxart: '48/Tamiya/61027-800.jpg'
+    scalematesId: '120376'
+
 TAM61032:
     brand: Tamiya
     number: '61032'
