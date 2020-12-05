@@ -258,6 +258,14 @@ HAS09080:
     boxart: '48/Hasegawa/09080-800.jpg'
     scalematesId: '114359-hasegawa-09080-nakajima-ki43-i-hayabusa-oscar'
 
+HAS09090:
+    brand: Hasegawa
+    number: '09090/Jt90'
+    name: 'Focke Wulf Fw 190A-3'
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: '104128'
+
 HAS09111:
     brand: Hasegawa
     number: '09111/Jt11'
@@ -361,6 +369,14 @@ HAS09600:
     scale: '1/48'
     boxart: '48/Hasegawa/09600-800.jpg'
     scalematesId: '931572'
+
+HAS09728:
+    brand: Hasegawa
+    number: '09728'
+    name: "Nakajima Ki43-II Hayabusa (Oscar) 'Mainland Defense'"
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: '631185'
 
 HAS09740:
     brand: Hasegawa
@@ -779,11 +795,19 @@ ACA12474:
 
 REV04164:
     brand: Revell
-    number: '04161'
+    number: '04164'
     name: 'Supermarine Spitfire Mk V'
     scale: '1/72'
     boxart: '72/Revell/04164-800.jpg'
     scalematesId: '123427-revell-04164-supermarine-spitfire-mk-v'
+
+REV04165:
+    brand: Revell
+    number: '04165'
+    name: 'Focke Wulf Fw 190 A-8/R-11'
+    scale: '1/72'
+    boxart: '72/Revell/04165-800.jpg'
+    scalematesId: '165847'
 
 ### == Meng
 
