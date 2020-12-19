@@ -322,6 +322,14 @@ HAS09255:
     boxart: '48/Hasegawa/09255-800.jpg'
     scalematesId: '946664-hasegawa-09255-p-51d-mustang-checkertail-clan'
 
+HAS09313:
+    brand: Hasegawa
+    number: '09313'
+    name: "Messerschmitt Bf 109G-6 'JG 53'"
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: '197201'
+
 HAS09412:
     brand: Hasegawa
     number: '09412'
@@ -628,6 +636,14 @@ OT228:
     scalematesId: '1023958'
 
 ### == Arii 1/48 kits
+
+ARIIA321:
+    brand: Otaki
+    number: 'A321'
+    name: 'A6M5 Type 52 "Zeke"'
+    scale: '1/48'
+    boxart: '48/Arii/A6M5-800.jpg'
+    scalematesId: '1096015'
 
 ARIIA325:
     brand: Arii
