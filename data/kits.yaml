@@ -560,6 +560,14 @@ HAS60132:
 
 ### == Monogram 1/48 kits
 
+MONOPA90:
+    brand: Monogram
+    number: 'PA90'
+    name: 'Hawker Hurricane'
+    scale: '1/48'
+    boxart: '48/Monogram/PA90-800.jpg'
+    scalematesId: '186968'
+
 MONO5258:
     brand: Monogram
     number: '5258'
@@ -593,6 +601,24 @@ MONO6838:
     scalematesId: '159066'
 
 ### == Otaki 1/48 kits
+
+# Note that the boxart for this kit is actually an image of the Arii boxing of the same plastic.
+OT204:
+    brand: Otaki
+    number: '4'
+    name: 'A6M5 Type 52 "Zeke"'
+    scale: '1/48'
+    boxart: '48/Arii/A6M5-800.jpg'
+    scalematesId: '1092041'
+
+# Note that the boxart for this kit is actually an image of the Arii boxing of the same plastic.
+OT205:
+    brand: Otaki
+    number: '5'
+    name: 'Nakajima Ki-43 Hayabusa "Oscar"'
+    scale: '1/48'
+    boxart: '48/Arii/Ki-43-800.jpg'
+    scalematesId: '1092115'
 
 OT224:
     brand: Otaki
@@ -636,14 +662,6 @@ OT228:
     scalematesId: '1023958'
 
 ### == Arii 1/48 kits
-
-ARIIA321:
-    brand: Otaki
-    number: 'A321'
-    name: 'A6M5 Type 52 "Zeke"'
-    scale: '1/48'
-    boxart: '48/Arii/A6M5-800.jpg'
-    scalematesId: '1096015'
 
 ARIIA325:
     brand: Arii
