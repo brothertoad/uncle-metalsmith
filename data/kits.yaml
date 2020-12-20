@@ -843,6 +843,17 @@ REV04165:
     boxart: '72/Revell/04165-800.jpg'
     scalematesId: '165847'
 
+### == Revell 1/48 kits
+
+# Note odd sized boxart.
+REV5225:
+    brand: Revell
+    number: '85-5225'
+    name: 'Messerschmitt Me-109G'
+    scale: '1/48'
+    boxart: '48/Revell/85-5225-834.jpg'
+    scalematesId: '949654'
+
 ### == Meng
 
 MENGWWT002:
