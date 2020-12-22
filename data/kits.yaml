@@ -192,6 +192,14 @@ TAM61095:
     boxart: '48/Tamiya/61095-800.jpg'
     scalematesId: '104771-tamiya-61095-focke-wulf-fw-190a-8-r2'
 
+TAM61096:
+    brand: Tamiya
+    number: '61096'
+    name: 'Republic P-47M Thunderbolt'
+    scale: '1/48'
+    boxart: '48/Tamiya/61096-800.jpg'
+    scalematesId: '120293'
+
 ### == Hasegawa 1/48 kits
 
 HAS09011:
