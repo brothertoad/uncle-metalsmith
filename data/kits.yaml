@@ -16,6 +16,14 @@ TAM61016:
     boxart: '48/Tamiya/61016-800.jpg'
     scalematesId: '1255850'
 
+TAM61018:
+    brand: Tamiya
+    number: '61018'
+    name: 'Mitsubishi J6M3 Interceptor Raiden (Jack)'
+    scale: '1/48'
+    boxart: '48/Tamiya/61018-800.jpg'
+    scalematesId: '115180'
+
 TAM61025:
     brand: Tamiya
     number: '61025'
@@ -202,6 +210,14 @@ TAM61096:
 
 ### == Hasegawa 1/48 kits
 
+HASJ001:
+    brand: Hasegawa
+    number: 'J001'
+    name: 'Messerschmitt Bf 109E-3'
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: '167691'
+
 HAS09011:
     brand: Hasegawa
     number: '09011/J11'
@@ -241,6 +257,14 @@ HAS09064:
     scale: '1/48'
     boxart: '48/Hasegawa/09064-800.jpg'
     scalematesId: 'hasegawa-09064-messerschmitt-bf-109g-10--114472'
+
+HAS09065:
+    brand: Hasegawa
+    number: '09065/Jt65'
+    name: 'Hurricane Mk. I'
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: '197451'
 
 HAS09067:
     brand: Hasegawa
@@ -553,8 +577,16 @@ HASB008:
     number: 'B008'
     name: 'Republic P-47D Thunderbolt'
     scale: '1/72'
-    boxart: 'None' # '72/Hasegawa/B008-800.jpg'
+    boxart: 'None'
     scalematesId: 'hasegawa-b8-republic-p-47d-thunderbolt--211087'
+
+HASA8:
+    brand: Hasegawa
+    number: 'A8 (JS094)'
+    name: 'Republic P-47D Thunderbolt'
+    scale: '1/72'
+    boxart: 'None'
+    scalematesId: '257481'
 
 ### == Hasegawa egg kits
 
@@ -627,6 +659,14 @@ OT205:
     scale: '1/48'
     boxart: '48/Arii/Ki-43-800.jpg'
     scalematesId: '1092115'
+
+OT214:
+    brand: Otaki
+    number: '14'
+    name: 'Japanese Army Ki44 Fighter "Tojo"'
+    scale: '1/48'
+    boxart: '48/Otaki/Ki-44-800.jpg'
+    scalematesId: '313698'
 
 OT224:
     brand: Otaki
@@ -768,6 +808,14 @@ ACA1670:
     scale: '1/72'
     boxart: '72/Academy/1670-800.jpg'
     scalematesId: '930788-academy-01670-messerschmitt-bf-109g-6'
+
+ACA2120:
+    brand: Academy
+    number: '2120'
+    name: 'Focke Wulf Fw190A-6/8'
+    scale: '1/72'
+    boxart: '72/Academy/2120-800.jpg'
+    scalematesId: '203945'
 
 ACA2129:
     brand: Academy
