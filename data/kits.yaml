@@ -496,6 +496,14 @@ TAM35170:
     boxart: '35/Tamiya/35170-800.jpg'
     scalematesId: '132718'
 
+TAM35251:
+    brand: Tamiya
+    number: '35251'
+    name: 'M4A3 Sherman 105mm Howitzer'
+    scale: '1/35'
+    boxart: '35/Tamiya/35251-800.jpg'
+    scalematesId: '105342'
+
 TAM35270:
     brand: Tamiya
     number: '35270'
