@@ -889,6 +889,17 @@ ACA12474:
     boxart: '72/Academy/12474-800.jpg'
     scalematesId: 'academy-12474-p-47d-eileen--1233749'
 
+### == Italeri 1/48 kits
+
+ITAL2719:
+    brand: Italeri
+    number: '2719'
+    name: 'Bf 109G-6 Italian Aces'
+    scale: '1/48'
+    boxart: '48/Italeri/2719-800.jpg'
+    scalematesId: '141147'
+
+
 ### == Revell 1/72 kits
 
 REV04164:

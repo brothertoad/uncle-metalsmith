@@ -23,6 +23,10 @@ const mrcolor = function(color) {
   return 'Mr.&nbsp;Color&nbsp;<span style="white-space: nowrap">C-' + color + '</span>';
 }
 
+const mrhobbycolor = function(color) {
+  return 'Mr.&nbsp;Hobby&nbsp;Color&nbsp;<span style="white-space: nowrap">H-' + color + '</span>';
+}
+
 const rlm = function(color) {
   return 'RLM&nbsp;' + color;
 }
@@ -49,6 +53,7 @@ const templateConfig = {
             txf: txf,
             tx: tx,
             mrcolor: mrcolor,
+            mrhobbycolor: mrhobbycolor,
             rlm: rlm,
             nowrap: nowrap
         }
