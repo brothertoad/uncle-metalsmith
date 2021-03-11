@@ -80,6 +80,14 @@ TAM61037:
     boxart: '48/Tamiya/61037-800.jpg'
     scalematesId: 'tamiya-61037-focke-wulf-fw-190a-3--107203'
 
+TAM61038:
+    brand: Tamiya
+    number: '61038'
+    name: 'Kawanishi N1K1-Ja Shiden Type 11'
+    scale: '1/48'
+    boxart: '48/Tamiya/61038-800.jpg'
+    scalematesId: '140730'
+
 TAM61039:
     brand: Tamiya
     number: '61039'
