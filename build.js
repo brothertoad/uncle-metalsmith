@@ -35,6 +35,14 @@ const nowrap = function(s) {
   return '<span style="white-space: nowrap">' + s + '</span>';
 }
 
+const make3digits = function(j) {
+  let s = j.toString();
+  while (s.length < 3) {
+    s = "0" + s;
+  }
+  return s;
+}
+
 const inplace = require('metalsmith-in-place');
 const layouts = require('metalsmith-layouts');
 const metalsmith = require('metalsmith');
@@ -55,7 +63,8 @@ const templateConfig = {
             mrcolor: mrcolor,
             mrhobbycolor: mrhobbycolor,
             rlm: rlm,
-            nowrap: nowrap
+            nowrap: nowrap,
+            make3digits: make3digits
         }
     }
 };
