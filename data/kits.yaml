@@ -971,6 +971,14 @@ MENGWWT006:
     boxart: 'other/Meng-WWT-006-800.jpg'
     scalematesId: '1097593-meng-model-wwt-006-t-34-76'
 
+MENGWWT010:
+    brand: Meng
+    number: 'WWT-010'
+    name: 'U.S. Heavy Tank M26 Pershing'
+    scale: ''
+    boxart: 'other/Meng-WWT-010-800.jpg'
+    scalematesId: '1143767'
+
 MENGWWT011:
     brand: Meng
     number: 'WWT-011'
