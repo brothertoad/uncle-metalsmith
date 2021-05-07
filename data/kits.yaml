@@ -370,6 +370,14 @@ HAS09313:
     boxart: 'None'
     scalematesId: '197201'
 
+HAS09363:
+    brand: Hasegawa
+    number: '09363'
+    name: "Messerschmitt Bf 109G-6 'Barkhorn'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09363-800.jpg'
+    scalematesId: '582781'
+
 HAS09412:
     brand: Hasegawa
     number: '09412'
@@ -503,6 +511,14 @@ TAM35170:
     scale: '1/35'
     boxart: '35/Tamiya/35170-800.jpg'
     scalematesId: '132718'
+
+TAM35250:
+    brand: Tamiya
+    number: '35250'
+    name: 'M4A3 Sherman 75mm Gun'
+    scale: '1/35'
+    boxart: '35/Tamiya/35250-800.jpg'
+    scalematesId: '103079'
 
 TAM35251:
     brand: Tamiya
