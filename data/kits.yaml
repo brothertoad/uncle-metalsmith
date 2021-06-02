@@ -512,6 +512,14 @@ TAM35170:
     boxart: '35/Tamiya/35170-800.jpg'
     scalematesId: '132718'
 
+TAM35174:
+    brand: Tamiya
+    number: '35174'
+    name: 'German Panther Type G Steel Wheel Version'
+    scale: '1/35'
+    boxart: '35/Tamiya/35174-800.jpg'
+    scalematesId: '103425'
+
 TAM35250:
     brand: Tamiya
     number: '35250'
