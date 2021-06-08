@@ -322,6 +322,14 @@ HAS09138:
     boxart: '48/Hasegawa/09138-800.jpg'
     scalematesId: 'hasegawa-09138-kawasaki-ki-100-i-otsu-tony--136214'
 
+HAS09141:
+    brand: Hasegawa
+    number: '09141/Jt41'
+    name: "P-47D-30/40 Thunderbolt"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09141-800.jpg'
+    scalematesId: '948498'
+
 HAS09144:
     brand: Hasegawa
     number: '09144/Jt44'
