@@ -144,6 +144,14 @@ TAM61047:
     boxart: '48/Tamiya/61047-800.jpg'
     scalematesId: 'tamiya-61047-north-american-raf-mustang-iii--121550'
 
+TAM61048:
+    brand: Tamiya
+    number: '61048'
+    name: 'Dewoitine D.520'
+    scale: '1/48'
+    boxart: '48/Tamiya/61048-800.jpg'
+    scalematesId: '122416'
+
 TAM61050:
     brand: Tamiya
     number: '61050'
@@ -225,6 +233,14 @@ HASJ001:
     scale: '1/48'
     boxart: 'None'
     scalematesId: '167691'
+
+HAS51510:
+    brand: Hasegawa
+    number: '51510/SP10'
+    name: 'Zero Fighter Type 52 Strange Insignia USA/UK'
+    scale: '1/48'
+    boxart: '48/Hasegawa/SP10-800.jpg'
+    scalematesId: '141162'
 
 HAS09011:
     brand: Hasegawa
