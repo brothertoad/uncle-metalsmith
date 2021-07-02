@@ -66,7 +66,7 @@ function createBuild(file, data, kit) {
   let iMonth = parseInt(month); // month as number, 1-based
   build.key = parseInt(year + serial);
   build.date = month + "/" + year;
-  build.completionDate = monthName[iMonth] + ', ' + year;
+  build.completionDate = monthName[iMonth] + ' ' + year;
   build.brand = kit.brand;
   if (kit.scale === "") {
     build.scale = "N/A";
