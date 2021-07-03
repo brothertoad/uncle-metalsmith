@@ -18,7 +18,19 @@
   </p>
   {% endif %}
   {{ contents | safe }}
-  <p class="tc">
-    Build completed {{ completionDate }}.
-  </p>
+  <div class="row-parent">
+    <div class="tl column-25">
+      {% if previousUrl %}
+        {{ 'Previous' | linkTo(previousUrl) | safe }}
+      {% endif %}
+    </div>
+    <div class="tc column-50">
+      Build completed {{ completionDate }}.
+    </div>
+    <div class="tr column-25">
+      {% if nextUrl %}
+        {{ 'Next' | linkTo(nextUrl) | safe }}
+      {% endif %}
+    </div>
+  </div>
 {% endblock %}

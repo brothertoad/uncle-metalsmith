@@ -28,6 +28,8 @@ function plugin(options){
         });
         // Sort by key.
         builds.sort(compareBuilds);
+        // Add next and previous links.  Have to sort before we do this.
+        addNextPrevious(builds, files);
         // Add the builds array to the builds.njk file.
         if (buildsData != null) {
           buildsData.builds = builds;
@@ -39,6 +41,17 @@ function compareBuilds(b1, b2) {
   if (b2.key > b1.key) return 1;
   if (b2.key < b1.key) return -1;
   return 0;
+}
+
+function addNextPrevious(builds, files) {
+  let n = builds.length;
+  // Note that the builds are sorted in descending order.
+  for (let j = 0; j < (n - 1); j++) {
+    files[builds[j].path].previousUrl = builds[j+1].url;
+  }
+  for (let j = 1; j < n; j++) {
+    files[builds[j].path].nextUrl = builds[j-1].url;
+  }
 }
 
 // Lookup table for month names.  This is 1-based.
@@ -59,6 +72,7 @@ var monthName = [ '',
 // Need to add boxart and scalemates links.
 function createBuild(file, data, kit) {
   let build = {};
+  build.path = file;
   let tokens = file.split("/");
   let year = tokens[1]; // Note that this is a string
   let serial = tokens[2].slice(0, 4);

@@ -40,6 +40,10 @@ body {
   text-align: left;
 }
 
+@mixin right-align {
+  text-align: right;
+}
+
 @mixin centered-photo {
   display: block;
   margin-left: auto;
@@ -116,6 +120,10 @@ h1 {
   @include left-align;
 }
 
+.tr {
+  @include right-align;
+}
+
 .bold {
   @include bold;
 }
@@ -152,6 +160,12 @@ h1 {
   padding: 0;
   margin-block-start: 0;
   margin-block-end: 0;
+}
+
+// For the footer at the bottom of each build page
+
+.build-footer-parent {
+
 }
 
 // Generic classes
