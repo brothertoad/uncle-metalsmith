@@ -184,6 +184,14 @@ TAM61063:
     boxart: '48/Tamiya/61063-800.jpg'
     scalematesId: '106349-tamiya-61063-messerschmitt-bf-109e-4-7-trop'
 
+TAM61070:
+    brand: Tamiya
+    number: '61070'
+    name: 'Vought F4U-1A Corsair'
+    scale: '1/48'
+    boxart: '48/Tamiya/61070-800.jpg'
+    scalematesId: '120383'
+
 TAM61081:
     brand: Tamiya
     number: '61081'
