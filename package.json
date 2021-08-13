@@ -5,8 +5,7 @@
   "description": "",
   "main": "build.js",
   "scripts": {
-    "start": "node ./build.js",
-    "debug": "DEBUG=metalsmith-in-place,metalsmith-layouts node ./build.js"
+    "preinstall": "npx npm-force-resolutions"
   },
   "author": "ItsMeBender",
   "license": "MIT",
@@ -21,10 +20,14 @@
     "metalsmith-permalinks": "^2.1.0",
     "metalsmith-sass": "^1.7.0",
     "pug": ">=3.0.2",
-    "tar": "^6.1.8",
     "trim-newlines": "^4.0.2"
   },
   "devDependencies": {
-    "metalsmith-metadata-directory": "^1.2.3"
+    "metalsmith-metadata-directory": "^1.2.3",
+    "tar": "^6.1.8"
+  },
+  "resolutions": {
+    "tar": "^6.1.8",
+    "trim-newlines": "^4.0.2"
   }
 }
