@@ -21,7 +21,8 @@
     "metalsmith-permalinks": "^2.1.0",
     "metalsmith-sass": "^1.7.0",
     "pug": ">=3.0.2",
-    "trim-newlines": ">=4.0.2"
+    "tar": "^6.1.8",
+    "trim-newlines": "^4.0.2"
   },
   "devDependencies": {
     "metalsmith-metadata-directory": "^1.2.3"
