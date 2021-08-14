@@ -809,13 +809,21 @@ ARIIA334:
 
 ### == Hobbycraft 1/48 kits
 
+HC1522:
+    brand: Hobbycraft
+    number: 'HC1522'
+    name: 'Bf 109G-10 "Axis Allies"'
+    scale: '1/48'
+    boxart: '48/Hobbycraft/HC1522-800.jpg'
+    scalematesId: '147833'
+
 HC1538:
     brand: Hobbycraft
     number: 'HC1538'
     name: 'Bf 109G-1/-2 "African Front"'
     scale: '1/48'
     boxart: '48/Hobbycraft/HC1538-800.jpg'
-    scalematesId: '129938-hobbycraft-hc1538-african-front-bf109g-1-2'
+    scalematesId: '129938'
 
 ### == Hobby Boss 1/48 kits
 
