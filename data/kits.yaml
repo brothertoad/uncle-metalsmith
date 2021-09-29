@@ -230,7 +230,7 @@ TAM61096:
     name: 'Republic P-47M Thunderbolt'
     scale: '1/48'
     boxart: '48/Tamiya/61096-800.jpg'
-    scalematesId: '120293'
+    scalematesId: 'tamiya-61096-republic-p-47m-thunderbolt--120293'
 
 ### == Hasegawa 1/48 kits
 
@@ -248,7 +248,15 @@ HAS51510:
     name: 'Zero Fighter Type 52 Strange Insignia USA/UK'
     scale: '1/48'
     boxart: '48/Hasegawa/SP10-800.jpg'
-    scalematesId: '141162'
+    scalematesId: 'hasegawa-51510-zero-fighter-type-52--141162'
+
+HAS52207:
+    brand: Hasegawa
+    number: '52207/SP407'
+    name: '[The Magnificent Kotobuki] A6M3 Zero Fighter Type 32 Naomi'
+    scale: '1/48'
+    boxart: '48/Hasegawa/52207-800.jpg'
+    scalematesId: 'hasegawa-sp407-magnificent-kotobuki-a6m3-zero-fighter-type-32-naomi--1212380'
 
 HAS09011:
     brand: Hasegawa
