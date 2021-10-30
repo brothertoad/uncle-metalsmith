@@ -520,6 +520,14 @@ TAM35009:
     boxart: '35/Tamiya/35009-800.jpg'
     scalematesId: '1166601'
 
+TAM35055:
+    brand: Tamiya
+    number: '35055'
+    name: 'U.S. Tank M41 Walker Bulldog'
+    scale: '1/35'
+    boxart: '35/Tamiya/35055-800.jpg'
+    scalematesId: 'tamiya-35055-m41--1231793'
+
 TAM35072:
     brand: Tamiya
     number: '35072'
