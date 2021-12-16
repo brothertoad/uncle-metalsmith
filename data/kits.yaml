@@ -608,6 +608,16 @@ TAM35353:
     boxart: '35/Tamiya/35353-800.jpg'
     scalematesId: '1076227-tamiya-35353-brummbaer'
 
+### == Tamiya 1/35 dinosaurs
+
+TAM60201:
+    brand: Tamiya
+    number: '60201'
+    name: 'Triceratops Eurycephalus'
+    scale: '1/35'
+    boxart: '35/Tamiya/60201-800.jpg'
+    scalematesId: 'tamiya-60201-triceratops-eurycephalus--179804'
+
 ### == Tamiya 1/72 kits
 
 TAM97103:
