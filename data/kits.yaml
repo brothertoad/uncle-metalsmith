@@ -14,7 +14,7 @@ TAM61016:
     name: 'Mitsubishi A6M2 Zero Fighter'
     scale: '1/48'
     boxart: '48/Tamiya/61016-800.jpg'
-    scalematesId: '1255850'
+    scalematesId: 'tamiya-61016-a6m2-zero-fighter--1255850'
 
 TAM61018:
     brand: Tamiya
@@ -22,7 +22,7 @@ TAM61018:
     name: 'Mitsubishi J2M3 Interceptor Raiden (Jack)'
     scale: '1/48'
     boxart: '48/Tamiya/61018-800.jpg'
-    scalematesId: '115180'
+    scalematesId: 'tamiya-61018-mitsubishi-j2m3-interceptor-raiden-jack--115180'
 
 TAM61025:
     brand: Tamiya
@@ -38,7 +38,7 @@ TAM61027:
     name: 'Mitsubishi A6M5c Zero Fighter (Zeke)'
     scale: '1/48'
     boxart: '48/Tamiya/61027-800.jpg'
-    scalematesId: '120376'
+    scalematesId: 'tamiya-61027-mitsubishi-a6m5c-zero-fighter-zeke--120376'
 
 TAM61032:
     brand: Tamiya
@@ -86,7 +86,7 @@ TAM61038:
     name: 'Kawanishi N1K1-Ja Shiden Type 11'
     scale: '1/48'
     boxart: '48/Tamiya/61038-800.jpg'
-    scalematesId: '140730'
+    scalematesId: 'tamiya-61038-kawanishi-n1k1-ja-shiden-type-11--140730'
 
 TAM61039:
     brand: Tamiya
@@ -150,7 +150,7 @@ TAM61048:
     name: 'Dewoitine D.520'
     scale: '1/48'
     boxart: '48/Tamiya/61048-800.jpg'
-    scalematesId: '122416'
+    scalematesId: 'tamiya-61048-dewoitine-d520--122416'
 
 TAM61050:
     brand: Tamiya
@@ -166,7 +166,7 @@ TAM61053:
     name: 'Bristol Beaufighter Mk. VI'
     scale: '1/48'
     boxart: '48/Tamiya/61053-800.jpg'
-    scalematesId: '114469'
+    scalematesId: 'tamiya-61053-bristol-beaufighter-mkvi--114469'
 
 TAM61061:
     brand: Tamiya
@@ -190,7 +190,7 @@ TAM61070:
     name: 'Vought F4U-1A Corsair'
     scale: '1/48'
     boxart: '48/Tamiya/61070-800.jpg'
-    scalematesId: '120383'
+    scalematesId: 'tamiya-61070-vought-f4u-1a-corsair--120383'
 
 TAM61081:
     brand: Tamiya
