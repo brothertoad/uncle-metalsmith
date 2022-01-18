@@ -841,7 +841,7 @@ HC1522:
     name: 'Bf 109G-10 "Axis Allies"'
     scale: '1/48'
     boxart: '48/Hobbycraft/HC1522-800.jpg'
-    scalematesId: '147833'
+    scalematesId: 'hobbycraft-hc1522-bf109g-10-axis-allies--147833'
 
 HC1538:
     brand: Hobbycraft
