@@ -280,7 +280,7 @@ HAS09013:
     name: 'Messerschmitt Bf 109G-2'
     scale: '1/48'
     boxart: '48/Hasegawa/09013-800.jpg'
-    scalematesId: '166321-hasegawa-09013-messerschmitt-bf-109-g-2'
+    scalematesId: 'hasegawa-09013-messerschmitt-bf-109-g-2--166321'
 
 HAS09063:
     brand: Hasegawa
@@ -288,7 +288,7 @@ HAS09063:
     name: 'Messerschmitt Bf 109K-4'
     scale: '1/48'
     boxart: '48/Hasegawa/09063-800.jpg'
-    scalematesId: '172494-hasegawa-09063-messerschmitt-bf109-k-4'
+    scalematesId: 'hasegawa-09063-messerschmitt-bf109-k-4--172494'
 
 HAS09064:
     brand: Hasegawa
@@ -312,7 +312,7 @@ HAS09067:
     name: 'Nakajima Ki 84-I Type 4 Hayate (Frank)'
     scale: '1/48'
     boxart: '48/Hasegawa/09067-800.jpg'
-    scalematesId: '191557-hasegawa-09067-nakajima-ki-84-i-type-4-hayate-frank'
+    scalematesId: 'hasegawa-09067-nakajima-ki-84-i-type-4-hayate-frank--191557'
 
 HAS09079:
     brand: Hasegawa
@@ -320,7 +320,7 @@ HAS09079:
     name: 'Spitfire Mk. IXc'
     scale: '1/48'
     boxart: '48/Hasegawa/09079-800.jpg'
-    scalematesId: '174650-hasegawa-09079-spitfire-mk-ixc'
+    scalematesId: 'hasegawa-09079-spitfire-mk-ixc--174650'
 
 HAS09080:
     brand: Hasegawa
@@ -328,7 +328,7 @@ HAS09080:
     name: 'Nakajima Ki 43-I Hayabusa (Oscar)'
     scale: '1/48'
     boxart: '48/Hasegawa/09080-800.jpg'
-    scalematesId: '114359-hasegawa-09080-nakajima-ki43-i-hayabusa-oscar'
+    scalematesId: 'hasegawa-09080-nakajima-ki43-i-hayabusa-oscar--114359'
 
 HAS09090:
     brand: Hasegawa
@@ -368,7 +368,7 @@ HAS09144:
     name: "Kawasaki Ki-100-I Koh (Tony) 'Fastback'"
     scale: '1/48'
     boxart: '48/Hasegawa/09144-800.jpg'
-    scalematesId: '143657-hasegawa-09144-kawasaki-ki-100-koh-tony-fastback'
+    scalematesId: 'hasegawa-09144-kawasaki-ki-100-koh-tony-fastback--143657'
 
 HAS09147:
     brand: Hasegawa
@@ -376,7 +376,7 @@ HAS09147:
     name: 'Messerschmitt Bf 109G-6'
     scale: '1/48'
     boxart: '48/Hasegawa/09147-800.jpg'
-    scalematesId: '143544-hasegawa-09147-messerschmitt-bf-109-g-6'
+    scalematesId: 'hasegawa-09147-messerschmitt-bf-109-g-6--143544'
 
 HAS09181:
     brand: Hasegawa
@@ -384,7 +384,7 @@ HAS09181:
     name: "Mitsubishi A6M3 Zero Fighter Type 32 'Houkoku'"
     scale: '1/48'
     boxart: '48/Hasegawa/09181-800.jpg'
-    scalematesId: '178438-hasegawa-09181-mitsubishi-a6m3-zero-fighter-type-32-houkoku'
+    scalematesId: 'hasegawa-09181-mitsubishi-a6m3-zero-fighter-type-32-houkoku--178438'
 
 HAS09196:
     brand: Hasegawa
@@ -392,7 +392,7 @@ HAS09196:
     name: 'Mitsubishi J2M5 Raiden (Jack) Type 33'
     scale: '1/48'
     boxart: '48/Hasegawa/09196-800.jpg'
-    scalematesId: '178443-hasegawa-09196-mitsubishi-j2m5-raiden-jack-type-33'
+    scalematesId: 'hasegawa-09196-mitsubishi-j2m5-raiden-jack-type-33--178443'
 
 HAS09255:
     brand: Hasegawa
@@ -400,7 +400,7 @@ HAS09255:
     name: "P-51D Mustang 'Checkertail Clan'"
     scale: '1/48'
     boxart: '48/Hasegawa/09255-800.jpg'
-    scalematesId: '946664-hasegawa-09255-p-51d-mustang-checkertail-clan'
+    scalematesId: 'hasegawa-09255-p-51d-mustang-checkertail-clan--946664'
 
 HAS09313:
     brand: Hasegawa
@@ -424,7 +424,7 @@ HAS09412:
     name: "Kawasaki Ki61-I Tei Type 3 Fighter Hien (Tony) '56th Flight Regiment'"
     scale: '1/48'
     boxart: '48/Hasegawa/09412-800.jpg'
-    scalematesId: '114122-hasegawa-09412-kawasaki-ki61-i-tei-type3-fighter-hien-tony-56th-flight-regiment'
+    scalematesId: 'hasegawa-09412-kawasaki-ki61-i-tei-type3-fighter-hien-tony-56th-flight-regiment--114122'
 
 HAS09424:
     brand: Hasegawa
@@ -448,7 +448,7 @@ HAS09531:
     name: "Nakajima Ki44-II Hei Shoki (Tojo) '104th Flight Regiment'"
     scale: '1/48'
     boxart: '48/Hasegawa/09531-800.jpg'
-    scalematesId: '931556-hasegawa-09531-nakajima-ki44-ii-hei-shoki-tojo-104th-flight-regiment'
+    scalematesId: 'hasegawa-09531-nakajima-ki44-ii-hei-shoki-tojo-104th-flight-regiment--931556'
 
 HAS09571:
     brand: Hasegawa
@@ -456,7 +456,7 @@ HAS09571:
     name: "Spitfire Mk. Vb 'U.S.A.A.F.'"
     scale: '1/48'
     boxart: '48/Hasegawa/09571-800.jpg'
-    scalematesId: '237795-hasegawa-09571-spitfire-mk-vb-u-s-a-a-f'
+    scalematesId: 'hasegawa-09571-spitfire-mk-vb-u-s-a-a-f--237795'
 
 HAS09600:
     brand: Hasegawa
@@ -480,7 +480,7 @@ HAS09740:
     name: "P-40N Warhawk '15,000th Anniversary'"
     scale: '1/48'
     boxart: '48/Hasegawa/09740-800.jpg'
-    scalematesId: '141185-hasegawa-09740-p-40n-warhawk-15-000th-anniversary'
+    scalematesId: 'hasegawa-09740-p-40n-warhawk-15-000th-anniversary--141185'
 
 HAS09870:
     brand: Hasegawa
@@ -488,7 +488,7 @@ HAS09870:
     name: "Kawanishi N1K1-Ja Shiden (George) Type 11 Koh 'Yokosuka Flying Group'"
     scale: '1/48'
     boxart: '48/Hasegawa/09870-800.jpg'
-    scalematesId: '101220-hasegawa-09870-kawanishi-n1k1-ja-shiden-george-type-11-koh-yokosuka-flying-group'
+    scalematesId: 'hasegawa-09870-kawanishi-n1k1-ja-shiden-george-type-11-koh-yokosuka-flying-group--101220'
 
 ### == Eduard 1/48 kits
 
@@ -542,7 +542,7 @@ TAM35142:
     name: 'KV-1B Russian Tank'
     scale: '1/35'
     boxart: '35/Tamiya/35142-800.jpg'
-    scalematesId: '132575-tamiya-35142-kv-1b'
+    scalematesId: 'tamiya-35142-kv-1b--132575'
 
 TAM35149:
     brand: Tamiya
@@ -606,7 +606,7 @@ TAM35353:
     name: 'Sd.Kfz.166 Sturmpanzer IV Brummb&auml;r'
     scale: '1/35'
     boxart: '35/Tamiya/35353-800.jpg'
-    scalematesId: '1076227-tamiya-35353-brummbaer'
+    scalematesId: 'tamiya-35353-brummbaer--1076227'
 
 ### == Tamiya 1/35 dinosaurs
 
@@ -644,7 +644,7 @@ HAS00621:
     name: "Kawasaki Ki61-I Tei Hien '18th Flight Training Unit'"
     scale: '1/72'
     boxart: '72/Hasegawa/00621-800.jpg'
-    scalematesId: '1108715-hasegawa-00621-kawasaki-ki61-i-tei-hien-18th-flight-training-unit'
+    scalematesId: 'hasegawa-00621-kawasaki-ki61-i-tei-hien-18th-flight-training-unit--1108715'
 
 HAS501:
     brand: Hasegawa
@@ -660,7 +660,7 @@ HAS507:
     name: 'Republic P-47D Razorback'
     scale: '1/72'
     boxart: '72/Hasegawa/507-800.jpg'
-    scalematesId: '431001-hasegawa-507-500-republic-p-47-d'
+    scalematesId: 'hasegawa-507-500-republic-p-47-d--431001'
 
 HAS51631:
     brand: Hasegawa
@@ -668,7 +668,7 @@ HAS51631:
     name: 'Nakajima Ki-44-II Shoki (Tojo)'
     scale: '1/72'
     boxart: '72/Hasegawa/51631-800.jpg'
-    scalematesId: '177724-hasegawa-51631-nakajima-ki-44-ii-shoki-tojo'
+    scalematesId: 'hasegawa-51631-nakajima-ki-44-ii-shoki-tojo--177724'
 
 HASB008:
     brand: Hasegawa
@@ -712,7 +712,7 @@ MONO5258:
     name: 'Hawker Mk Ib Typhoon'
     scale: '1/48'
     boxart: '48/Monogram/5258-800.jpg'
-    scalematesId: '193477-monogram-85-5258-hawker-typhoon-mk-ib'
+    scalematesId: 'monogram-85-5258-hawker-typhoon-mk-ib--193477'
 
 MONO5487:
     brand: Monogram
@@ -772,7 +772,7 @@ OT224:
     name: 'Spitfire Mk. VIII'
     scale: '1/48'
     boxart: '48/Otaki/Spitfire-800.jpg'
-    scalematesId: '313687-otaki-ot2-24-400-spitfire-mk-viii'
+    scalematesId: 'otaki-ot2-24-400-spitfire-mk-viii--313687'
 
 # Note that the boxart for this kit is actually an image of the Arii boxing of the same plastic.
 OT225:
@@ -781,7 +781,7 @@ OT225:
     name: 'Messerschmitt Bf 109G'
     scale: '1/48'
     boxart: '48/Arii/Bf-109G-6-800.jpg'
-    scalematesId: '1092034-otaki-ot2-25-600-messerschmitt-bf109g'
+    scalematesId: 'otaki-ot2-25-600-messerschmitt-bf109g--1092034'
 
 OT226:
     brand: Otaki
@@ -789,7 +789,7 @@ OT226:
     name: 'Focke-Wulf Fw 190A-8'
     scale: '1/48'
     boxart: '48/Otaki/Fw-190-800.jpg'
-    scalematesId: '313689-otaki-ot2-26-400-focke-wulf-fw190a-8'
+    scalematesId: 'otaki-ot2-26-400-focke-wulf-fw190a-8--313689'
 
 OT227:
     brand: Otaki
@@ -869,7 +869,7 @@ TSTR7625:
     name: 'Me-163 Komet'
     scale: '1/48'
     boxart: '48/Testors/625-800.jpg'
-    scalematesId: '264381-testors-7625-me-163-komet'
+    scalematesId: 'testors-7625-me-163-komet--264381'
 
 ### == Academy 1/48 kits
 
@@ -889,7 +889,7 @@ ACA1653:
     name: 'Messerschmitt Bf 109G-14'
     scale: '1/72'
     boxart: '72/Academy/1653-800.jpg'
-    scalematesId: '132317-academy-1653-messerschmitt-bf-109g-14'
+    scalematesId: 'academy-1653-messerschmitt-bf-109g-14--132317'
 
 ACA1664:
     brand: Academy
@@ -897,7 +897,7 @@ ACA1664:
     name: 'Typhoon Mk Ib'
     scale: '1/72'
     boxart: '72/Academy/1664-800.jpg'
-    scalematesId: '247726-academy-01664-typhoon-mk-ib'
+    scalematesId: 'academy-01664-typhoon-mk-ib--247726'
 
 ACA1667:
     brand: Academy
@@ -913,7 +913,7 @@ ACA1670:
     name: 'Messerschmitt Bf 109G-6'
     scale: '1/72'
     boxart: '72/Academy/1670-800.jpg'
-    scalematesId: '930788-academy-01670-messerschmitt-bf-109g-6'
+    scalematesId: 'academy-01670-messerschmitt-bf-109g-6--930788'
 
 ACA2120:
     brand: Academy
@@ -937,7 +937,7 @@ ACA2132:
     name: 'North American P-51D Mustang'
     scale: '1/72'
     boxart: '72/Academy/2132-800.jpg'
-    scalematesId: '197037-academy-2132-north-american-p-51d-mustang'
+    scalematesId: 'academy-2132-north-american-p-51d-mustang--197037'
 
 ACA2133:
     brand: Academy
@@ -945,7 +945,7 @@ ACA2133:
     name: 'Messerschmitt Bf 109E'
     scale: '1/72'
     boxart: '72/Academy/2133-800.jpg'
-    scalematesId: '203949-academy-2133-messerschmitt-bf109e'
+    scalematesId: 'academy-2133-messerschmitt-bf109e--203949'
 
 ACA2174:
     brand: Academy
@@ -969,7 +969,7 @@ ACA2224:
     name: 'F6F-3/5 Hellcat'
     scale: '1/72'
     boxart: '72/Academy/2224-800.jpg'
-    scalematesId: '103407-academy-2224-f6f-3-5-hellcat'
+    scalematesId: 'academy-2224-f6f-3-5-hellcat--103407'
 
 ACA2213:
     brand: Academy
@@ -1006,7 +1006,7 @@ REV04164:
     name: 'Supermarine Spitfire Mk V'
     scale: '1/72'
     boxart: '72/Revell/04164-800.jpg'
-    scalematesId: '123427-revell-04164-supermarine-spitfire-mk-v'
+    scalematesId: 'revell-04164-supermarine-spitfire-mk-v--123427'
 
 REV04165:
     brand: Revell
@@ -1059,7 +1059,7 @@ MENGWWT006:
     name: 'Soviet Medium Tank T-34/76'
     scale: ''
     boxart: 'other/Meng-WWT-006-800.jpg'
-    scalematesId: '1097593-meng-model-wwt-006-t-34-76'
+    scalematesId: 'meng-model-wwt-006-t-34-76--1097593'
 
 MENGWWT010:
     brand: Meng
