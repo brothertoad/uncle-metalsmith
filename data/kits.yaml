@@ -6,7 +6,7 @@ TAM61013:
     name: 'Nakajima Ki-84-IA Hayate (Frank)'
     scale: '1/48'
     boxart: '48/Tamiya/61013-800.jpg'
-    scalematesId: '120377-tamiya-61013-nakajima-ki-84-i-a-hayate-frank'
+    scalematesId: 'tamiya-61013-nakajima-ki-84-i-a-hayate-frank--120377'
 
 TAM61016:
     brand: Tamiya
@@ -46,7 +46,7 @@ TAM61032:
     name: 'Supermarine Spitfire Mk. I'
     scale: '1/48'
     boxart: '48/Tamiya/61032-800.jpg'
-    scalematesId: '123053-tamiya-61032-supermarine-spitfire-mk-i'
+    scalematesId: 'tamiya-61032-supermarine-spitfire-mk-i--123053'
 
 TAM61033:
     brand: Tamiya
@@ -54,7 +54,7 @@ TAM61033:
     name: 'Supermarine Spitfire Mk. Vb'
     scale: '1/48'
     boxart: '48/Tamiya/61033-800.jpg'
-    scalematesId: '106383-tamiya-61033-supermarine-spitfire-mk-vb'
+    scalematesId: 'tamiya-61033-supermarine-spitfire-mk-vb--106383'
 
 TAM61034:
     brand: Tamiya
@@ -62,7 +62,7 @@ TAM61034:
     name: 'Grumman F4F-4 Wildcat'
     scale: '1/48'
     boxart: '48/Tamiya/61034-800.jpg'
-    scalematesId: '133906-tamiya-61034-grumman-f4f-4-wildcat'
+    scalematesId: 'tamiya-61034-grumman-f4f-4-wildcat--133906'
 
 TAM61035:
     brand: Tamiya
@@ -70,7 +70,7 @@ TAM61035:
     name: 'Supermarine Spitfire Mk. Vb Trop.'
     scale: '1/48'
     boxart: '48/Tamiya/61035-800.jpg'
-    scalematesId: '122417-tamiya-61035-supermarine-spitfire-mk-vb-trop'
+    scalematesId: 'tamiya-61035-supermarine-spitfire-mk-vb-trop--122417'
 
 TAM61037:
     brand: Tamiya
@@ -94,7 +94,7 @@ TAM61039:
     name: 'Focke-Wulf Fw 190F-8'
     scale: '1/48'
     boxart: '48/Tamiya/61039-800.jpg'
-    scalematesId: '133918-tamiya-61039-focke-wulf-fw-190-f-8'
+    scalematesId: 'tamiya-61039-focke-wulf-fw-190-f-8--133918'
 
 TAM61040:
     brand: Tamiya
@@ -102,7 +102,7 @@ TAM61040:
     name: 'North American P-51D Mustang 8th AF'
     scale: '1/48'
     boxart: '48/Tamiya/61040-800.jpg'
-    scalematesId: '115212-tamiya-61040-north-american-p-51d-mustang-8th-af'
+    scalematesId: 'tamiya-61040-north-american-p-51d-mustang-8th-af--115212'
 
 TAM61041:
     brand: Tamiya
@@ -110,7 +110,7 @@ TAM61041:
     name: 'Focke-Wulf Fw 190D-9'
     scale: '1/48'
     boxart: '48/Tamiya/61041-800.jpg'
-    scalematesId: '107211-tamiya-61041-focke-wulf-fw-190d-9'
+    scalematesId: 'tamiya-61041-focke-wulf-fw-190d-9--107211'
 
 TAM61042:
     brand: Tamiya
@@ -118,7 +118,7 @@ TAM61042:
     name: 'North American P-51B Mustang'
     scale: '1/48'
     boxart: '48/Tamiya/61042-800.jpg'
-    scalematesId: '133919-tamiya-61042-north-american-p-51b-mustang'
+    scalematesId: 'tamiya-61042-north-american-p-51b-mustang--133919'
 
 TAM61044:
     brand: Tamiya
@@ -126,7 +126,7 @@ TAM61044:
     name: 'North American F-51D Mustang Korean War'
     scale: '1/48'
     boxart: '48/Tamiya/61044-800.jpg'
-    scalematesId: '122762-tamiya-61044-north-american-f-51d-mustang-korean-war'
+    scalematesId: 'tamiya-61044-north-american-f-51d-mustang-korean-war--122762'
 
 TAM61046:
     brand: Tamiya
@@ -158,7 +158,7 @@ TAM61050:
     name: 'Messerschmitt Bf 109E-3'
     scale: '1/48'
     boxart: '48/Tamiya/61050-800.jpg'
-    scalematesId: '129903-tamiya-61050-messerschmitt-bf-109-e-3'
+    scalematesId: 'tamiya-61050-messerschmitt-bf-109-e-3--129903'
 
 TAM61053:
     brand: Tamiya
@@ -174,7 +174,7 @@ TAM61061:
     name: 'Vought F4U-1D Corsair'
     scale: '1/48'
     boxart: '48/Tamiya/61061-800.jpg'
-    scalematesId: '133927-tamiya-61061-vought-f4u-1d-corsair'
+    scalematesId: 'tamiya-61061-vought-f4u-1d-corsair--133927'
 
 TAM61063:
     brand: Tamiya
@@ -182,7 +182,7 @@ TAM61063:
     name: 'Messerschmitt Bf 109E-4/7 Trop'
     scale: '1/48'
     boxart: '48/Tamiya/61063-800.jpg'
-    scalematesId: '106349-tamiya-61063-messerschmitt-bf-109e-4-7-trop'
+    scalematesId: 'tamiya-61063-messerschmitt-bf-109e-4-7-trop--106349'
 
 TAM61070:
     brand: Tamiya
@@ -198,7 +198,7 @@ TAM61081:
     name: 'Focke-Wulf Fw 190D-9 JV44'
     scale: '1/48'
     boxart: '48/Tamiya/61081-800.jpg'
-    scalematesId: '114328-tamiya-61081-focke-wulf-fw-190d-9'
+    scalematesId: 'tamiya-61081-focke-wulf-fw-190d-9--114328'
 
 TAM61086:
     brand: Tamiya
@@ -206,7 +206,7 @@ TAM61086:
     name: 'Republic P-47D Thunderbolt "Razorback"'
     scale: '1/48'
     boxart: '48/Tamiya/61086-800.jpg'
-    scalematesId: '121538-tamiya-61086-republic-p-47d-thunderbolt'
+    scalematesId: 'tamiya-61086-republic-p-47d-thunderbolt--121538'
 
 TAM61090:
     brand: Tamiya
@@ -214,7 +214,7 @@ TAM61090:
     name: 'Republic P-47D Thunderbolt "Bubbletop"'
     scale: '1/48'
     boxart: '48/Tamiya/61090-800.jpg'
-    scalematesId: '106382-tamiya-61090-republic-p-47d-thunderbolt-bubbletop'
+    scalematesId: 'tamiya-61090-republic-p-47d-thunderbolt-bubbletop--106382'
 
 TAM61095:
     brand: Tamiya
@@ -222,7 +222,7 @@ TAM61095:
     name: 'Focke-Wulf Fw 190A-8/A-8 R2'
     scale: '1/48'
     boxart: '48/Tamiya/61095-800.jpg'
-    scalematesId: '104771-tamiya-61095-focke-wulf-fw-190a-8-r2'
+    scalematesId: 'tamiya-61095-focke-wulf-fw-190a-8-r2--104771'
 
 TAM61096:
     brand: Tamiya
@@ -264,7 +264,7 @@ HAS09011:
     name: 'Messerschmitt Bf 109F-4'
     scale: '1/48'
     boxart: '48/Hasegawa/09011-800.jpg'
-    scalematesId: '120374-hasegawa-09011-messerschmitt-bf109f-4'
+    scalematesId: 'hasegawa-09011-messerschmitt-bf109f-4--120374'
 
 HAS09012:
     brand: Hasegawa
