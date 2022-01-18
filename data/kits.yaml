@@ -263,7 +263,8 @@ HAS64742:
     number: '64742'
     name: '[Shidenkai no Maki] Mitsubishi J2M3 Raiden (Jack) Type 32 "Nakayoshi"'
     scale: '1/48'
-    boxart: '48/Hasegawa/64742-800.jpg'
+    # note unusual boxart dimension
+    boxart: '48/Hasegawa/64742-500.jpg'
     scalematesId: 'hasegawa-64742-mitsubishi-j2m3-raiden-jack-type21-nakayoshi--1078854'
 
 HAS09011:
