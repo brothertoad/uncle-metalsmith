@@ -240,7 +240,7 @@ HASJ001:
     name: 'Messerschmitt Bf 109E-3'
     scale: '1/48'
     boxart: 'None'
-    scalematesId: '167691'
+    scalematesId: 'hasegawa-j001-1500-messerschmitt-bf109e-3--167691'
 
 HAS51510:
     brand: Hasegawa
@@ -272,7 +272,7 @@ HAS09012:
     name: "Messerschmitt Bf 109F-4 Trop"
     scale: '1/48'
     boxart: '48/Hasegawa/09012-800.jpg'
-    scalematesId: '953264'
+    scalematesId: 'hasegawa-09012-messerschmitt-bf109f-4-trop--953264'
 
 HAS09013:
     brand: Hasegawa
@@ -304,7 +304,7 @@ HAS09065:
     name: 'Hurricane Mk. I'
     scale: '1/48'
     boxart: 'None'
-    scalematesId: '197451'
+    scalematesId: 'hasegawa-09065-hurricane-mki--197451'
 
 HAS09067:
     brand: Hasegawa
@@ -336,7 +336,7 @@ HAS09090:
     name: 'Focke Wulf Fw 190A-3'
     scale: '1/48'
     boxart: 'None'
-    scalematesId: '104128'
+    scalematesId: 'hasegawa-09090-focke-wulf-fw190a-3--104128'
 
 HAS09111:
     brand: Hasegawa
@@ -344,7 +344,7 @@ HAS09111:
     name: "Messerschmitt Bf 109E 'Galland'"
     scale: '1/48'
     boxart: '48/Hasegawa/09111-800.jpg'
-    scalematesId: '147880'
+    scalematesId: 'hasegawa-09111-messerschmitt-bf109e-galland--147880'
 
 HAS09138:
     brand: Hasegawa
@@ -360,7 +360,7 @@ HAS09141:
     name: "P-47D-30/40 Thunderbolt"
     scale: '1/48'
     boxart: '48/Hasegawa/09141-800.jpg'
-    scalematesId: '948498'
+    scalematesId: 'hasegawa-09141-p-47d-30-40-thunderbolt--948498'
 
 HAS09144:
     brand: Hasegawa
@@ -408,7 +408,7 @@ HAS09313:
     name: "Messerschmitt Bf 109G-6 'JG 53'"
     scale: '1/48'
     boxart: 'None'
-    scalematesId: '197201'
+    scalematesId: 'hasegawa-09313-messerschmitt-bf109g-6-jg53--197201'
 
 HAS09363:
     brand: Hasegawa
@@ -416,7 +416,7 @@ HAS09363:
     name: "Messerschmitt Bf 109G-6 'Barkhorn'"
     scale: '1/48'
     boxart: '48/Hasegawa/09363-800.jpg'
-    scalematesId: '582781'
+    scalematesId: 'hasegawa-09363-messerschmitt-bf109g-6-barkhorn--582781'
 
 HAS09412:
     brand: Hasegawa
@@ -432,7 +432,7 @@ HAS09424:
     name: "Spitfire Mk. IXe"
     scale: '1/48'
     boxart: '48/Hasegawa/09424-800.jpg'
-    scalematesId: '958074'
+    scalematesId: 'hasegawa-09424-spitfire-mkixe--958074'
 
 HAS09508:
     brand: Hasegawa
@@ -440,7 +440,7 @@ HAS09508:
     name: "Nakajima Ki43-II Hayabusa (Oscar) '248th Flight Regiment'"
     scale: '1/48'
     boxart: '48/Hasegawa/09508-800.jpg'
-    scalematesId: '931552'
+    scalematesId: 'hasegawa-09508-nakajima-ki43-ii-hayabusa-oscar--931552'
 
 HAS09531:
     brand: Hasegawa
@@ -464,7 +464,7 @@ HAS09600:
     name: "F6F-5 Hellcat 'French Navy'"
     scale: '1/48'
     boxart: '48/Hasegawa/09600-800.jpg'
-    scalematesId: '931572'
+    scalematesId: 'hasegawa-09600-f6f-5-hellcat-french-navy--931572'
 
 HAS09728:
     brand: Hasegawa
@@ -472,7 +472,7 @@ HAS09728:
     name: "Nakajima Ki43-II Hayabusa (Oscar) 'Mainland Defense'"
     scale: '1/48'
     boxart: 'None'
-    scalematesId: '631185'
+    scalematesId: 'hasegawa-09728-nakajima-ki43-ii-hayabusa-oscar--631185'
 
 HAS09740:
     brand: Hasegawa
@@ -518,7 +518,7 @@ TAM35009:
     name: 'Panzer Kampfwagen II Ausf. F/G'
     scale: '1/35'
     boxart: '35/Tamiya/35009-800.jpg'
-    scalematesId: '1166601'
+    scalematesId: 'tamiya-35009-panzerkampfwagen-ii-ausf-f-g--1166601'
 
 TAM35055:
     brand: Tamiya
@@ -534,7 +534,7 @@ TAM35072:
     name: 'Russian Tank Destroyer SU-85'
     scale: '1/35'
     boxart: '35/Tamiya/35072-800.png'  # note png, not jpg
-    scalematesId: '132522'
+    scalematesId: 'tamiya-mm72-tank-destroyer-su-85--132522'
 
 TAM35142:
     brand: Tamiya
@@ -558,7 +558,7 @@ TAM35170:
     name: 'German Panther Type G Early Version'
     scale: '1/35'
     boxart: '35/Tamiya/35170-800.jpg'
-    scalematesId: '132718'
+    scalematesId: 'tamiya-35170-panther-type-g--132718'
 
 TAM35174:
     brand: Tamiya
@@ -566,7 +566,7 @@ TAM35174:
     name: 'German Panther Type G Steel Wheel Version'
     scale: '1/35'
     boxart: '35/Tamiya/35174-800.jpg'
-    scalematesId: '103425'
+    scalematesId: 'tamiya-35174-panther-type-g--103425'
 
 TAM35250:
     brand: Tamiya
@@ -574,7 +574,7 @@ TAM35250:
     name: 'M4A3 Sherman 75mm Gun'
     scale: '1/35'
     boxart: '35/Tamiya/35250-800.jpg'
-    scalematesId: '103079'
+    scalematesId: 'tamiya-35250-m4a3-sherman--103079'
 
 TAM35251:
     brand: Tamiya
@@ -582,7 +582,7 @@ TAM35251:
     name: 'M4A3 Sherman 105mm Howitzer'
     scale: '1/35'
     boxart: '35/Tamiya/35251-800.jpg'
-    scalematesId: '105342'
+    scalematesId: 'tamiya-35251-m4a3-sherman--105342'
 
 TAM35270:
     brand: Tamiya
@@ -626,7 +626,7 @@ TAM97103:
     name: 'Raiden Mitsubishi J2M3 "Jack"'
     scale: '1/72'
     boxart: '72/Tamiya/97103-800.jpg'
-    scalematesId: '172612'
+    scalematesId: 'tamiya-97103-mitsubishi-j2m3-jack--172612'
 
 ### == Hasegawa 1/72 kits
 
@@ -636,7 +636,7 @@ HAS00372:
     name: "P-40E Warhawk 'Aleutian Tiger'"
     scale: '1/72'
     boxart: '72/Hasegawa/00372-800.jpg'
-    scalematesId: '264620'
+    scalematesId: 'hasegawa-00372-p-40e-warhawk-aleutian-tiger--264620'
 
 HAS00621:
     brand: Hasegawa
@@ -684,7 +684,7 @@ HASA8:
     name: 'Republic P-47D Thunderbolt'
     scale: '1/72'
     boxart: 'None'
-    scalematesId: '257481'
+    scalematesId: 'hasegawa-a8-republic-p-47d-thunderbolt--257481'
 
 ### == Hasegawa egg kits
 
@@ -694,7 +694,7 @@ HAS60132:
     name: "Mikoyan-15"
     scale: 'N/A'
     boxart: 'other/Hasegawa-60132-800.jpg'
-    scalematesId: '170351'
+    scalematesId: 'hasegawa-60132-mikoyan-15--170351'
 
 ### == Monogram 1/48 kits
 
@@ -704,7 +704,7 @@ MONOPA90:
     name: 'Hawker Hurricane'
     scale: '1/48'
     boxart: '48/Monogram/PA90-800.jpg'
-    scalematesId: '186968'
+    scalematesId: 'monogram-pa90-hawker-hurricane--186968'
 
 MONO5258:
     brand: Monogram
@@ -720,7 +720,7 @@ MONO5487:
     name: 'P-47D Thunderbolt'
     scale: '1/48'
     boxart: '48/Monogram/5487-800.jpg'
-    scalematesId: '234558'
+    scalematesId: 'monogram-5487-thunderbolt-p-47d--234558'
 
 MONO6802:
     brand: Monogram
@@ -736,7 +736,7 @@ MONO6838:
     name: 'P-47D Thunderbolt "The Turtle"'
     scale: '1/48'
     boxart: '48/Monogram/6838-800.jpg'
-    scalematesId: '159066'
+    scalematesId: 'monogram-6838-thunderbolt-p-47d--159066'
 
 ### == Otaki 1/48 kits
 
@@ -747,7 +747,7 @@ OT204:
     name: 'A6M5 Type 52 "Zeke"'
     scale: '1/48'
     boxart: '48/Arii/A6M5-800.jpg'
-    scalematesId: '1092041'
+    scalematesId: 'otaki-ot2-4-300-type-zero-carrier-fighter-a6m5-zeke--1092040'
 
 # Note that the boxart for this kit is actually an image of the Arii boxing of the same plastic.
 OT205:
@@ -756,7 +756,7 @@ OT205:
     name: 'Nakajima Ki-43 Hayabusa "Oscar"'
     scale: '1/48'
     boxart: '48/Arii/Ki-43-800.jpg'
-    scalematesId: '1092115'
+    scalematesId: 'otaki-ot2-5-600-nakajima-ki-43-hayabusa-oscar--1092115'
 
 OT214:
     brand: Otaki
@@ -764,7 +764,7 @@ OT214:
     name: 'Japanese Army Ki44 Fighter "Tojo"'
     scale: '1/48'
     boxart: '48/Otaki/Ki-44-800.jpg'
-    scalematesId: '313698'
+    scalematesId: 'otaki-ot2-14-nakajima-ki-44-shoki-tojo--313698'
 
 OT224:
     brand: Otaki
@@ -797,7 +797,7 @@ OT227:
     name: 'Chance Voight F4U-1A Corsair'
     scale: '1/48'
     boxart: '48/Otaki/Corsair-800.jpg'
-    scalematesId: '211462'
+    scalematesId: 'otaki-ot2-27-500-chance-vought-f4u-1a-corsair--313690'
 
 OT228:
     brand: Otaki
@@ -805,7 +805,7 @@ OT228:
     name: 'Republic P-47D Thunderbolt'
     scale: '1/48'
     boxart: 'None'
-    scalematesId: '1023958'
+    scalematesId: 'otaki-ot2-28-600-republic-p-47d-thunderbolt--1023958'
 
 ### == Arii 1/48 kits
 
@@ -815,7 +815,7 @@ ARIIA325:
     name: 'Kawasaki Ki-100 Tony'
     scale: '1/48'
     boxart: '48/Arii/Ki100-800.jpg'
-    scalematesId: '114118'
+    scalematesId: 'arii-a325-600-kawasaki-ki-100-tony--114118'
 
 ARIIA328:
     brand: Arii
@@ -823,7 +823,7 @@ ARIIA328:
     name: "Nakajima Ki44 'Shoki' (Tojo)"
     scale: '1/48'
     boxart: '48/Arii/Ki44-800.jpg'
-    scalematesId: '937425'
+    scalematesId: 'arii-a328-600-nakajima-ki44-shoki-tojo--937425'
 
 ARIIA334:
     brand: Arii
@@ -831,7 +831,7 @@ ARIIA334:
     name: 'Messerschmitt Bf109G'
     scale: '1/48'
     boxart: '48/Arii/Bf-109G-6-800.jpg'
-    scalematesId: '313633'
+    scalematesId: 'arii-a334-800-messerschmitt-bf109g--313633'
 
 ### == Hobbycraft 1/48 kits
 
@@ -849,7 +849,7 @@ HC1538:
     name: 'Bf 109G-1/-2 "African Front"'
     scale: '1/48'
     boxart: '48/Hobbycraft/HC1538-800.jpg'
-    scalematesId: '129938'
+    scalematesId: 'hobbycraft-hc1538-african-front-bf109g-1-2--129938'
 
 ### == Hobby Boss 1/48 kits
 
@@ -859,7 +859,7 @@ HB80357:
     name: 'F8F-1B Bearcat'
     scale: '1/48'
     boxart: '48/HobbyBoss/80357-800.jpg'
-    scalematesId: '101382'
+    scalematesId: 'hobbyboss-80357-f8f-1b-bearcat--101382'
 
 ### == Testors 1/48 kits
 
@@ -921,7 +921,7 @@ ACA2120:
     name: 'Focke Wulf Fw190A-6/8'
     scale: '1/72'
     boxart: '72/Academy/2120-800.jpg'
-    scalematesId: '203945'
+    scalematesId: 'academy-2120-fockewulf-fw190a-6-8--203945'
 
 ACA2129:
     brand: Academy
@@ -929,7 +929,7 @@ ACA2129:
     name: 'Hurricane Mk.IIc'
     scale: '1/72'
     boxart: '72/Academy/2129-800.jpg'
-    scalematesId: '1020877'
+    scalematesId: 'academy-2129-hurricane-mkiic--1020877'
 
 ACA2132:
     brand: Academy
@@ -953,7 +953,7 @@ ACA2174:
     name: 'P-47D Thunderbolt "Bubble Top"'
     scale: '1/72'
     boxart: 'None'
-    scalematesId: '107421'
+    scalematesId: 'academy-2174-p-47d-thunderbolt-bubble-top--107421'
 
 ACA2176:
     brand: Academy
@@ -961,7 +961,7 @@ ACA2176:
     name: 'A6M5c Zero Fighter Type 52c'
     scale: '1/72'
     boxart: '72/Academy/2176-800.jpg'
-    scalematesId: '1027260'
+    scalematesId: 'academy-2176-a6m5c-zero-fighter-type-52c--1027260'
 
 ACA2224:
     brand: Academy
@@ -977,7 +977,7 @@ ACA2213:
     name: 'Focke-Wulf Fw 190A-8 "Heinz B&auml;r" With K&uuml;belwagen'
     scale: '1/72'
     boxart: '72/Academy/2213-800.jpg'
-    scalematesId: '107451'
+    scalematesId: 'academy-2213-fockewulf-fw-190a8--107451'
 
 ACA12474:
     brand: Academy
@@ -995,7 +995,7 @@ ITAL2719:
     name: 'Bf 109G-6 Italian Aces'
     scale: '1/48'
     boxart: '48/Italeri/2719-800.jpg'
-    scalematesId: '141147'
+    scalematesId: 'italeri-2719-messerschmitt-bf-109g-6-italian-aces--141147'
 
 
 ### == Revell 1/72 kits
@@ -1014,7 +1014,7 @@ REV04165:
     name: 'Focke Wulf Fw 190 A-8/R-11'
     scale: '1/72'
     boxart: '72/Revell/04165-800.jpg'
-    scalematesId: '165847'
+    scalematesId: 'revell-04165-focke-wulf-fw-190-a-8-r-11--165847'
 
 ### == Revell 1/48 kits
 
@@ -1025,7 +1025,7 @@ REV5225:
     name: 'Messerschmitt Me-109G'
     scale: '1/48'
     boxart: '48/Revell/85-5225-834.jpg'
-    scalematesId: '949654'
+    scalematesId: 'revell-85-5225-messerschmitt-me-109g--949654'
 
 ### == Meng
 
@@ -1067,7 +1067,7 @@ MENGWWT010:
     name: 'U.S. Heavy Tank M26 Pershing'
     scale: ''
     boxart: 'other/Meng-WWT-010-800.jpg'
-    scalematesId: '1143767'
+    scalematesId: 'meng-model-wwt-010-m26-pershing--1143767'
 
 MENGWWT011:
     brand: Meng
