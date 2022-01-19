@@ -1,0 +1,477 @@
+IPMS DAYTON tamiya mixes 
+
+These recipes have been collected from various sources around the web and Tamiya instructions.  There are duplicates in the list and sometimes they conflict with each other. So... you're mileage may vary.  Some of these are probably older mixes and new color releases have superseded the need for that particular color mix. 
+
+
+LUFTWAFFE
+RLM 02--&gt; XF22:1 + XF49:1 or just XF-22
+RLM 65--&gt; XF23:1 + XF2:1
+RLM 71--&gt; XF62:1 + XF49:1
+RLM 74--&gt; XF24:3 + XF27:2
+RLM 75--&gt; XF24:5 + XF50:1
+RLM 76--&gt; XF2:7 + XF23:1 + XF66:2
+RLM 79--&gt; XF59:3 + XF64:1
+RLM 80--&gt; XF58
+RLM 81--&gt; XF51:1 + XF64:2
+RLM 82--&gt; XF5 or XF5:1 + XF2:1 or XF5:1 +XF3:1 (Bright Green)
+RLM 83--&gt; XF61 or XF24:1 + XF51:1 or XF24:1 +XF51:1 (Dark Green)
+
+Tamiya instruction sheets: 
+LUFTWAFFE 
+
+RLM 02:- XF22:1 + XF49:1 or just XF-22 
+RLM 65:- XF23:1 + XF2:1 
+RLM 70: XF27 
+RLM 71:- XF62:1 + XF49:1 
+RLM 74:- XF24:3 + XF27:2 
+RLM 75:- XF24:5 + XF50:1 
+RLM 76:- XF2:7 + XF23:1 + XF66:2 
+RLM 79:- XF59:3 + XF64:1 
+RLM 80:- XF58 
+RLM 81:- XF51:1 + XF64:2 
+RLM 82:- XF5 or XF5:1 + XF2:1 or XF5:1 +XF3:1 (Bright Green) 
+RLM 83:- XF61 or XF24:1 + XF51:1 (Dark Green) 
+RLM 78:- XF-23:4 and XF-50:1 
+
+
+From other modelers: 
+
+RLM 71 XF 61 Dark Green Straight 
+
+
+RLM 78 is a close match to FS 35414. Use Tamiya XF23 light blue and add white. I think the formula I have is 3 parts XF23 to 1 part XF2. 
+
+
+RLM 02: XF22:1 + XF49:1 + XF2:2 
+RLM 65: XF23:2 + XF2:1 
+RLM 66: XF24 Straight from the bottle. 
+RLM 70: XF27 Straight from the bottle. Add a drop of black to darken if desired. 
+RLM 71: XF62:1 + XF49:1 or XF61:3 + XF2:1 or XF81 straight from the bottle. 
+RLM 74: XF24:3 + XF27:2 
+RLM 75: XF24:5 + XF50:1 
+RLM 76: XF2:7 + XF23:1 + XF66:2 
+RLM 78: XF23:4 + XF50:1 
+RLM 79: XF59:3 + XF64:1 
+RLM 80: XF58:6 + XF2:1 
+RLM 81: XF51:1 + XF64:2 OR Dunkelgrun = XF61:4 + XF2:1 (FS34096) 
+RLM 82: XF5:1 +XF3:1 (Bright Green) 
+RLM 83: XF5 Straight from the bottle. 
+
+
+RAF:
+INTERIOR GREEN---&gt; XF5:1 + XF21:3 + XF65:1
+DARK GREEN--&gt; XF58:1 + XF62:5
+DARK EARTH--&gt; XF52:1 + XF64:1
+OCEAN GRAY--&gt; XF18:1 + XF21:2 + XF24:2
+MIDSTONE------&gt; XF59:1 + XF60:1
+SKY----------------&gt; XF21:1 + XF2:1.5 (from Roy Sutherland)
+MED. SEA GRAY--&gt; XF19:3 + XF54:5
+AZURE BLUE---&gt; X16:2 + XF2:10 + XF18:5
+
+
+
+FAA COLORS
+Extra Dark Sea Grey: To 50 parts of XF24 (dark grey), add 6 parts XF2 (white), and 3 parts XF8 (flat blue). (Thanks to Roy Sutherland for this recipe)
+
+Dark Slate Grey: To one bottle of XF22 (RLM Grey), add 35 drops of XF7 (red), and 125 drops of XF1 (flat black). or T:XF-11 + 63? (Thanks to Roy Sutherland for this recipe)
+
+
+"RLM Grey" (XF-22) is a good match for "Slate Grey", used for RAF Coastal Command finishes, as well as Fleet Air Arm colors.
+
+
+"Dark Sea Grey" (XF-54) is a good match for "Dark Sea Grey," used for Coastal Command and FAA camouflages. This is also good for the US "Equivalent Color" for "Ocean Grey" ANA 603, used on Mustang IIIs, etc.
+
+'"RLM Gray" (XF-22) for "Slate Grey"
+
+“Light Sea Grey” (XF-25) for "Light Sea Grey" 
+
+"Sky" (XF-21) - I think this is the most accurate version of this color.
+
+"Sky Grey" (XF-19) is perfect for the "Sky Grey" color used on FAA aircraft before they went with the "Sky" lower surfaces, also for the US "Equivalent Color" used for ANA 602
+
+"Medium Grey" (XF-20) is good as "Sea Grey Medium," the lower surface camouflage for RAF aircraft after 1941. 
+
+
+
+Here are Tamiya mixes to reproduce some Federal Standards (FS) Colors.
+Last updated: 2012-08-11
+
+
+
+The hyperlink included with the colors sends you to the Federal Standard 595 Color Server website to give you an idea of how the colors look.
+
+The mix ratios are by parts, i.e. XF2:1 means XF2 Flat White 1 part (1 drop or 1 gallon, the mix stays the same)
+
+Warning: Several mixes I've tested myself (those with an *) but most of them come from Tamiya instructions, articles found in magazines and the web. I find them good but these are in no way definitive. They serve as a general guide that you can modify to taste.
+
+Scale effect: for those who believe, the smaller the scale, the lighter the colors. Thes mixes are formulated for 1/32 but you can add XF2:1 for 1/48 or XF2:2 for 1/72 as a start. Lighten to taste.
+
+Browns X0XXX
+
+*30051 -- US NATO Brown CARC 383 -- XF10:6+ XF69:1 
+http://www.colorserver.net/showcolor.asp?fs=30051
+
+20061 -- Tea Brown (WW2 Japan Propeller) -- X9 Brown:6 + XF7 Red:3 + XF1:1
+http://www.colorserver.net/showcolor.asp?fs=20061
+
+30070 -- RAL 8017 WW2 German Red Grown -- XF-64:8 + XF-49:2
+http://www.colorserver.net/showcolor.asp?fs=30070
+
+30075 -- XF79
+http://www.colorserver.net/showcolor.asp?fs=30075
+
+30108 -- Red Brown -- XF-10
+http://www.colorserver.net/showcolor.asp?fs=30108
+
+30111 -- XF68:3 + XF2:1
+http://www.colorserver.net/showcolor.asp?fs=30111
+
+30117 -- MERDC Brown -- XF64:1 + XF2:1
+http://www.colorserver.net/showcolor.asp?fs=30117
+
+30118 -- RAF DARK EARTH 
+*Mix 1--XF-52:1 + XF64:1 + XF-2:1 
+*Mix 2--XF-52 (Tamiya Spitfire VIII 1/32 instruction)
+*Mix 3--XF-52:4 + XF-3:2+ XF-51:1 + XF-2:1 
+http://www.colorserver.net/showcolor.asp?fs=30118 
+
+30140 -- XF52:1 + XF64:1 (Tamiya F-16 Agg 1/48 Instructions)
+http://www.colorserver.net/showcolor.asp?fs=30140
+
+*30145 -- XF52
+http://www.colorserver.net/showcolor.asp?fs=30145
+
+*30219 -- RLM 79 -- XF59:6 + XF64:2 + XF2:1 
+http://www.colorserver.net/showcolor.asp?fs=30219
+
+30257 -- Australian Army 
+*Mix 1 -- XF52:2 + XF15:2 + XF2:1
+*Mix 2 -- (MERDC Pale Brown) -- XF-52:1 + XF57:8 
+http://www.colorserver.net/showcolor.asp?fs=30257
+
+30266 -- RAF MIDSTONE -- XF59:1 + XF60:1+ XF-2:1
+http://www.colorserver.net/showcolor.asp?fs=30266
+
+30277 -- MERDC Sand -- XF57:4 + XF63:1
+http://www.colorserver.net/showcolor.asp?fs=30277
+
+30279 -- XF79:9 +XF7:1
+http://www.colorserver.net/showcolor.asp?fs=30279
+
+30318 -- XF57
+http://www.colorserver.net/showcolor.asp?fs=30318
+
+30400 -- XF15:1 + XF2:1 + XF59:1 (Tamiya F-16 Agg 1/48 Instructions)
+http://www.colorserver.net/showcolor.asp?fs=30400
+
+Reds X1XXX
+
+*31668 -- PRU Pink -- XF9:1 + XF7:1 + XF2:9
+http://www.colorserver.net/showcolor.asp?fs=31668
+
+Oranges X2XXX
+
+22300 -- Orange-yellow japan (trainer/experimental) -- X8:18 + X7:1 
+http://www.colorserver.net/showcolor.asp?fs=22300
+
+32519 -- XF15:3 + XF55:1 
+http://www.colorserver.net/showcolor.asp?fs=32519
+
+Yellows X3XXX
+
+33245 -- RAL 8000 WW2 German Africa Yellow -- XF-49:8 + X-6:1 + XF-2:2
+http://www.colorserver.net/showcolor.asp?fs=33245
+
+33303 -- XF60:3 + XF2:1
+http://www.colorserver.net/showcolor.asp?fs=33303
+
+33481 -- RAL 7028 WW2 German Dark Yellow -- XF60:7 + XF2:3
+http://www.colorserver.net/showcolor.asp?fs=33481
+
+33522 -- RAL 7028 End of war -- XF-20:1 + XF-2:4 + 1 tiny drop of red
+http://www.colorserver.net/showcolor.asp?fs=33522
+
+Greens X4XXX
+
+34036 -- Nakajima Dark Green (Navy) -- XF11:5 + XF2:1
+http://www.colorserver.net/showcolor.asp?fs=34036
+
+34050 -- RLM 70 -- XF27:4 + XF2:1
+http://www.colorserver.net/showcolor.asp?fs=34050
+
+34052 -- RLM 80 -- XF58:6 + XF2:1
+http://www.colorserver.net/showcolor.asp?fs=34052
+
+34056 -- WW2 Soviet -- XF-61:7 + XF-60:3
+http://www.colorserver.net/showcolor.asp?fs=34056
+
+34058 -- (Tamiya F-16 Agg 1/48 Instruction) -- XF-70
+http://www.colorserver.net/showcolor.asp?fs=34058
+
+34077 -- J.A. Green -- XF-13
+http://www.colorserver.net/showcolor.asp?fs=34077
+
+34079 -- RAF DARK GREEN 
+*Mix 1 -- XF58:1 + XF62:5 + XF-2:1
+*Mix 2 -- New Tamiya Color: Dark Green 2 (RAF)-- XF-81
+*Mix 3 -- RLM 71 -- XF62:1 + XF49:1 + XF2:1
+*Mix 4 -- XF61:1 + XF65:1 + XF2:1
+http://www.colorserver.net/showcolor.asp?fs=34079
+
+34083 -- RAL 6003 WW2 German Dark Green -- XF-61:7 + XF-60:3
+http://www.colorserver.net/showcolor.asp?fs=34083
+
+34084 -- RLM 74 -- XF24:2 + XF-51:1 + XF27:1 + XF2:4 
+http://www.colorserver.net/showcolor.asp?fs=34084
+
+34086 -- RLM 74 (variation) -- XF24:2 + XF27:1 + XF2:3 
+http://www.colorserver.net/showcolor.asp?fs=34086
+
+34088 
+Mix 1 -- RLM 81 -- XF61:5 + XF-7:1 + XF2:2
+Mix 2 -- WW2 UK+Canada Armor -- XF-62:6 + XF-49:4
+http://www.colorserver.net/showcolor.asp?fs=34088
+
+34092
+Mix 1 -- Medium Green USAAF -- XF13:1 + XF2:1
+Mix 2 -- XF26:3 +XF2:1
+http://www.colorserver.net/showcolor.asp?fs=34092
+
+*34094 -- CARC 383 Nato Green -- XF-67
+http://www.colorserver.net/showcolor.asp?fs=34094
+
+34096 -- Dark Green
+Mix 1 -- Mitsubishi Dark Green -- X5:5 + XF3:3 + X3:2
+*Mix 2 -- WW2 US Armor --XF62:4 + XF49:1
+*Mix 3 -- RLM 81 -- XF61:4 + XF2:1
+http://www.colorserver.net/showcolor.asp?fs=34096
+
+*34097 -- RLM 83 -- XF62:4 + XF2:1
+http://www.colorserver.net/showcolor.asp?fs=34097
+
+*34098 -- Cougar/Grizzly/Husky -- XF67:3 + XF59:2
+http://www.colorserver.net/showcolor.asp?fs=34098
+
+*34102 -- Forest Green -- XF5:3 + XF13:3 + XF2:1
+http://www.colorserver.net/showcolor.asp?fs=34102
+
+*34110 -- France Nato Green -- XF5
+http://www.colorserver.net/showcolor.asp?fs=34110
+
+34128 -- Australian Army -- XF-62:3 + XF-52:3 + XF-2:1
+http://www.colorserver.net/showcolor.asp?fs=34128
+
+34138 -- RLM 82 -- XF5:1 + XF3:1 + XF2:1 
+http://www.colorserver.net/showcolor.asp?fs=34138
+
+34151 -- Loam Green MERDC -- XF5:1 + XF57:3
+http://www.colorserver.net/showcolor.asp?fs=34151
+
+*34159 -- XF73:3 + XF2:1
+http://www.colorserver.net/showcolor.asp?fs=34159
+
+*34172 -- Cougar Grizzly Husky -- XF70:1 + XF59:3
+http://www.colorserver.net/showcolor.asp?fs=34172
+
+*34201 -- XF-49:3 + XF2:1 
+http://www.colorserver.net/showcolor.asp?fs=34201
+
+34227 -- RAF INTERIOR GREEN (vert intérieur) 
+*Mix 1 -- XF-71:1 + XF-21:1 + XF-2:1
+Mix 2 -- XF5:1 + XF-21:3 + XF-65:1 + XF-2:1
+http://www.colorserver.net/showcolor.asp?fs=34227
+
+34255 -- Nakajima Interior grey-Green -- XF2:9 + X1:3 + X5:3 + X8:2 
+http://www.colorserver.net/showcolor.asp?fs=34255
+
+34424 -- RLM 84 -- XF14
+http://www.colorserver.net/showcolor.asp?fs=34424 
+
+34432 -- RLM 84 Variation -- XF12
+http://www.colorserver.net/showcolor.asp?fs=34432 
+
+*34504 -- RAF SKY -- XF-21:1 + XF-2:1
+http://www.colorserver.net/showcolor.asp?fs=34504
+
+Blues X5XXX
+
+15042 -- USN Glossy Sea Blue ANA 623 -- XF-17:1 + XF-8:1
+http://www.colorserver.net/showcolor.asp?fs=15042
+
+35045 -- USN NON-SPEC. SEA BLUE ANA 607 -- XF-17:5 + XF-8:3 + XF-2:2
+http://www.colorserver.net/showcolor.asp?fs=35045
+
+35052 -- XF8:9 + XF7:1
+http://www.colorserver.net/showcolor.asp?fs=35052
+
+35109 -- XF8:3 + XF2:4 (Tamiya F-16 Agg 1/48 Instruction)
+http://www.colorserver.net/showcolor.asp?fs=35109
+
+35164 -- USN INTERMEDIATE BLUE ANA 608 -- XF18:5 + XF-2:3
+http://www.colorserver.net/showcolor.asp?fs=35164
+
+35189 -- USN BLUE-GREY -- XF18:1 + XF-2:1
+http://www.colorserver.net/showcolor.asp?fs=35189
+
+35190 -- PRU BLUE -- XF18:1 + X14:2 +XF-2:2
+http://www.colorserver.net/showcolor.asp?fs=35190
+
+35231 -- RAF AZURE BLUE 
+*Mix 1-- X16:2 + XF-2:4 
+*Mix 2-- XF-8:1 + XF-2:3 (Tamiya Spit VIII 1/32 instructions)
+http://www.colorserver.net/showcolor.asp?fs=35231
+
+35237 
+*Mix 1 -- XF-66:1 + XF-19:1 + XF-2:2 + 
+*Mix 2 -- CF-18 -- XF66:1 + XF54:1 + XF2:2 
+http://www.colorserver.net/showcolor.asp?fs=35237
+
+35250 -- XF8:5 + XF19:1 + XF2:5 
+http://www.colorserver.net/showcolor.asp?fs=35250
+
+35352 -- RLM 65 -- XF23:4+ XF2:1
+http://www.colorserver.net/showcolor.asp?fs=35352
+
+35414 -- RLM 78 -- XF23:5 + XF54:1 + XF2:2
+http://www.colorserver.net/showcolor.asp?fs=35414 
+
+35450 -- X14:1 + XF2:6 (Tamiya F-16 Agg 1/48 Instructions)
+http://www.colorserver.net/showcolor.asp?fs=35450
+
+35488 -- SU-27 -- XF8:5 + XF19:1 + XF2:10 
+http://www.colorserver.net/showcolor.asp?fs=35488
+
+35526 -- XF8:1 + XF2:10 (Tamiya F-16 Agg 1/48 Instruction)
+http://www.colorserver.net/showcolor.asp?fs=35526
+
+35622 -- RLM 76 and 84(blue variation) 
+*Mix 1 -- XF18:1 + XF24:5 + XF2:10
+*Mix 2 -- XF23:1 + XF2:3 (Tamiya F-16 Agg 1/48 Instruction)
+http://www.colorserver.net/showcolor.asp?fs=35622
+
+Greys X6XXX
+
+36008 -- XF-63:9 + XF19:1
+http://www.colorserver.net/showcolor.asp?fs=36008
+
+36081 -- RAL 7021 Gris Panzer Allemand 1 (Dark) -- XF-63:7 + XF-60:3
+http://www.colorserver.net/showcolor.asp?fs=36081
+
+36118
+*Mix 1-- RLM 74 -- XF-24:10 + X-14:1 + XF-2:1
+*Mix 2-- RAL 7021 German Panzer Grey 2 (Pale) --XF-63:7 + XF-2:3
+http://www.colorserver.net/showcolor.asp?fs=36118
+
+36122 -- RLM 75 -- XF66:6+XF7:2+XF18:1+ XF2:2
+http://www.colorserver.net/showcolor.asp?fs=36122
+
+36152 -- RAF OCEAN GRAY 
+*Mix 1-- XF18:1 + XF-21:2 + XF24:2 + XF-2:1
+*Mix 2-- New Tamiya Color: Ocean Gray 2 (RAF)-- XF-82
+http://www.colorserver.net/showcolor.asp?fs=36152
+
+36165 -- RLM 02- FS 36165 -- XF22:1 + XF49:1 + XF2:2
+http://www.colorserver.net/showcolor.asp?fs=36165
+
+*36173 -- (Perfect for C-17 1/144) -- XF-54:3 + XF-24:1 + XF-2:4 
+http://www.colorserver.net/showcolor.asp?fs=36173
+
+36176 -- XF-66:3 + XF-2:1
+http://www.colorserver.net/showcolor.asp?fs=36176
+
+36231 -- XF-83:1 + XF-66:1 + XF-54:1 + XF-2:3
+http://www.colorserver.net/showcolor.asp?fs=36231
+
+36251 -- XF-83:3 + XF-2:1
+http://www.colorserver.net/showcolor.asp?fs=36251
+
+36270
+*Mix 1-- XF54:6 + XF66:1 + XF2:6
+*Mix 2-- RAF MEDIUM SEA GRAY -- XF-19:3 + XF-54:5 + XF-2:1
+*Mix 3-- New Tamiya Color: Medium Sea Gray 2 (RAF) -- XF-83
+http://www.colorserver.net/showcolor.asp?fs=36270
+
+36314 -- XF-19
+http://www.colorserver.net/showcolor.asp?fs=36314
+
+36320
+*Mix 1-- XF-66:1 + XF-54:1 + XF-2:3
+*Mix 2-- XF19 (Tamiya F-16 Agg 1/48 Instructions)
+http://www.colorserver.net/showcolor.asp?fs=36320
+
+36375 -- Light Ghost Grey
+*Mix 1-- XF-19:1 + XF-2:3 
+*Mix 2-- CF-18 -- XF19:1 + XF54:1 + XF2:4 
+*Mix 3-- Mitsubishi Light Gray FS26375 -- XF2:18 + XF1:1
+http://www.colorserver.net/showcolor.asp?fs=36375
+
+36440 -- Light Gull Grey
+*Mix 1 -- XF-19:1 + XF-80:1 + XF-2:2
+*Mix 2 -- USN LIGHT GREY -- XF-19:2 + XF-2:1 (add a tiny drop of yellow)
+http://www.colorserver.net/showcolor.asp?fs=36440
+
+36473 -- Light Aircraft Grey - RLM 76 -- XF23:1 + XF66:2 + XF2:7
+http://www.colorserver.net/showcolor.asp?fs=36473
+
+36495 -- XF19:1 + XF2:4
+http://www.colorserver.net/showcolor.asp?fs=36495
+
+36622 -- XF80:2 + XF2:7
+http://www.colorserver.net/showcolor.asp?fs=36628
+
+36628 -- XF80:1 + XF2:4
+http://www.colorserver.net/showcolor.asp?fs=36628
+
+
+Some Tamiya Mixes from Tamiya kit instructions:
+
+RAF
+
+INTERIOR GREEN:- XF5:1 + XF21:3 + XF65:1 
+DARK GREEN:- XF58:1 + XF62:5 
+DARK EARTH:- XF52:1 + XF64:1 
+OCEAN GRAY:- XF18:1 + XF21:2 + XF24:2 
+MIDSTONE:- XF59:1 + XF60:1 
+SKY:- XF21 
+MEDIUM SEA GRAY:- XF19:3 + XF54:5 
+AZURE BLUE:- X16:2 + XF2:10 + XF18:5 
+
+
+
+
+
+
+
+AS6 Olive Drab  =  XF-62
+
+AS7 Neutral Gray  =  XF-53
+
+AS8 Navy Blue  =  XF-17:5 + XF-8:3 + XF-2:2
+
+AS9 Dark Green  =  XF-58:1 + XF-62:5
+
+AS10 Ocean Gray  =  XF-18:1 + XF-21:2 + XF-24:2
+
+AS11 Medium Sea Gray  =  XF-19:3 + XF-54:5
+
+AS12 Bare-Metal Silver
+
+AS13 Green
+
+AS14 Olive Green
+
+AS15 Tan
+
+AS16 Light Gray
+
+AS17 Dark Green (IJA)
+
+AS18 Light Gray (IJA)
+
+AS19 Intermediate Blue (U.S.Navy) =  XF-18:5 + XF-2:4
+
+AS20 Insignia White (U.S.Navy)  =  XF-2:10 + XF-55:1
+
+AS21 Dark Green 2 (IJN)
+
+AS22 Dark Earth  =  XF-52:1 + XF-64:1
