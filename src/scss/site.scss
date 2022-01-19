@@ -22,16 +22,6 @@ body {
   @include link-color;
 }
 
-@media print {
-   .noprint {
-      visibility: hidden;
-   }
-   body {
-     background: white;
-     color: black;
-   }
-}
-
 @mixin centered {
   text-align: center;
 }
@@ -276,6 +266,24 @@ h1 {
 
 .link:active, .embedded-link:active {
     transition: color .15s ease-in;
+}
+
+@media print {
+   .noprint {
+      visibility: hidden;
+      display: none;
+   }
+   body {
+     background: white;
+     color: black;
+   }
+   .banner {
+       font-size: 24px;
+   }
+
+   .motto {
+       font-size: 18px;
+   }
 }
 
 /////////////////////////////////////////////
