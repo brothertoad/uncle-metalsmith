@@ -347,6 +347,14 @@ HAS09090:
     boxart: 'None'
     scalematesId: 'hasegawa-09090-focke-wulf-fw190a-3--104128'
 
+HAS09109:
+    brand: Hasegawa
+    number: '09109/Jt9'
+    name: "Messerschmitt Bf 109E-4/7 'Emil 4/7'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09109-800.jpg'
+    scalematesId: 'hasegawa-09109-messerschmitt-bf109e-4-7-emil-4-7--206875'
+
 HAS09111:
     brand: Hasegawa
     number: '09111/Jt11'
