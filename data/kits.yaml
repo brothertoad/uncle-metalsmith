@@ -208,6 +208,14 @@ TAM61086:
     boxart: '48/Tamiya/61086-800.jpg'
     scalematesId: 'tamiya-61086-republic-p-47d-thunderbolt--121538'
 
+TAM61089:
+    brand: Tamiya
+    number: '61089'
+    name: 'North American P-51D Mustang 8th AF Aces'
+    scale: '1/48'
+    boxart: '48/Tamiya/61089-800.jpg'
+    scalematesId: 'tamiya-61089-north-american-p-51d-mustang-8th-af-aces--122351'
+
 TAM61090:
     brand: Tamiya
     number: '61090'
