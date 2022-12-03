@@ -633,6 +633,14 @@ TAM35353:
     boxart: '35/Tamiya/35353-800.jpg'
     scalematesId: 'tamiya-35353-brummbaer--1076227'
 
+TAM35369:
+    brand: Tamiya
+    number: '35369'
+    name: 'Panzerkamptwagen 38(t) Ausf. E/F'
+    scale: '1/35'
+    boxart: '35/Tamiya/35369-800.jpg'
+    scalematesId: 'tamiya-35369-pzkpfw-38-t-ausf-e-f--1239699'
+
 ### == Tamiya 1/35 dinosaurs
 
 TAM60201:
