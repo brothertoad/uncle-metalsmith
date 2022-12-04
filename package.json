@@ -10,19 +10,19 @@
   "author": "ItsMeBender",
   "license": "MIT",
   "dependencies": {
+    "@metalsmith/in-place": "^4.5.0",
+    "@metalsmith/layouts": "^2.6.0",
+    "@metalsmith/permalinks": "^2.4.1",
     "jstransformer-nunjucks": "^1.0.0",
-    "metalsmith": "^2.3.0",
+    "metalsmith": "^2.5.1",
     "metalsmith-assets-improved": "1.0.1",
     "metalsmith-data-loader": "^1.1.5",
-    "metalsmith-in-place": "^4.4.2",
     "metalsmith-inject-metadata": "^1.0.6",
-    "metalsmith-layouts": "^2.3.1",
-    "metalsmith-permalinks": "^2.1.0",
     "metalsmith-sass": "^2.0.0",
     "node-sass": "^7.0.1",
     "pug": ">=3.0.2",
-    "trim-newlines": "^4.0.2",
-    "scss-tokenizer": ">=0.4.3"
+    "scss-tokenizer": ">=0.4.3",
+    "trim-newlines": "^4.0.2"
   },
   "devDependencies": {
     "metalsmith-metadata-directory": "^1.2.3",

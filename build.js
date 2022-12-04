@@ -43,12 +43,12 @@ const make3digits = function(j) {
   return s;
 }
 
-const inplace = require('metalsmith-in-place');
-const layouts = require('metalsmith-layouts');
+const inplace = require('@metalsmith/in-place');
+const layouts = require('@metalsmith/layouts');
 const metalsmith = require('metalsmith');
 const sass = require('metalsmith-sass');
 const assets = require('metalsmith-assets-improved');
-const permalinks = require('metalsmith-permalinks');
+const permalinks = require('@metalsmith/permalinks');
 const dataLoader = require('metalsmith-data-loader');
 const metadata = require('metalsmith-metadata-directory');
 const modelsAnalyzer = require('./modelsAnalyzer.js');
