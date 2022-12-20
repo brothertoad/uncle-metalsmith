@@ -266,6 +266,15 @@ HAS52207:
     boxart: '48/Hasegawa/52207-800.jpg'
     scalematesId: 'hasegawa-sp407-magnificent-kotobuki-a6m3-zero-fighter-type-32-naomi--1212380'
 
+HAS64721:
+    brand: Hasegawa
+    number: '64721'
+    name: '[Shidenkai no Maki] Nakajima Ki44-II Type 2 Fighter Shoki (Tojo)'
+    scale: '1/48'
+    # note unusual boxart dimension
+    boxart: '48/Hasegawa/64721-500.jpg'
+    scalematesId: 'hasegawa-64721-nakajima-ki44-ii-type-2-fighter-shoki-tojo--963948'
+
 HAS64742:
     brand: Hasegawa
     number: '64742'
@@ -330,6 +339,14 @@ HAS09067:
     scale: '1/48'
     boxart: '48/Hasegawa/09067-800.jpg'
     scalematesId: 'hasegawa-09067-nakajima-ki-84-i-type-4-hayate-frank--191557'
+
+HAS09073:
+    brand: Hasegawa
+    number: '09073/Jt73'
+    name: "Kawanishi N1J2-K Shidenkai (George) 'Early Version'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09073-800.jpg'
+    scalematesId: 'hasegawa-09073-kawanishi-n1k2-j-shidenkai-george--154070'
 
 HAS09079:
     brand: Hasegawa
