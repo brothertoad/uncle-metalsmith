@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61048
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   This is the Tamiya Dewoitine D.520.  I believe it was called 520 because it reached
   a top speed of 520 kph.  The build was pretty stress-free, even as the Tamiya
@@ -13,9 +14,9 @@ kit: TAM61048
   The set contained 0208 Dark Compass Ghost Gray for the bottom, and 0228 Intermediate
   Blue, 0074 Green Moss and 0034 Rust Tracks for the top.  While I was building
   this kit, I came across
-  {{ 'this build of the MB.155' | linkTo('https://modelingmadness.com/review/allies/cleaver/fr/tc155.htm') | safe }}
-  on Modeling Madness, where Tom Cleaver used {{'76'|rlm|safe}} for the bottom, and
-  {{'54'|txf|safe}} Dark Sea Grey, {{'26'|txf|safe}} Deep Green and {{'9'|txf|safe}} Hull Red
+  {{f.linkTo('this build of the MB.155','https://modelingmadness.com/review/allies/cleaver/fr/tc155.htm')}}
+  on Modeling Madness, where Tom Cleaver used {{f.rlm('76')}} for the bottom, and
+  {{f.txf('54')}} Dark Sea Grey, {{f.txf('26')}} Deep Green and {{f.txf('9')}} Hull Red
   for the upper surfaces.  I didn't like the AMMO Green Moss - it seemed too light and too olive -
   so I followed Tom's lead and used Deep Green for the top.  The other colors are AMMO.
   The green and reddish brown on the top were freehanded with my new Tamiya airbrush,
@@ -25,7 +26,7 @@ kit: TAM61048
   Although the kit came with decals for six subjects, I used Iliad Decals 48009.  The plane with
   the yellow tail caught my eye, plus I wanted a subject that did not have a long decal down
   the side.  The decals worked fine.  I used a mask from
-  {{ 'Montex Masks' | linkTo('http://www.montex-mask.com/en/home') | safe }}, which worked well.
+  {{f.linkTo('Montex Masks','http://www.montex-mask.com/en/home')}}, which worked well.
   The kit comes with two antenna masts, a short one and a long one.  I broke the long one while
   sanding it, so I had to use the short one, even though the subject had the long mast.
 </p>

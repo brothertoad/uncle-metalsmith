@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09508
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   One of the kits I FUBARed in March was the Fine Molds Oscar.  I can't remember
   exactly what I FUBARed, but after that, I decided to build this Hasegawa Oscar.
@@ -11,16 +12,16 @@ kit: HAS09508
 <p>
   For the most part, assembly was painless.  I think I did screw up the landing
   gear a bit, and the cowling does not fit too well onto the fuselage.  I chose a
-  subject from Aeromaster {{'48-011'|nowrap|safe}} Nakajima Ki-43 Hayabusas.  I
+  subject from Aeromaster {{f.nowrap('48-011')}} Nakajima Ki-43 Hayabusas.  I
   was going to go with a NMF plane, but I chickened out and went with the simplest
   camouflage on the sheet.  I used
-  Tamiya {{'14'|txf|safe}} J.A. Grey for the bottom and {{'13'|txf|safe}}
+  Tamiya {{f.txf('14')}} J.A. Grey for the bottom and {{f.txf('13')}}
   J.A. Green for the top.  The decal set did not show an anti-glare panel for
   this plane, so I didn't paint one.  I used the Eduard EX193 mask set, which
   fit well.
 </p>
 <p>
-  The yellow was {{'3'|txf|safe}} Flat Yellow, with some {{'7'|txf|safe}}
+  The yellow was {{f.txf('3')}} Flat Yellow, with some {{f.txf('7')}}
   Flat Red added.  It was a bit darker than I planned, but looked OK.  I painted
   the small stripes on the propellor blades.  It was easier than trying to apply
   decals!

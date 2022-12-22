@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61053
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   This kit has been staring at me from my stash for quite a while.  I like the look
   of the Beaufighter, but have never built one.  I decided to go with the Malta
@@ -14,13 +15,13 @@ kit: TAM61053
   a large gap between the center section of the wing and the bottom of the fuselage.
   The landing gear was a little tricky to insert into the nacelle as well.
   I had quite a bit of aftermarket to go with this kit (wheels and canopy), but the
-  only aftermarket I used was the {{ 'Ultracast' | linkTo('https://ultracast.ca') | safe }}
+  only aftermarket I used was the {{f.linkTo('Ultracast','https://ultracast.ca')}}
   48117 exhausts.
 </p>
 <p>
   The instructions called for the cowling rings to be painted copper, but some quick research
   on the web convinced me that that wasn't quite right.  I ended up using Tamiya
-  {{'84'|txf|safe}} Dark Iron, which, based on photos I found on the web, looked
+  {{f.txf('84')}} Dark Iron, which, based on photos I found on the web, looked
   somewhat correct.  I painted the cowlings and exhaust first, them masked them,
   which was quite a pain.  The main exterior colors were Hataka lacquers, Azure
   Blue on the bottom and Middlestone and Dark Earth on the top.  I freehanded the

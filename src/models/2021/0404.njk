@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09363
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   Another bagged 109 kit.  This was actually incomplete - it was missing the
   spinner and the mounting plate for the drop tank.  I used a spinner from a
@@ -10,9 +11,9 @@ kit: HAS09363
 </p>
 <p>
   I think I was going to try a different brand of paint, but I ended up just
-  using Hataka for the {{'76'|rlm|safe}}, {{'75'|rlm|safe}} and {{'74'|rlm|safe}}
-  and Ammo for the {{'04'|rlm|safe}}.  The decals came from
-  {{'EagleCals 28'|nowrap|safe}}.  There is supposed to be a spiral on the
+  using Hataka for the {{f.rlm('76')}}, {{f.rlm('75')}} and {{f.rlm('74')}}
+  and Ammo for the {{f.rlm('04')}}.  The decals came from
+  {{f.nowrap('EagleCals 28')}}.  There is supposed to be a spiral on the
   spinner, but it came apart with I tried to apply it.  I used an EZ Mask to
   mask the canopy, which fit well.
 </p>

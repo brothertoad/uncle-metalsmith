@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09141
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   This kit has been staring me in the face for quite a while, so I decided to
   give it a go.  I also wanted to try something different.  I watched a review of
@@ -18,8 +19,8 @@ kit: HAS09141
   AMMO 0194 Flat Aluminum for the exterior.  My concern with the acrylic primer was,
   would I be able to mask over it?  The answer was yes.  I used AMMO 0237 FS23070
   USAAF Olive Drab for the bombs and the anti-glare panel, and AMMO 125 Gold Yellow
-  ({{'04'|rlm|safe}}) for the cowling and tip of the spinner.  I used Tamiya
-  {{'7'|txf|safe}} Flat Red and {{'1'|txf|safe}} Flat Black for the fin and tailplanes.
+  ({{f.rlm('04')}}) for the cowling and tip of the spinner.  I used Tamiya
+  {{f.txf('7')}} Flat Red and {{f.txf('1')}} Flat Black for the fin and tailplanes.
   Come to think of it, I don't think I used any solvent-based paint at all on
   this kit, which was kind of the point.
 </p>
@@ -27,7 +28,7 @@ kit: HAS09141
   The decals are from Eagle Strike 48083 362nd Jugs Part 1.  I tried to use the
   kit decals for the stencils on the prop, but the first one I tried fell apart
   on me, so I just skipped the rest of the stencils.  I used
-  {{ 'EZ Masks'| linkTo('http://www.ezmasks.com/index.html') | safe }} on the canopy, and
+  {{f.linkTo('EZ Masks','http://www.ezmasks.com/index.html')}} on the canopy, and
   they worked well.  I tried to attach the sway braces on the drop tank
   after attaching the drop tank, but that didn't work out, so I left them off.
 </p>

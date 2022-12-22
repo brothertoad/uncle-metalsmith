@@ -3,12 +3,13 @@ layout: build.njk
 kit: TAM61070
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   This is at least the second time I've attempted to build this kit, and I almost gave
   up, just as I did the first time.  I had purchased Xtradecals set
-  {{ '48102 Yanks With Roundels part 1' | linkTo('https://www.hannants.co.uk/product/X48102') | safe }},
+  {{f.linkTo('48102 Yanks With Roundels part 1','https://www.hannants.co.uk/product/X48102')}},
   some time ago, as I wanted to do a Royal Navy Corsair.  Based on
-  {{ 'this post on Hyperscale' | linkTo('https://www.tapatalk.com/groups/hyperscale/faa-f4u-corsair-colors-question-t198316.html') | safe }},
+  {{f.linkTo('this post on Hyperscale','https://www.tapatalk.com/groups/hyperscale/faa-f4u-corsair-colors-question-t198316.html')}},
   I purchased some Hataka paint for it.  More on that below.
 </p>
 <p>
@@ -23,15 +24,15 @@ kit: TAM61070
   Regard the paints, I first primed with Tamiya Grey Primer, from the 40 mL jar.  Then I sprayed
   Hataka C048 Light Gull Grey (FS36440/ANA620) on the bottom.  That looked fine.  After masking
   I then sprayed Hataka C031 Gunship Grey FS36118/ANA603 on the top, and was very disappointed -
-  it had a very purple hue to it.  I ended up overpainting it with Tamiya {{'54'|txf|safe}}
+  it had a very purple hue to it.  I ended up overpainting it with Tamiya {{f.txf('54')}}
   Dark Sea Grey, which looked much better.  After the experience with the Gunship Grey, I did not
   trust the Hataka Olive Drab I had purchased, so I used my Tamiya mix for Olive Drab for the
   disruptive camouflage.
 </p>
 <p>
-  I painted the propellor with {{'18'|tx|safe}} Semi Gloss Black.  One nice thing about
+  I painted the propellor with {{f.tx('18')}} Semi Gloss Black.  One nice thing about
   this particular Corsair is that the propellor hub is the same color as the blades.  The canopy
-  was masked with {{ 'Pmask' | linkTo('http://pmask.eu/') | safe }} Pk48048Y, which fit very well.
+  was masked with {{f.linkTo('Pmask','http://pmask.eu/')}} Pk48048Y, which fit very well.
   I forgot to put the decals on the
   propellor blades.  As I mentioned, I used Xtradecals 48102, with Microset, and they worked
   beautifully.

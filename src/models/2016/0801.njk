@@ -3,28 +3,29 @@ layout: build.njk
 kit: TAM61044
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     I decided it was time to brave another natural metal finish (NMF), so I built
     the Tamiya F-51D boxing of the P-51D.  This kit has everything the P-51D
     boxings have, plus additional underwing armament.  This kit also has both
     kinds of canopies, standard and Dallas, and two kinds of props.  I knew I
     didn't want to do a Korean War plane, so I searched through my decal
-    stash and found Aeromaster {{'48-657'|nowrap|safe}} Yellow Nose Mustangs of the 361st FG
+    stash and found Aeromaster {{f.nowrap('48-657')}} Yellow Nose Mustangs of the 361st FG
     part 3.  I thought Death's Angel would do nicely, since the paint
     scheme was pretty simple, just a yellow nose and an olive drab anti-glare
     panel.
 </p>
 <p>
-    As with {{ 'the Corsair' | linkTo('../0701/') | safe }}, I used Model Master
+    As with {{f.linkTo('the Corsair','../0701/')}}, I used Model Master
     Enamel FS34151 Interior Green for the cockpit.  The propellor blade tips
-    were Tamiya {{'3'|txf|safe}} Flat Yellow and the propellor blades themselves were
-    Gaianotes {{'EX-02'|nowrap|safe}} Flat Black.  I knew I was going to use Alclad II for the
-    exterior, so I used Gaianotes {{'EX-07'|nowrap|safe}} Silver for the landing gear and the
+    were Tamiya {{f.txf('3')}} Flat Yellow and the propellor blades themselves were
+    Gaianotes {{f.nowrap('EX-02')}} Flat Black.  I knew I was going to use Alclad II for the
+    exterior, so I used Gaianotes {{f.nowrap('EX-07')}} Silver for the landing gear and the
     wheels, as I like to have a bit of contrast.
 </p>
 <p>
     For the exterior, I started by painting the yellow on the nose using Tamiya
-    {{'3'|txf|safe}} Flat Yellow.  I used Tamiya {{'62'|txf|safe}} Olive Drab for the anti-glare
+    {{f.txf('3')}} Flat Yellow.  I used Tamiya {{f.txf('62')}} Olive Drab for the anti-glare
     panel.  I usually use Tamiya Khaki Drab to represent Olive Drab on US
     aircraft, as I think it looks a bit better, but since the area to be
     painted was so small I used actual Olive Drab.

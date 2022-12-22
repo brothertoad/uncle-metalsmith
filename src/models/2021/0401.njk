@@ -3,6 +3,7 @@ layout: build.njk
 kit: MENGWWT010
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   Another kit built because I wanted something simple.  March was a very bad
   month model-wise.  I think I FUBARed eight or ten kits.  Seriously.  I am having
@@ -14,7 +15,7 @@ kit: MENGWWT010
   is designed to hold together without cement.  I put on all parts but the treads
   and the spare tread on the side of the turret, primed it with Auto Borne Gray Sealer,
   then painted with a Tamiya mix I had labelled "US Armor".  It is a mixture of
-  {{'62'|txf|safe}} Olive Drab and something to lighten it, but I can't remember
+  {{f.txf('62')}} Olive Drab and something to lighten it, but I can't remember
   what I used.  I had painted the tools, tow cable on the rear, and the wooden
   boxes on the sides.  Decals went on well.
 </p>

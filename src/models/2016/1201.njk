@@ -3,9 +3,10 @@ layout: build.njk
 kit: MONO5258
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     What do you know - two Typhoons in a row.  Actually, I started this while I
-    was working on the {{ 'Academy Typhoon' | linkTo('../1101/') | safe }}, thinking it
+    was working on the {{f.linkTo('Academy Typhoon','../1101/')}}, thinking it
     might be kind of interesting to work of two models of the same subject
     (although in different scale) at the same time.  It really wasn't that
     different than building two different subjects.
@@ -25,12 +26,12 @@ kit: MONO5258
     a bit.
 </p>
 <p>
-    The invasion stripes were painted with Tamiya {{'2'|txf|safe}} Flat White
-    and {{'1'|txf|safe}} Flat
+    The invasion stripes were painted with Tamiya {{f.txf('2')}} Flat White
+    and {{f.txf('1')}} Flat
     Black.  The Flat Black was also used for the spinner, the rockets and the
     wing walkways.  It goes on a bit
     chalky (for want of a better term) and doesn't adhere as well as I'd like.
-    The fuselage band was Tamiya {{'21'|txf|safe}} Sky.  For the camouflage, I used Model
+    The fuselage band was Tamiya {{f.txf('21')}} Sky.  For the camouflage, I used Model
     Master Enamels: RAF Medium Sea Gray, RAF Ocean Gray and RAF Dark Green.
     The tires were painted Model Master Enamel Flat Black.  I did try something
     a little different by using Apple Barrel craft paint for the exhaust

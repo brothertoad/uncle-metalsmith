@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM35174
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   This is my second Tamiya Panther, both of which were type G.  This is the steel
   wheel version.  I was undecided between this one of the Late Version, so I looked
@@ -25,11 +26,11 @@ kit: TAM35174
   secure the mounts to the sides of the hull.
 </p>
 <p>
-  Drawing on the {{ 'last Panther' | linkTo('../../2020/1103/') | safe }} I built,
+  Drawing on the {{f.linkTo('last Panther','../../2020/1103/')}} I built,
   I decided to go with all Tamiya paints on this one.  The base color is
-  {{'60'|txf|safe}} Dark Yellow, and the camouflage is {{'58'|txf|safe}} Olive Green
-  and {{'64'|txf|safe}} Red Brown.  The instructions actually recommended
-  {{'61'|txf|safe}} Dark Green, but I thought the Olive Green would look better.
+  {{f.txf('60')}} Dark Yellow, and the camouflage is {{f.txf('58')}} Olive Green
+  and {{f.txf('64')}} Red Brown.  The instructions actually recommended
+  {{f.txf('61')}} Dark Green, but I thought the Olive Green would look better.
   After painting, I realized it wasn't that different.  All colors were airbrushed.
   For the green and brown, I used my new Tamiya airbrush, with its 02.mm needle/nozzle.
   I put the green and brown on quite heavily, but was pleased with how it turned out.

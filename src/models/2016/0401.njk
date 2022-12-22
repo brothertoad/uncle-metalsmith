@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS507
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     Here is the Hasegawa 1/72 P-47D Razorback, kit 507. I started this kit after
     I was frustrated with other kits I was working on, and I wanted something that
@@ -11,36 +12,36 @@ kit: HAS507
 </p>
 <p>
     The kit went together well.  The cockpit - which is devoid of any detail
-    except a seat - was painted Tamiya {{'70'|txf|safe}} IJN Green 2.  I read that this was a
+    except a seat - was painted Tamiya {{f.txf('70')}} IJN Green 2.  I read that this was a
     close match for FS34092 Euro Dark Green, which is something close to the dull
     dark green that was used.  It was actually too dark, although the hue was not
     too far off to my eye.
 </p>
 <p>
-    I primed with Gaia Surfacer EVO Silver {{'GS-06'|nowrap|safe}}.  I had picked this up somewhere
+    I primed with Gaia Surfacer EVO Silver {{f.nowrap('GS-06')}}.  I had picked this up somewhere
     along the line and wanted to try it, since silver makes a good primer (it is
-    very easy to cover with just about any color).  I used Tamiya {{'3'|txf|safe}} Flat
+    very easy to cover with just about any color).  I used Tamiya {{f.txf('3')}} Flat
     Yellow for the cowling and the propellor tips.  After masking the cowling,
-    I sprayed Tamiya {{'16'|txf|safe}} Flat Aluminum over the yellow overspray, since I was
+    I sprayed Tamiya {{f.txf('16')}} Flat Aluminum over the yellow overspray, since I was
     afraid it might show through and I didn't want to spray a lacquer over
-    the Tamiya acrylic.  The underside was painted Tamiya {{'53'|txf|safe}}
-    Neutral Gray and the top was Tamiya {{'51'|txf|safe}} Khaki Drab.  I prefer this over
+    the Tamiya acrylic.  The underside was painted Tamiya {{f.txf('53')}}
+    Neutral Gray and the top was Tamiya {{f.txf('51')}} Khaki Drab.  I prefer this over
     Tamiya Olive Drab, as I think the Olive Drab is too dark.  As I was painting
     the model, I was not pleased with the paint job, but in the end it turned
     out okay, except I realized after I was done that the gray should have
     extended up to underneath the rear stabilizers.
 </p>
 <p>
-    The landing gear, wheels, and propellor hub were painted Gaia {{'EX-07'|nowrap|safe}}, thinned
+    The landing gear, wheels, and propellor hub were painted Gaia {{f.nowrap('EX-07')}}, thinned
     with automotive lacquer thinner.  I have used this for large areas and found
     it a little grainy, but on small areas it works well.  The propellor blades
     and the tires were hand painted with Model Color Black.
 </p>
 <p>
     The drop tanks were
-    primed with Ace Hardware Gray Primer from a rattle can, followed by {{'159'|mrcolor|safe}}
+    primed with Ace Hardware Gray Primer from a rattle can, followed by {{f.mrcolor('159')}}
     Super Silver.  That did not look good, so I added a coat of Tamiya
-    {{'16'|txf|safe}} Flat Aluminum.  That was grainy, as it usually is, but better than
+    {{f.txf('16')}} Flat Aluminum.  That was grainy, as it usually is, but better than
     the Super Silver.
 </p>
 <p>
@@ -49,7 +50,7 @@ kit: HAS507
 </p>
 <p>
     The decals came from
-    {{ 'Techmod 72105' | linkTo('https://techmod.pl/72105-usa-insignia-june-1943-to-july-1943-p-300.html') | safe }}.
+    {{f.linkTo('Techmod 72105','https://techmod.pl/72105-usa-insignia-june-1943-to-july-1943-p-300.html')}}.
     I put the first one in warm water for about twenty five seconds, at which
     point it came off the paper and floated in the water!  For the remaining
     decals, I put it in warm water for about 10-12 seconds, and they worked

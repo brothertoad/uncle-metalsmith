@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61038
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   Another kit built because I wanted something that wouldn't frustrate me.  I've
   noticed that that happens a lot, especially lately.  I feel as though I'm not
@@ -10,13 +11,13 @@ kit: TAM61038
 </p>
 <p>
   Nothing much to say about assembly.  For the cockpit, I used
-  {{'49'|txf|safe}} Khaki per post 13 of
-  {{ 'this forum topic' | linkTo('https://ww2aircraft.net/forum/threads/done-gb-41-1-48-kawanishi-n1k2-j-early-pto-from-1937.50690/') | safe }}.
-  The undersides were painted {{'12'|txf|safe}} JN Grey and the top was painted
+  {{f.txf('49')}} Khaki per post 13 of
+  {{f.linkTo('this forum topic','https://ww2aircraft.net/forum/threads/done-gb-41-1-48-kawanishi-n1k2-j-early-pto-from-1937.50690/')}}.
+  The undersides were painted {{f.txf('12')}} JN Grey and the top was painted
   a mix that I had labeled Bronze Green.  I can't remember what I actually used,
-  but I think it is {{'70'|txf|safe}} Dark Green 2 (IJN) lightened with {{'2'|txf|safe}}
+  but I think it is {{f.txf('70')}} Dark Green 2 (IJN) lightened with {{f.txf('2')}}
   Flat White.  It is probably a bit too light, but I like the way it turned out.
-  The yellow on the wing edge is AMMO Gold Yellow (also listed as {{'04'|rlm|safe}}).
+  The yellow on the wing edge is AMMO Gold Yellow (also listed as {{f.rlm('04')}}).
   Decals are from the kit.
 </p>
 {{ m.buildPhotoLink(path, 1) }}

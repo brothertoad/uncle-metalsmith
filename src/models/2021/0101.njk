@@ -3,6 +3,7 @@ layout: build.njk
 kit: ITAL2719
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   My first build of the new year.  This is actually the Academy plastic, reboxed
   by Italeri with a large decal sheet of Italian pilots.  Even before starting, I
@@ -11,9 +12,9 @@ kit: ITAL2719
 </p>
 <p>
   The kit went together quite well, with nothing noteworthy that I remember.  The
-  exterior is {{'117'|mrcolor|safe}} RLM76 Light Blue for the bottom, and
-  {{'69'|mrhobbycolor|safe}} RLM75 Gray and {{'68'|mrhobbycolor|safe}} RLM74 Gray
-  Green on the top.  The fuselage band was Tamiya {{'8'|txf|safe}} Flat Blue, which
+  exterior is {{f.mrcolor('117')}} RLM76 Light Blue for the bottom, and
+  {{f.mrhobbycolor('69')}} RLM75 Gray and {{f.mrhobbycolor('68')}} RLM74 Gray
+  Green on the top.  The fuselage band was Tamiya {{f.txf('8')}} Flat Blue, which
   is actually a bit too dark.
 </p>
 <p>

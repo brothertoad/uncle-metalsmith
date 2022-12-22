@@ -3,8 +3,9 @@ layout: build.njk
 kit: HAS09571
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-    Like {{ 'my previous build' | linkTo('../0901/') | safe }}, this is a kit that I
+    Like {{f.linkTo('my previous build','../0901/')}}, this is a kit that I
     had tried to build before - twice before, as a matter of fact (although in
     a different boxing).
     Again I had to force myself to complete it, as this kit used a lot of putty.
@@ -14,10 +15,10 @@ kit: HAS09571
     The cockpit was painted with a Tamiya mix for RAF Interior Green.  I've had
     the mix for a while, so I don't remember the details, but I probably used
     the Tamiya recommendation of
-    {{'5'|txf|safe}}:1 + {{'21'|txf|safe}}:3 + {{'65'|txf|safe}}:1.
+    {{f.txf('5')}}:1 + {{f.txf('21')}}:3 + {{f.txf('65')}}:1.
     I painted the seat
-    Tamiya {{'64'|txf|safe}} Red Brown.  The exhaust was Tamiya
-    {{'84'|txf|safe}} Dark Iron.  It was quite grainy.
+    Tamiya {{f.txf('64')}} Red Brown.  The exhaust was Tamiya
+    {{f.txf('84')}} Dark Iron.  It was quite grainy.
 </p>
 <p>
     I primed with Brite Touch primer from Pep Boys.  The underside was my usual
@@ -33,7 +34,7 @@ kit: HAS09571
     As mentioned above, I had tried to build this kit twice before, but those
     attempts came from a different boxing, namely the 09105/Jt5 boxing.  That boxing
     had decals for a Turkish Spitfire, similar to the
-    {{ 'the one I built using the Tamiya kit' | linkTo('../0301/') | safe }}, but with
+    {{f.linkTo('the one I built using the Tamiya kit','../0301/')}}, but with
     a black spinner and black codes on the side.  I decided to use the Turkish
     decals, partially because there weren't that many markings!  After gloss
     coating with Future, I used Mr. Mark

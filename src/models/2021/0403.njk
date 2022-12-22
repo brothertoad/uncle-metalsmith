@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM35250
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   This is the third time I've tried to build this kit.  The first two times ended
   up FUBAR, although I can't remember exactly what went wrong.
@@ -10,8 +11,8 @@ kit: TAM35250
 <p>
   The only part of the assembly that gave me any trouble was the spare tracks
   on the rear.  That may have been the issue that FUBARed one of my previous attempts.
-  The paint was a mixture of Tamiya {{'62'|txf|safe}} Olive Drab, {{'60'|txf|safe}}
-  Dark Yellow and {{'57'|txf|safe}} Buff.
+  The paint was a mixture of Tamiya {{f.txf('62')}} Olive Drab, {{f.txf('60')}}
+  Dark Yellow and {{f.txf('57')}} Buff.
 </p>
 <p>
   I chose the kit option with the fewest decals - there are only five, two on each
