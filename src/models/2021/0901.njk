@@ -3,10 +3,11 @@ layout: build.njk
 kit: TAM61037
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   When going through my decal stash, I came across the set of
-  {{ 'TigerHead decals' | linkTo('http://www.tigerheaddecals.com/') | safe }} (48008)
-  that I had used for {{ 'one of my Tamiya Spitfires' | linkTo('../../2016/0301/') | safe }}
+  {{f.linkTo('TigerHead decals','http://www.tigerheaddecals.com/')}} (48008)
+  that I had used for {{f.linkTo('one of my Tamiya Spitfires','../../2016/0301/')}}
   and saw that it included a Focke-Wulf Fw 190A-3.  I picked up another Tamiya
   kit to use those decals.
 </p>
@@ -14,13 +15,13 @@ kit: TAM61037
   There's nothing much to say about the build - typical Tamiya ease of construction.
   It helps that I've built several of the Tamiya Focke-Wulfs.  I was even able to attach
   the landing gear arms without too much trouble, an area that usually gives me
-  problems.  The decal instructions specified {{'65'|rlm|safe}} for the bottom
-  and {{'02/71'|rlm|safe}} for the top.  I'm not quite sure if these are correct,
-  as 190's are usually in {{'74/75'|nowrap|safe}} over 76, but I followed the
-  instructions.  I used {{'23'|txf|safe}} Light Blue for the {{'65'|rlm|safe}},
-  {{'61'|txf|safe}} Dark Green for the {{'71'|rlm|safe}}, and my mixture for the
-  {{'02'|rlm|safe}}.  The {{'61'|txf|safe}} is probably a bit too dark for
-  {{'71'|rlm|safe}}, but I figured it was close enough.
+  problems.  The decal instructions specified {{f.rlm('65')}} for the bottom
+  and {{f.rlm('02/71')}} for the top.  I'm not quite sure if these are correct,
+  as 190's are usually in {{f.nowrap('74/75')}} over 76, but I followed the
+  instructions.  I used {{f.txf('23')}} Light Blue for the {{f.rlm('65')}},
+  {{f.txf('61')}} Dark Green for the {{f.rlm('71')}}, and my mixture for the
+  {{f.rlm('02')}}.  The {{f.txf('61')}} is probably a bit too dark for
+  {{f.rlm('71')}}, but I figured it was close enough.
 </p>
 <p>
   The decals went on easily with Microscale solutions.  I was pleased with the fact

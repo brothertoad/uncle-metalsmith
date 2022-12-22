@@ -3,20 +3,21 @@ layout: build.njk
 kit: HAS52207
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   This is the Hasegawa A6M3 kit, in the Magnificent Kotobuki boxing.  I believe The
   Magnificent Kotobuki is an anime.  I've picked up a number of these anime/manga
   kits, as I like doing unusual markings.  However, as the photos show, this one is
   in conventional markings.  I had those markings left over from
-  {{ 'the old tool Tamiya A6M3' | linkTo('../../2020/0101/') | safe }},
+  {{f.linkTo('the old tool Tamiya A6M3','../../2020/0101/')}},
   and decided to save the Kotobuki markings to use on
-  {{ 'the new tool Tamiya A6M3' | linkTo('https://www.scalemates.com/kits/tamiya-61108-mitsubishi-a6m3-3a-zero-fighter-zeke--121431') | safe}}.
+  {{f.linkTo('the new tool Tamiya A6M3','https://www.scalemates.com/kits/tamiya-61108-mitsubishi-a6m3-3a-zero-fighter-zeke--121431')}}.
 </p>
 <p>
-  As with {{ 'the A6M5' | linkTo('../0603/') | safe }}, the build went together well.
-  I used Tamiya {{'12'|txf|safe}} JN Grey for the overall color.  Interestingly, the
-  instructions for the new tool kit say to use {{'76'|txf|safe}} Gray Green (IJN),
-  wshich I think is a bit lighter.  The mottling is {{'11'|txf|safe}} JN Green.
+  As with {{f.linkTo('the A6M5','../0603/')}}, the build went together well.
+  I used Tamiya {{f.txf('12')}} JN Grey for the overall color.  Interestingly, the
+  instructions for the new tool kit say to use {{f.txf('76')}} Gray Green (IJN),
+  wshich I think is a bit lighter.  The mottling is {{f.txf('11')}} JN Green.
 </p>
 <p>
   As mentioned above, the markings came from the Tamiya kit.  The hinomarus came

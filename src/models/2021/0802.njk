@@ -3,8 +3,9 @@ layout: build.njk
 kit: TAM61096
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-  This is my second build of this kit, and {{ 'the first build' | linkTo('../../2020/1201/') | safe}}
+  This is my second build of this kit, and {{f.linkTo('the first build','../../2020/1201/')}}
   was less than a year ago.  This one even has the same paint scheme, but I used a different color.
   As a matter of fact, I built this because I wanted to try a different shade of black for the upper color.
 </p>
@@ -13,8 +14,8 @@ kit: TAM61096
   at this point I know what to expect.  Once again, I primed with a mixture of artists acrylic white
   (Liquitex soft body) and Future, about one part paint to three parts Future.  I used this because
   I wanted to see if the NMF on the bottom turned out better with a glossy undercoat.  I used
-  Gaia Silver {{'EX-07'|nowrap|safe}}, and it turned out very smooth, if a bit bright.  For the top,
-  I used a mixture of Tamiya {{'1'|txf|safe}} Flat Black and {{'3'|tx|safe}} Royal Blue, in a 4:3 ratio.
+  Gaia Silver {{f.nowrap('EX-07')}}, and it turned out very smooth, if a bit bright.  For the top,
+  I used a mixture of Tamiya {{f.txf('1')}} Flat Black and {{f.tx('3')}} Royal Blue, in a 4:3 ratio.
   I had seen this someone online as a mix for  Mitsubishi Cowling Color, and someone said it might
   make a good choice for P-47M's.  I think it turned out well.
 </p>

@@ -3,12 +3,13 @@ layout: build.njk
 kit: HAS09064
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   This was another of the lot of bagged 109 kits I purchased some time ago.  Although
   I don't remember where I got them, I had a set of decals from the "End of War" G-10
   boxing, so I decided to use the Croatian decals from that kit.  It wasn't until after
   I started painting the kit that I realized I had done the same subject
-  {{ 'back in August' | linkTo('../0801/') | safe }} (although that was the
+  {{f.linkTo('back in August','../0801/')}} (although that was the
   Hobbycraft kit).  I am definitely getting old!
 </p>
 <p>
@@ -17,19 +18,19 @@ kit: HAS09064
 </p>
 <p>
   Although it is the same subject as the Hobbycraft build, I found
-  {{ 'this topic' | linkTo('https://www.britmodeller.com/forums/index.php?/topic/235081148-that-croatian-defectors-bf109g-a-colour-pic/') | safe }}
-  on {{ 'britmodeller.com' | linkTo('https://www.britmodeller.com/forums/') | safe }}
-  that indicated that the colors should be {{'75'|rlm|safe}} and {{'83'|rlm|safe}}
-  over {{'76'|rlm|safe}}, so I used those colors.  The Hobbycraft build was done
-  in 81 and 83.  I used a mixture of one part {{'23'|txf|safe}} Light Blue and
-  one part {{'2'|txf|safe}}
-  Flat White for the {{'76'|rlm|safe}},
-  {{'54'|txf|safe}} Dark Sea Grey for the {{'75'|rlm|safe}} and {{'13'|txf|safe}}
-  JA Green for the {{'83'|rlm|safe}}.
+  {{f.linkTo('this topic','https://www.britmodeller.com/forums/index.php?/topic/235081148-that-croatian-defectors-bf109g-a-colour-pic/')}}
+  on {{f.linkTo('britmodeller.com','https://www.britmodeller.com/forums/')}}
+  that indicated that the colors should be {{f.rlm('75')}} and {{f.rlm('83')}}
+  over {{f.rlm('76')}}, so I used those colors.  The Hobbycraft build was done
+  in 81 and 83.  I used a mixture of one part {{f.txf('23')}} Light Blue and
+  one part {{f.txf('2')}}
+  Flat White for the {{f.rlm('76')}},
+  {{f.txf('54')}} Dark Sea Grey for the {{f.rlm('75')}} and {{f.txf('13')}}
+  JA Green for the {{f.rlm('83')}}.
 </p>
 <p>
   As mentioned above, the decals came from
-  {{ 'the "End Of War" boxing' | linkTo('https://www.scalemates.com/kits/hasegawa-09742-messerschmitt-bf109g-10-end-war--101090') | safe }}.
+  {{f.linkTo('the "End Of War" boxing','https://www.scalemates.com/kits/hasegawa-09742-messerschmitt-bf109g-10-end-war--101090')}}.
   The decals may have been included in the box of 109's I purchased.  They took a
   long time to come off the backing paper - literally three or four minutes.  As a
   consequence, they were a bit hard to move once they were on the model.  That being said,

@@ -3,12 +3,13 @@ layout: build.njk
 kit: TAM61047
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-  As with {{ 'my previous build' | linkTo('../0802/') | safe }}, this is
+  As with {{f.linkTo('my previous build','../0802/')}}, this is
   the second time I've built this kit, but this has a different paint scheme than
-  {{ 'the first build' | linkTo('../../2020/0303/') | safe }}.
+  {{f.linkTo('the first build','../../2020/0303/')}}.
   I found the NMF option in the kit quite striking, and after my luck with
-  {{ 'the Hasegawa P-47D' | linkTo('../0601/') | safe }}, I decided to try
+  {{f.linkTo('the Hasegawa P-47D','../0601/')}}, I decided to try
   the same technique.
 </p>
 <p>

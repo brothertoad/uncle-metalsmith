@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61090
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   My modeling mojo has been low for the last few months, which is why there was no
   completion in November.  I perused my decal stash, and came across the Iliad RAF
@@ -13,9 +14,9 @@ kit: TAM61090
 <p>
   There were no problems in assembly, at least until the end.  I primed with Brite Touch
   Gray from a rattle can.  This has worked okay in the past.  The white is Auto Borne
-  Sealer.  The bottom is Tamiya {{'20'|txf|safe}} Medium Grey, as a substitute for
-  Medium Sea Grey.  I used {{'72'|txf|safe}} Brown/JGSDF for the Dark Earth and
-  {{'81'|txf|safe}} Dark Green 2 (RAF) for the Dark Green.
+  Sealer.  The bottom is Tamiya {{f.txf('20')}} Medium Grey, as a substitute for
+  Medium Sea Grey.  I used {{f.txf('72')}} Brown/JGSDF for the Dark Earth and
+  {{f.txf('81')}} Dark Green 2 (RAF) for the Dark Green.
 </p>
 <p>
   The decals went down very well after applying Future.  Attaching the fiddly bits
