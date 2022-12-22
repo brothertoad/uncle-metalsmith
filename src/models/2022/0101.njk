@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS64742
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   Hasegawa has teamed with Creator Works to package some of their models in the markings
   used in various manga and anime.  Even though I'm not a big anime fan, I like the
@@ -13,8 +14,8 @@ kit: HAS64742
   The kit went together without any fuss, at least until the end, when I messed up
   a couple of things (as I nearly always do).  Even though the markings are unusual,
   the paint scheme is the usual dark green over gray.  The top is Tamiya
-  {{'70'|txf|safe}} Dark Green 2, which is appropriate for Mitsubishi-built Navy planes,
-  and the bottom is {{'12'|txf|safe}} JN Grey.  The instructions give you the choice of
+  {{f.txf('70')}} Dark Green 2, which is appropriate for Mitsubishi-built Navy planes,
+  and the bottom is {{f.txf('12')}} JN Grey.  The instructions give you the choice of
   either Aotake or the underside color for the wheel wells - I used the underside color
   simply to make things easier.  The actual subject, fictious though it is, uses the
   oblique cannon on the port side.  I left that off (which is why there is a gap in

@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM35369
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   I think I started this kit a couple of months ago.  One of the reasons I put it
   aside is that it has the link-and-length tracks, which I had never done before,
@@ -14,7 +15,7 @@ kit: TAM35369
   went smoothly.
 </p>
 <p>
-  The exterior was primed with Tamiya {{'66'|txf|safe}} Light Grey, which isn't really
+  The exterior was primed with Tamiya {{f.txf('66')}} Light Grey, which isn't really
   very light.  I used this as a primer so the AMMO 008 RAL 7021 Dunkelgrau that I used
   for the exterior would adhere.  I am always a little lerry of using water-based
   paints directly on plastic.

@@ -3,8 +3,9 @@ layout: build.njk
 kit: HAS09073
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-  Like {{'the Panzer 38(t)'| linkTo('../1201') | safe }}, this kit was
+  Like {{f.linkTo('the Panzer 38(t)','../1201')}}, this kit was
   started a few months ago and then put aside.  It was pretty much ready for
   painting when I restarted it.
 </p>
