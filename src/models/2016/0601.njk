@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09147
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     Here is my second Hasegawa Bf 109G-6, although the first of this boxing.  I
     originally chose this kit to use some aftermarket decals for Eric Hartmann,
@@ -11,19 +12,19 @@ kit: HAS09147
 </p>
 <p>
     I used Model Master Enamel Engine Gray for the cockpit, and my trusty
-    Tamiya mix for the {{'02'|rlm|safe}}.  I first painted the spinner and propellor blades
-    with Tamiya {{'27'|txf|safe}} Black Green, but, as in the past, it really did not adhere
+    Tamiya mix for the {{f.rlm('02')}}.  I first painted the spinner and propellor blades
+    with Tamiya {{f.txf('27')}} Black Green, but, as in the past, it really did not adhere
     that well.  I always have trouble with that Tamiya color.  I ended up digging
-    a spare prop assembly from the spares box and using {{'18'|mrcolor|safe}} {{'70'|rlm|safe}}
-    Black Green.  It worked much better.  The tires were Tamiya {{'85'|txf|safe}} Rubber
+    a spare prop assembly from the spares box and using {{f.mrcolor('18')}} {{f.rlm('70')}}
+    Black Green.  It worked much better.  The tires were Tamiya {{f.txf('85')}} Rubber
     Black.  This color is excellent for tires.
 </p>
 <p>
     I used Tamiya light gray primer from the 40 ml bottle.  The white around
-    the tail was Tamiya {{'2'|txf|safe}} Flat White.  The bottom was {{'117'|mrcolor|safe}}
-    {{'76'|rlm|safe}}, and the top was painted Mr. Hobby Color
-    {{'H-69'|nowrap|safe}} {{'75'|rlm|safe}} and
-    {{'H-68'|nowrap|safe}} {{'74'|rlm|safe}}.
+    the tail was Tamiya {{f.txf('2')}} Flat White.  The bottom was {{f.mrcolor('117')}}
+    {{f.rlm('76')}}, and the top was painted Mr. Hobby Color
+    {{f.nowrap('H-69')}} {{f.rlm('75')}} and
+    {{f.nowrap('H-68')}} {{f.rlm('74')}}.
 </p>
 <p>
     The first round of mottling was done by using a hobby knife to punch a few
