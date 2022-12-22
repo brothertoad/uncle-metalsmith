@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61089
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   This build took me a bit longer than expected, as I got sidetracked by tasks
   outside of modeling.  A while back, I had FUBARed the Airfix Mustang, but I kept
@@ -15,13 +16,13 @@ kit: TAM61089
   the hang of it.
 </p>
 <p>
-  I primed with regular Tamiya paint - I think it was a mixture of {{'19'|txf|safe}}
-  Sky Grey and {{'2'|txf|safe}} Flat White.  This mixture isn't really a primer per se,
+  I primed with regular Tamiya paint - I think it was a mixture of {{f.txf('19')}}
+  Sky Grey and {{f.txf('2')}} Flat White.  This mixture isn't really a primer per se,
   but being a flat Tamiya paint, it adheres well to plastic.  I knew I was going to be
   using water-based paints on this, and I didn't want to have any adhesion issues.
   I used AMMO by Mig paints for the basic exterior colors: 0246 Medium Sea Grey
-  {{'BS 637'|nowrap|safe}} for the bottom, and 0245 Ocean Grey {{'BS 629'|nowrap|safe}}
-  and 0206 {{'81'|rlm|safe}} FS34079 {{'BS641'|nowrap|safe}} on the top.  I did try
+  {{f.nowrap('BS 637')}} for the bottom, and 0245 Ocean Grey {{f.nowrap('BS 629')}}
+  and 0206 {{f.rlm('81')}} FS34079 {{f.nowrap('BS641')}} on the top.  I did try
   something different this time.
 </p>
 <p>

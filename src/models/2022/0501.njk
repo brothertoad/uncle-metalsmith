@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61096
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   This is my second completion in the last two weeks, so perhaps my modeling mojo is
   returning.  I started this kit earlier this year, but lost interest when I was almost
@@ -14,7 +15,7 @@ kit: TAM61096
   sheets that contained this subject - Lift Here J-48LH The JRV Mosquitoes and Thunderbolts
   and Tigerhead Decals 48007 P-47 in Foreign Air Forces Around The World.  I used the Lift
   Here decals.  A photo of the real plane can be found
-  {{ 'here' | linkTo('https://www.planepictures.net/v3/show_en.php?id=1425963') | safe }}.
+  {{f.linkTo('here','https://www.planepictures.net/v3/show_en.php?id=1425963')}}.
   There are other photos on the web as well.
 </p>
 <p>
@@ -22,12 +23,12 @@ kit: TAM61096
   plane has no antenna mast or gun barrels, so I left them off.  The photos showed that the
   bottom of the plane is light blue, and the decal sheet listed FS35450.  I had a bottle of
   Vallejo Model Air 71.317 All SV. GOL Light Blue that I had purchased for
-  {{ 'a Razorback' | linkTo('../../2019/0501') | safe }}, but had ended up not using.  It seemed
+  {{f.linkTo('a Razorback','../../2019/0501')}}, but had ended up not using.  It seemed
   right for this subject, and I liked the way it turned out.  The gray on top is described in
   the decal instructions as Medium Grey FS35237.  The Tigerhead sheet says Medium Sea Grey.
   After looking at the photos, I used AMMO 0245 Ocean Grey, but I think I should have used
   Medium Sea Grey, as the Ocean Grey looks a bit darker that what I see in the photos.
-  I used AMMO 0206 {{'81'|rlm|safe}} FS34079 BS641 for the green, which is what the decal
+  I used AMMO 0206 {{f.rlm('81')}} FS34079 BS641 for the green, which is what the decal
   instructions indicated.  It looked good.
 </p>
 <p>
@@ -39,7 +40,7 @@ kit: TAM61096
   I put two coats of Future on before decaling.  The decals went on with Microset and
   a little bit of Microsol.  They were sealed with another coat of Future, and that was
   followed by Matt Lucky Varnish from AMMO.  I had used this on
-  {{ 'my previous build' | linkTo('../0401/') | safe }}, and I was pleased with it.
+  {{f.linkTo('my previous build','../0401/')}}, and I was pleased with it.
 </p>
 {{ m.buildPhotoLink(path, 1) }}
 {{ m.buildPhotoLink(path, 2) }}

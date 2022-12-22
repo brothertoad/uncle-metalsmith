@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09109
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   My modeling mojo pretty much disappeared at the first of the year, for reasons I'm
   not quite sure of.  I started a couple of kits, but lost interest pretty quickly.  I decided
@@ -11,7 +12,7 @@ kit: HAS09109
 </p>
 <p>
   Although this is shown as an Emil kit, the bagged kit was actually kit
-  {{ '09326' | linkTo('https://www.scalemates.com/kits/hasegawa-09326-messerschmitt-bf109t--197182') | safe }},
+  {{f.linkTo('09326','https://www.scalemates.com/kits/hasegawa-09326-messerschmitt-bf109t--197182')}},
   the Bf 109T.  This kit, as well as the real plane, is based on the E-4/7.  I did not
   want to fuss with the resin, so I built it as an Emil.  I went through my decal
   stash to find some markings, and came across RB Productions RM-D48013 Romanian
@@ -24,12 +25,12 @@ kit: HAS09109
   lopsided, as a few of my recent builds have done.
 </p>
 <p>
-  There were three colors used, {{'65'|rlm|safe}} light blue on the bottom, {{'71'|rlm|safe}}
-  dark green on the top, and {{'04'|rlm|safe}} yellow for the theater markings.
+  There were three colors used, {{f.rlm('65')}} light blue on the bottom, {{f.rlm('71')}}
+  dark green on the top, and {{f.rlm('04')}} yellow for the theater markings.
   The light blue is a Tamiya mix I made up some time ago.  I didn't label the bottle,
-  but it is probably Tamiya's recommendation of {{'23'|txf|safe}} and {{'2'|txf|safe}},
-  mixed 50/50.  (I just realized that I also use this mix for {{'76'|rlm|safe}}.)  The
-  dark green is Polly Scale, and I liked the color.  The yellow is {{'3'|txf|safe}}.
+  but it is probably Tamiya's recommendation of {{f.txf('23')}} and {{f.txf('2')}},
+  mixed 50/50.  (I just realized that I also use this mix for {{f.rlm('76')}}.)  The
+  dark green is Polly Scale, and I liked the color.  The yellow is {{f.txf('3')}}.
 </p>
 <p>
   As mentioned above, the decals are from RB Productions.  Since they are aftermarket
