@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS60132
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     There is not much to say about this kit.  As with the Meng World War Toons kits, I
     built this because I wanted something very simple.  It also gave me another chance
@@ -14,14 +15,14 @@ kit: HAS60132
     including plastic (a notorious difficult surface to paint).  I had tested it on
     some scrap plastic, and found the black sealer did adhere well.  (Interestingly,
     I had some problems with the gray sealer adhering.)  After spraying the sealer
-    and letting it cure for two days, I sprayed on Gaia {{'EX-07'|nowrap|safe}} Silver as the
+    and letting it cure for two days, I sprayed on Gaia {{f.nowrap('EX-07')}} Silver as the
     NMF.  I had masked the area inside the canopy, since I wanted that to stay black.
     Unfortunately, my masking wasn't quite right, so I had to touch up the area in
     front of the canopy.  It actually turned out a bit brighter than the rest of the plane.
 </p>
 <p>
     I used Future as a pre-decal clear coat, applied the kit decals, and then gave it
-    another coat of Future.  I then used a mix of Future and Tamiya {{'21'|tx|safe}}
+    another coat of Future.  I then used a mix of Future and Tamiya {{f.tx('21')}}
     Flat Base to dull the surface.  The kit comes with two sets of markings, a Soviet one
     and the one I used.  To be honest, I'm not sure what nation it represents, as I
     am only really familiar with World War II aircraft.

@@ -3,11 +3,12 @@ layout: build.njk
 kit: HAS09424
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     Another kit built using water based paint, this time AMMO by Mig.  I picked
     up this kit secondhand.  It had no instructions and no decals, and the J sprue
     was missing.  This is the sprue that has the IXe cannon bay covers.  I picked
-    up a set of {{ 'Ultracast' | linkTo('https://www.ultracast.ca/Default.asp') | safe }}
+    up a set of {{f.linkTo('Ultracast','https://www.ultracast.ca/Default.asp')}}
     covers, part number 48092.  As it happens, I had a second copy of the kit that
     had the instructions and decals.
 </p>
@@ -23,10 +24,10 @@ kit: HAS09424
     Ocean Grey.  The camouflage was freehanded.
     For the green, I used 0915, which is labeled Dark Green (BS 241).
     I used this because the AMMO cross reference chart showed this as equivalent to
-    Tamiya {{'81'|txf|safe}}, which is RAF Dark Green.  I'm not nearly as particular about
+    Tamiya {{f.txf('81')}}, which is RAF Dark Green.  I'm not nearly as particular about
     color as many modelers, but even I could see it was off.  It was very green, not olive
     at all, and not as dark as it should have been.  I should have used 0206, which is
-    labeled {{'BS 641'|nowrap|safe}} and equivalent to FS34079 and {{'81'|rlm|safe}}.
+    labeled {{f.nowrap('BS 641')}} and equivalent to FS34079 and {{f.rlm('81')}}.
     I will have to pick up a bottle of that for my next RAF build.
   </p>
   <p>

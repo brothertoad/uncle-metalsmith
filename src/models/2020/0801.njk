@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61033
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     Somewhere along the line I picked up the decal sheet and instructions from
     Hasegawa kit 09308, the Spitfire Mk. Vb 'Red Star'.  I must have FUBARed the kit,
@@ -16,8 +17,8 @@ kit: TAM61033
     this kit.
 </p>
 <p>
-    The exterior was painted with Tamiya {{'83'|txf|safe}} Medium Sea Gray 2 (RAF) on the
-    bottom and {{'82'|txf|safe}} Ocean Gray 2 (RAF) and {{'81'|txf|safe}} Dark Green 2 (RAF) on the top.
+    The exterior was painted with Tamiya {{f.txf('83')}} Medium Sea Gray 2 (RAF) on the
+    bottom and {{f.txf('82')}} Ocean Gray 2 (RAF) and {{f.txf('81')}} Dark Green 2 (RAF) on the top.
     (I find it interesting that Tamiya uses the American spelling of "gray" rather than the
     British spelling for these colors.)  I hand masked the spinner to get the white and red.
     It wasn't perfect but doesn't look too bad.  The Hasegawa instructions showed no Sky band
@@ -26,7 +27,7 @@ kit: TAM61033
 </p>
 <p>
   The decals went on with any major issues using just Microset.  I did have to apply some
-  {{'Mr. Mark'|nowrap|safe}} Softener on the insignias on the bottom of the wings, since
+  {{f.nowrap('Mr. Mark')}} Softener on the insignias on the bottom of the wings, since
   there are major bumps on the bottom of Spitfire wings.
 </p>
 {{ m.buildPhotoLink(path, 1) }}

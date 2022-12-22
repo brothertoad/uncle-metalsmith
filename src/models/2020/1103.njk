@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM35170
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   After looking at my stack of unbuilt armor kits, I decided it was time to tackle one.
   I've always liked the look of the Panther, and I had three Tamiyas (early, late, steel
@@ -10,7 +11,7 @@ kit: TAM35170
 </p>
 <p>
   The wheels were first, and were rather laborious.  I primed, then painted the yellow
-  base, using Tamiya {{'60'|txf|safe}} Dark Yellow.  I tried airbrushing AMMO 0002
+  base, using Tamiya {{f.txf('60')}} Dark Yellow.  I tried airbrushing AMMO 0002
   RAL6003 Olivgrun 2 and AMMO 0015 RAL8017 Schokobraun, but it did not turn out that
   well, so I went over it with a microbrush.  I then painted the tires by hand, using
   a fine black marker to "paint" the area next to the wheel.

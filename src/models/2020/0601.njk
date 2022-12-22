@@ -3,6 +3,7 @@ layout: build.njk
 kit: MENGWWT004
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     As with previous builds from the World War Toons series, this was done due to
     a desire to get something done quickly.  However, it also gave me a chance to
@@ -24,7 +25,7 @@ kit: MENGWWT004
     The external color is AMMO 4BO Russian Green A.MIG-019.  It was a bit lighter than
     I was expecting.  After painting a few items by hand, I used Future as a pre-decal
     gloss coat, applied the kit decals, put on another coat of Future, then a mixture
-    of Future and Tamiya {{'21'|tx|safe}} Flat Base as a flat coat.
+    of Future and Tamiya {{f.txf('21')}} Flat Base as a flat coat.
 </p>
 {{ m.buildPhotoLink(path, 1) }}
 {{ m.buildPhotoLink(path, 2) }}

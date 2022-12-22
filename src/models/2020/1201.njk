@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61096
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   I've got quite a stack of Tamiya 1/48 P-47's in the stash, so I decided it was
   time to tackle a P-47M.  I had originally intended to build this as a P-47D with
@@ -10,19 +11,19 @@ kit: TAM61096
 </p>
 <p>
   The kit went together well, especially as I've built several of these already.
-  For the colors, I used Tamiya {{'7'|txf|safe}} Flat Red for the cowling ring
+  For the colors, I used Tamiya {{f.txf('7')}} Flat Red for the cowling ring
   and the rudder.  The underside is Hataka C078 Aluminum and the top is Hataka
   C041 Night Black.  The aluminum went on very grainy, but it was slightly less
   grainy around the cowling ring, which I had primed with Tamiya Gray Primer
   (from the 40 ml bottle).  The rest of the airframe was primed with
-  {{'Mr. Surfacer'|nowrap|safe}} 1000, which went on very rough.  Even sanding with
+  {{f.nowrap('Mr. Surfacer')}} 1000, which went on very rough.  Even sanding with
   a 1500 sanding sponge didn't make it smooth enough.  I'm thinking I should prime
   with gloss before a NMF.  The black, on the other hand, turned out to be just the
   hue I was looking for.  Night Black has a hint of red, which is what I wanted.
 </p>
 <p>
   Decals came from the kit.  I used Tamiya Mark Fit on the decals, so I got a little
-  less silvering than usual.  An Eduard {{'EX 166'|nowrap|safe}} mask was used,
+  less silvering than usual.  An Eduard {{f.nowrap('EX 166')}} mask was used,
   which fit very well.  The canopy frame is Createx Silver, which looked much
   better than the underside, perhaps because the canopy frame was smooth.
 </p>

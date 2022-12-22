@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM35251
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   I've tried to build Tamiya's regular M4A3 Sherman, kit 35250, twice at FUBARed
   it both times.  I decided to try this one, which turned out quite nicely.
@@ -17,7 +18,7 @@ kit: TAM35251
 </p>
 <p>
   The exterior was painted with a mix I made to represent US armor.  It is a mix of
-  Tamiya {{'62'|txf|safe}} Olive Drab and {{'57'|txf|safe}} Buff, but I did not note
+  Tamiya {{f.txf('62')}} Olive Drab and {{f.txf('57')}} Buff, but I did not note
   the ratio.  I actually think it is a bit too light.
 </p>
 <p>

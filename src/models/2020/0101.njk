@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61025
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     I picked up this kit at a swap meet in November.  This is probably the quickest
     I've ever gotten to building a kit after purchasing it.  This kit dates from the 1970's.
@@ -12,14 +13,14 @@ kit: TAM61025
 </p>
 <p>
     Nothing about the build stuck out.  It is a pretty basic kit, and went together well.
-    As with {{ "last month's Spitfire" | linkTo( '../../2019/1201/') | safe }},
-    I used Tamiya paints.  The bottom is {{ '12'|txf|safe }} JN Grey and
-    the top is {{ '70'|txf|safe }} Dark Green 2.  The instructions specified {{ '13'|txf|safe }} JN Green
-    for the top, but the kit was created before Tamiya introduced {{ '70'|txf|safe }}.
-    Since the subject was built by Mitsubishi, and {{ '70'|txf|safe }} represents Mitsubishi
+    As with {{f.linkTo("last month's Spitfire",'../../2019/1201/')}},
+    I used Tamiya paints.  The bottom is {{f.txf('12')}} JN Grey and
+    the top is {{f.txf('70')}} Dark Green 2.  The instructions specified {{f.txf('13')}} JN Green
+    for the top, but the kit was created before Tamiya introduced {{f.txf('70')}}.
+    Since the subject was built by Mitsubishi, and {{f.txf('70')}} represents Mitsubishi
     Green, that is what I used.  The yellow band at the front of the wings is
-    {{'58'|mrcolor|safe }} Orange Yellow.  This was the end of that bottle and I won't be
-    buying another.  I have not had good results with {{'Mr. Color'|nowrap|safe}} yellows.
+    {{f.mrcolor('58')}} Orange Yellow.  This was the end of that bottle and I won't be
+    buying another.  I have not had good results with {{f.nowrap('Mr. Color')}} yellows.
 </p>
 <p>
     I used Testors Metalizer Sealer for the gloss coat and Dullcote

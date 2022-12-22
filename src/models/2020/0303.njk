@@ -3,14 +3,15 @@ layout: build.njk
 kit: TAM61047
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     This is the first time I've build this boxing of the Mustang, although I did
-    build the {{ 'P-51B boxing' | linkTo('../../2011/0702/') | safe }} a number of years ago.
+    build the {{f.linkTo('P-51B boxing','../../2011/0702/')}} a number of years ago.
 </p>
 <p>
     It went together well.  I did the camouflage freehand, and it turned out rather
     well.  I did mask the top-to-bottom demarcation, though.  Tamiya colors were
-    used for the exterior ({{ '81'|txf|safe }}, {{ '82'|txf|safe }}, and {{ '83'|txf|safe }}).
+    used for the exterior ({{f.txf('81')}}, {{f.txf('82')}}, and {{f.txf('83')}}).
     I had decided to use
     the decals for the yellow on the leading edge of the wing.  This proved to be
     a big issue.
@@ -41,7 +42,7 @@ kit: TAM61047
     sheet - I'm not sure where I got them.
 </p>
 <p>
-    As with {{ 'my previous build' | linkTo('../0302/') | safe }}, I had major silvering,
+    As with {{f.linkTo('my previous build','../0302/')}}, I had major silvering,
     especially on the squadron codes on the port side.
 </p>
 {{ m.buildPhotoLink(path, 1) }}

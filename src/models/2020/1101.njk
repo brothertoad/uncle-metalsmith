@@ -3,11 +3,11 @@ layout: build.njk
 kit: HAS09012
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     After using my spray booth on my
-    {{ 'previous build' | linkTo('../0901/') | safe }},
-    I decided to try painting a model
-    with nothing but alcohol or water based paint.
+    {{f.linkTo('previous build','../0901/')}},
+    I decided to try painting a model with nothing but alcohol or water based paint.
 </p>
 <p>
     There was nothing special, either very good or very bad, about assembly.  I did
@@ -16,7 +16,7 @@ kit: HAS09012
     I wanted to use a water based primer, but they often don't stick to plastic that
     well, and I knew I would need to mask this kit.  I have some Badger Stynylrez
     primer, which has a reputation of adhering well.  While perusing
-    {{ 'YouTube' | linkTo('https://www.youtube.com/') | safe }} for advice on
+    {{f.linkTo('YouTube','https://www.youtube.com/')}} for advice on
     using Stynylrez, I came across a user comment that mentioned using a mixture
     of Future and craft paint as a primer, so I decided to try that.  I mixed some
     Future with some Liquitex Soft Body acrylic paint (Neutral Gray Value 5).  Even
@@ -26,11 +26,11 @@ kit: HAS09012
 </p>
 <p>
     After using AMMO paints on my previous build, I decided to try Vallejo on this
-    one.  However, I didn't have any Vallejo {{'04'|rlm|safe}}, so I used AMMO for
-    that.  The {{'74'|rlm|safe}}, {{'75'|rlm|safe}} and {{'76'|rlm|safe}} were
+    one.  However, I didn't have any Vallejo {{f.rlm('04')}}, so I used AMMO for
+    that.  The {{f.rlm('74')}}, {{f.rlm('75')}} and {{f.rlm('76')}} were
     Vallejo Model Air.  Although they sprayed fine, I wasn't too thrilled with the
     actual color - I think there should be a bit more contrast betwee the 74 and the 75.
-    I used a {{ 'Montex' | linkTo('http://www.montex-mask.com/en/home') | safe }} mask,
+    I used a {{f.linkTo('Montex','http://www.montex-mask.com/en/home')}} mask,
     number 48018.  It fit well, but did not stick on the rear
     section, so there was a bit of overspray.
   </p>

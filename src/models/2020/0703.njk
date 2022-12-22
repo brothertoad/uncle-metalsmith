@@ -3,6 +3,7 @@ layout: build.njk
 kit: HB80357
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     This is the Hobby Boss F8F-1B Bearcat.  I wanted something with a simple paint
     scheme, and this fit the bill.
@@ -11,11 +12,11 @@ kit: HB80357
     The kit went together reasonably well, but I had a hard time getting the fuselage
     halves to mate.  I've had this same trouble with modern Airfix and Eduard kits, so
     it is probably an issue with me and modern tooling, although
-    {{ 'Matt Dyer' | linkTo('https://mattsmodelsandcomment.blogspot.com/2017/08/grumman-f8f-bearcat-or-why-i-am.html') | safe }}
+    {{f.linkTo('Matt Dyer','https://mattsmodelsandcomment.blogspot.com/2017/08/grumman-f8f-bearcat-or-why-i-am.html')}}
     seemed to have the same problem.
 </p>
 <p>
-    The entire exterior was painted with Tamiya {{'17'|txf|safe}} Sea Blue.  The
+    The entire exterior was painted with Tamiya {{f.txf('17')}} Sea Blue.  The
     instructions call out for the landing gear to be silver and the wheel wells to be
     interior green, but most planes I've seen in overall Sea Blue have the landing gear,
     wheels and wheel wells in Sea Blue as well, so that's what I did.  The fact that it
