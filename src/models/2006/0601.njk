@@ -3,6 +3,7 @@ layout: build.njk
 kit: TSTR7625
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	This is the first kit I completed after returning to the hobby.
 	It is a 1/48 scale Messerschmitt Me-163B Komet. It is the Testors kit (#7625),
@@ -13,14 +14,14 @@ kit: TSTR7625
 </p>
 <p>
 	For more details on the kit, refer to the reviews
-	{{ 'here' | linkTo('http://www.modelingmadness.com/review/axis/luft/gren163.htm') | safe }} and
-	{{ 'here' | linkTo('http://www.modelingmadness.com/review/axis/luft/lacombe163.htm') | safe }} on
-	{{ 'Modeling Madness' | linkTo('http://www.modelingmadness.com') | safe }}.
+	{{f.linkTo('here','http://www.modelingmadness.com/review/axis/luft/gren163.htm')}} and
+	{{f.linkTo('here','http://www.modelingmadness.com/review/axis/luft/lacombe163.htm')}} on
+	{{f.linkTo('Modeling Madness','http://www.modelingmadness.com')}}.
 </p>
 <p>
 	The painting was not terribly difficult, especially since the lack of horizontal
 	stabilizers eased the task of masking. I used Model Master Acryls,
-	{{ '81'|rlm|safe }} and {{ '82'|rlm|safe }} over {{ '76'|rlm|safe }}.  I would have preferred Polly Scale,
+	{{f.rlm('81')}} and {{f.rlm('82')}} over {{f.rlm('76')}}.  I would have preferred Polly Scale,
 	but they were difficult to find locally. (I say "were" because one of my
 	local hobby shops now carries Polly Scale.) That being said, the Acryls
 	went on rather smoothly. The plane was primed with Painter's Touch
