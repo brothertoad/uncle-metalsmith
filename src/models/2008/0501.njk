@@ -3,9 +3,10 @@ layout: build.njk
 kit: HASJ001
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	An undocumented build.  The paints are probably Model Master Enamel.
-	I obviously had to touch up the {{'65'|rlm|safe}} just in front of the tail
+	I obviously had to touch up the {{f.rlm('65')}} just in front of the tail
 	section, as it is noticeably darker there.
 </p>
 {{ m.buildPhotoLink(path, 1) }}
