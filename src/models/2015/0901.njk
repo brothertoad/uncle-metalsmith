@@ -3,33 +3,34 @@ layout: build.njk
 kit: TAM61039
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	This is my third build of this kit, and I must say I really do like it.  I had originally
 	planned to use aftermarket decals for this build, but decided to save those for a Hasegawa
 	kit, since I have a couple of those waiting for me.  As with
-	{{ 'my previous build' | linkTo('../0601/') | safe }},
+	{{f.linkTo('my previous build','../0601/')}},
 	this was a pretty uneventful build.  The only unusual thing was the wheels -
 	I used the wheels from a Dragon Fw 190A-8 kit.  I had to drill out the holes in the wheels a bit
 	to get them to fit (I used a #51 drill bit, which was perfectly sized).
 </p>
 <p>
 	The cockpit was painted with Floquil SP Lark Dark Gray.  Instead of my usual Tamiya mix for
-	{{'02'|rlm|safe}}, I used Model Master Enamel.  The wheels where painted Tamiya
-	{{'18'|tx|safe}} Semi Gloss Black.
+	{{f.rlm('02')}}, I used Model Master Enamel.  The wheels where painted Tamiya
+	{{f.tx('18')}} Semi Gloss Black.
 	I had painted the main tires some time ago and could not remember what I used.  I think I
-	used Model Master Acryl for the rear tire, but it may have been {{'137'|mrcolor|safe}} Tire Black.
+	used Model Master Acryl for the rear tire, but it may have been {{f.mrcolor('137')}} Tire Black.
 </p>
 <p>
-	The bombs were Model Master Enamel {{'80'|rlm|safe}}.  The spinner was Tru-Color Paint Black.  This is a
-	model railroad paint that goes on very well.  The yellow was Model Master Enamel {{'04'|rlm|safe}}, and the
-	red was {{'23'|rlm|safe}} from the same line.  I used Testors Flat Gun Metal in the 1/4 ounce jar for
+	The bombs were Model Master Enamel {{f.rlm('80')}}.  The spinner was Tru-Color Paint Black.  This is a
+	model railroad paint that goes on very well.  The yellow was Model Master Enamel {{f.rlm('04')}}, and the
+	red was {{f.rlm('23')}} from the same line.  I used Testors Flat Gun Metal in the 1/4 ounce jar for
 	the guns.
 </p>
 <p>
-	I primed with {{'Mr. Surfacer'|nowrap|safe}} 1200 and used
-	{{'117'|mrcolor|safe}} {{'76'|rlm|safe}} Light Blue on the bottom.  The
-	{{'75'|rlm|safe}} and {{'74'|rlm|safe}} on
-	the top surfaces were {{'Mr. Hobby'|nowrap|safe}} Color paints - the first time I've used them.  I thinned them with
+	I primed with {{f.nowrap('Mr. Surfacer')}} 1200 and used
+	{{f.mrcolor('117')}} {{f.rlm('76')}} Light Blue on the bottom.  The
+	{{f.rlm('75')}} and {{f.rlm('74')}} on
+	the top surfaces were {{f.nowrap('Mr. Hobby')}} Color paints - the first time I've used them.  I thinned them with
 	Tamiya thinner and they sprayed very nicely.  However, they are not available in the US, so I will
 	not be using them on a regular basis.
 </p>

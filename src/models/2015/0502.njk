@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09079
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	My second completion for this month is the Hasegawa Spitfire Mk. IXc, kit 09079/Jt79.  It was built
 	out of the box.  I botched a couple of things and had to borrow pieces for a second copy of the same
@@ -22,12 +23,12 @@ kit: HAS09079
 	with CreateFX Silver, which is quite bright.  I then realized that I had forgotten to attach the oleo
 	scissors to the landing gear, so I used the gear from the Revell boxing.  I painted them with a different
 	paint, but I can't remember which it was.  It may have been Model Master Metalizer Aluminum.  The tires
-	were {{'137'|mrcolor|safe}} Tire Black.  The main tires were airbrushed, as they are separate pieces from the covers.
+	were {{f.mrcolor('137')}} Tire Black.  The main tires were airbrushed, as they are separate pieces from the covers.
 	I hand painted the tail tire, after thinning the paint a bit with Tamiya Lacquer Thinner.  It was only a
 	small area, but it went on very well.
 </p>
 <p>
-	The decals are from the kit.  I did the insignia on the wing bottoms with {{'Mr. Setter'|nowrap|safe}}, which has been
+	The decals are from the kit.  I did the insignia on the wing bottoms with {{f.nowrap('Mr. Setter')}}, which has been
 	recommended for decals from Japanese manufacturers.  However, I did the rest with MicroSet, which worked
 	well.  I did need to apply various softeners several times on some of the decals.
 </p>

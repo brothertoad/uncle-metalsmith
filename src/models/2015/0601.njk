@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09080
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	Yet another Hasegawa Oscar for my collection.  This one is a Ki 43-I, whereas my previous
 	Hasegawa Oscars have been Ki 43-II's.  There really isn't too much to say about this kit,
@@ -13,8 +14,8 @@ kit: HAS09080
 <p>
 	I primed with Tamiya Liquid Surface Primer from the 40 ml jar.  I have not had good luck with this
 	in the past, so this time I mixed it with my Badger electric paint stirrer.  It went on
-	much better than in the past.  The exterior was Tamiya {{'14'|txf|safe}} J.A. Gray for the
-	bottom and {{'13'|txf|safe}} J.A. Green for the top.
+	much better than in the past.  The exterior was Tamiya {{f.txf('14')}} J.A. Gray for the
+	bottom and {{f.txf('13')}} J.A. Green for the top.
 </p>
 <p>
 	The decals are from the kit.  I was a little apprehensive, since I often have trouble with
@@ -25,9 +26,9 @@ kit: HAS09080
 	I first painted the canopy Polly Scale Weyerhauser Green to match the cockpit interior.  I thinned
 	this with Future, which resulted in a rather glossy finish.  In the past, my canopy frames always
 	seem to be darker than the main airframe, so this time I lightened the
-	{{'13'|txf|safe}} with some {{'2'|txf|safe}} Flat
+	{{f.txf('13')}} with some {{f.txf('2')}} Flat
 	White before I sprayed it.  It went on very well, but was too light, so I then sprayed
-	straight {{'13'|txf|safe}}
+	straight {{f.txf('13')}}
 	on.  It did seem to match the rest of the plane better than it usually does.  The windscreen didn't
 	fit that well, but it isn't too obvious in the photos.
 </p>

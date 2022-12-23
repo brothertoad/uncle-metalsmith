@@ -3,40 +3,41 @@ layout: build.njk
 kit: HAS09870
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     This is my first Shiden, although I have four more waiting in the stash:
     Hasegawa N1K1-Jb, N1K2-Ja and N1K2-Jb,
     as well as the Tamiya N1K1-Ja (the same variant as this kit).
 </p>
 <p>
-    As with {{ 'the Shoki' | linkTo('../1201/') | safe }},
-    I used a lot of {{'Mr. Color'|nowrap|safe}} paints on this.  The cockpit, however,
+    As with {{f.linkTo('the Shoki','../1201/')}},
+    I used a lot of {{f.nowrap('Mr. Color')}} paints on this.  The cockpit, however,
     was painted Model Master Enamel Medium Field Green FS34095.  This was actually too dark.  The instructions
     called for a 50/50 mix of Nakajima and Mitsubishi cockpit colors, but a little searching on the web
     showed the color to be a dark green, similar to FS34092.
-    {{ 'This link' | linkTo('http://www.aviationofjapan.com/2010/05/shiden-kai-shiden-kyofu-colours-part.html') | safe }}
+    {{f.linkTo('This link','http://www.aviationofjapan.com/2010/05/shiden-kai-shiden-kyofu-colours-part.html')}}
     was helpful.  However, I intended to use FS34092 on the
     exterior, so I used something else in the cockpit for a bit of contrast.
 </p>
 <p>
-    For the exterior, I used the {{'8'|mrcolor|safe}} Silver on the bottom
-    and {{'302'|mrcolor|safe}} Green FS34092 for
+    For the exterior, I used the {{f.mrcolor('8')}} Silver on the bottom
+    and {{f.mrcolor('302')}} Green FS34092 for
     the top.  The spinner was also painted FS34092.  I used Eduard's EX137 mask, which worked very well.
 </p>
 <p>
     The instructions indicated that the drop tank should be silver, like the undersurface, but my
     understanding is that the tanks were made of wood, and painted either a light blue or a light
-    green.  I used Tamiya {{'76'|txf|safe}} IJN Gray Green.  The propellor blades
-    were {{'131'|mrcolor|safe}} Propellor Color,
-    with {{'58'|mrcolor|safe}} Orange Yellow for the tips and the IFF bands on the front of the wings.
+    green.  I used Tamiya {{f.txf('76')}} IJN Gray Green.  The propellor blades
+    were {{f.mrcolor('131')}} Propellor Color,
+    with {{f.mrcolor('58')}} Orange Yellow for the tips and the IFF bands on the front of the wings.
 </p>
 <p>
     The decals are from the kit.  I used
     Mr. Mark Setter, having had good results using it on Hasegawa decals on
-    {{ 'the Shoki' | linkTo('../1201/') | safe }}
+    {{f.linkTo('the Shoki','../1201/')}}
     It worked well here, although the decals weren't
     that good.  It turns out a similar aircraft ("8" instead of "5") is represented on
-    Aeromaster {{'48-326'|nowrap|safe}}, of which
+    Aeromaster {{f.nowrap('48-326')}}, of which
     I have not one but two copies.  I intend on using those decals on the Tamiya kit.
 </p>
 <p>

@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61040
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	Here is my first completed 1/48 P-51D, with the emphasis on "completed."  I've started a few before,
 	but usually messed up the NMF.  That wasn't an issue with this build, as I intended from the start
@@ -12,14 +13,14 @@ kit: TAM61040
 	In addition to being my first completed 1/48 P-51D, this build is also my first major attempt at using
 	resin.  Passion Wagon was a P-51D-5, and did not have the fillet just ahead of the fin.  I have a Hasegawa
 	boxing of their P-51D that has markings for Passion Wagon, and it just tells you so saw off the fillet.
-	However, {{ 'Ultracast' | linkTo('http://www.ultracast.ca') | safe }} makes a resin tail for the Tamiya kit (part number
+	However, {{f.linkTo('Ultracast','http://www.ultracast.ca')}} makes a resin tail for the Tamiya kit (part number
 	48024), and that is what I used.  After cutting off the existing tail, it fit pretty well, although I did
 	have to use a little Tamiya putty to smooth things out.  In retrospect, I think it would have been just
 	as easy to cut off the existing fillet and sand the area smooth.  For one thing, using the resin tail meant
 	having to attach the rudder, as it is a separate piece.  I'm sure many modelers prefer this, but it was a
 	bit awkward for me.  Also, the tail wheel well doors had to be attached, where they are molded into the
 	Tamiya fuselage.  I always have trouble attaching these, although they came out rather well on this build.
-	Thirdly, I found that the resin was actually a bit difficult to prime, even with {{'Mr. Surfacer'|nowrap|safe}}.
+	Thirdly, I found that the resin was actually a bit difficult to prime, even with {{f.nowrap('Mr. Surfacer')}}.
 </p>
 <p>
 	The cockpit was painted Polly Scale Interior Green.  The landing gear, wheel wells and drop tanks

@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09255
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	This is my first Hasegawa 1/48 P-51D.  It was not quite as easy a build as the Tamiya.
 	It was originally planned to be a NMF build, but it didn't turn out that well, so I
@@ -17,8 +18,8 @@ kit: HAS09255
 </p>
 <p>
 	The drop tanks were painted with Ace Hardware Gray Primer from a rattle can, followed by
-	Tamiya {{'1'|tx|safe}} (Gloss) Black, followed by tricked Model Master Metalizer Aluminum.  By "tricked",
-	I mean I followed {{ "Rog&eacute;rio Marczak's advice" | linkTo("http://hsfeatures.com/sslrm.htm") | safe }} on
+	Tamiya {{f.tx('1')}} (Gloss) Black, followed by tricked Model Master Metalizer Aluminum.  By "tricked",
+	I mean I followed {{f.linkTo("Rog&eacute;rio Marczak's advice","http://hsfeatures.com/sslrm.htm")}} on
 	Hyperscale - I removed the solvent from the bottle and replaced with a mixture of Metalizer
 	Sealer and Metalizer Thinner.  I used his recommended ratio of two parts sealer to one part
 	thinner, but it was a little thick.  When I do this in the future, I will try equal parts.

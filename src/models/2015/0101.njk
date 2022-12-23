@@ -3,8 +3,9 @@ layout: build.njk
 kit: HAS51631
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-	After completing the {{ 'Academy Bf 109G-6' | linkTo('../../2014/1101/') | safe }}, I decided
+	After completing the {{f.linkTo('Academy Bf 109G-6','../../2014/1101/')}}, I decided
 	I had had enough of 1/72 scale. I actually packaged up most of my 1/72 stash and put
 	it up for sale on Hyperscale and ARC. I found that building a 1/72 kit took almost as
 	long as building a 1/48 kit, masking - particularly of the canopy - was harder, and
@@ -16,9 +17,9 @@ kit: HAS51631
 <p>
 	The kit was pretty easy to assemble and it went together quickly. I used a Tamiya
 	mix I had lying around for the cockpit. It wasn't the critical, since there really
-	is no cockpit - just the tub. I used {{'58'|mrcolor|safe}} Orange Yellow for the IFF bands
+	is no cockpit - just the tub. I used {{f.mrcolor('58')}} Orange Yellow for the IFF bands
 	on the front of the wings, and for the drop tanks. It was actually difficult to
-	cover the primer. After masking the bands, I used Tamiya {{'1'|tx|safe}} Black as a primer,
+	cover the primer. After masking the bands, I used Tamiya {{f.tx('1')}} Black as a primer,
 	thinning with Tamiya Lacquer Thinner. I masked the anti-glare panel and the walkway
 	marking on the wing, and used Testors CreateFX Aluminum for the NMF. I wanted to
 	see if this paint was repackaged Floquil Old Silver, or close to it. It wasn't,
@@ -27,7 +28,7 @@ kit: HAS51631
 	Neither worked terribly well.
 </p>
 <p>
-	The propellor blades and spinner were painted {{'131'|mrcolor|safe}} Propellor Color.
+	The propellor blades and spinner were painted {{f.mrcolor('131')}} Propellor Color.
 	The landing gear was painted CreateFX Aluminum, the same paint that was used
 	for the exterior. I think I used Model Master Acryl Flat Black for the tires.
 	For the exhaust, I used Testors Rubber from the 1/4 ounce jar. I had used this
@@ -46,7 +47,7 @@ kit: HAS51631
 	decals represent an aircraft from 70th Hiko-sentai, 3rd Chutai, Kashiwa Airfield,
 	Chiba, Japan in June of 1945. The pilot was Chutai leader Captain Yoshio Yoshida.
 	This aircraft was also an option in the Otaki/Arii kit - as a matter of fact, I
-	used those decals in {{ 'one of my builds' | linkTo('../../2012/1102/') | safe }} - so
+	used those decals in {{f.linkTo('one of my builds','../../2012/1102/')}} - so
 	I assume it was a well-documented plane.
 	I used Right Step Matte finish, thinned with Jason Jones reducer, for the flat coat.
 </p>
