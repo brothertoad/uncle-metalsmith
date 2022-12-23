@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM35346
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     I decided I wanted to build an armor kit, so I perused my stash and found this kit.
     It is a modern Tamiya kit, and goes together very well, as modern Tamiya kits
@@ -20,12 +21,12 @@ kit: TAM35346
     The paint scheme was about as simple as it gets.  Except for the silver ring
     about the barrel, for which I used Testors Silver Lacquer from their auto line,
     the rest of the tank is US Olive Drab.  I actually used a mix of three parts
-    {{'62'|txf|safe}} Olive Drab to one part {{'60'|txf|safe}} Dark Yellow.  I ran across this
+    {{f.txf('62')}} Olive Drab to one part {{f.txf('60')}} Dark Yellow.  I ran across this
     mix on a web page, but I did not save the link.  I think it was recommended by
-    Steve Zalonga.  The tires were painted Tamiya {{'69'|txf|safe}} NATO Black.  I think
+    Steve Zalonga.  The tires were painted Tamiya {{f.txf('69')}} NATO Black.  I think
     I will go with actual black next time, as there isn't that much constrast
     between the wheel and the tire.  The tracks and machine guns were painted my
-    gun metal mix of one part {{'1'|txf|safe}} Flat Back and one part {{'56'|txf|safe}}
+    gun metal mix of one part {{f.txf('1')}} Flat Back and one part {{f.txf('56')}}
     Metallic Grey.
 </p>
 <p>

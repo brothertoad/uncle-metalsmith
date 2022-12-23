@@ -3,8 +3,9 @@ layout: build.njk
 kit: MENGWWT003
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-    As with {{ 'my previous Meng World War Toons build' | linkTo('../0701/') | safe }},
+    As with {{f.linkTo('my previous Meng World War Toons build','../0701/')}},
     this build came about because I was frustrated with other builds.
 </p>
 <p>

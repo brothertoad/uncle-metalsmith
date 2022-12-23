@@ -3,10 +3,11 @@ layout: build.njk
 kit: TAM61032
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     This is the second time I've built this kit.  I wanted to use a set of Superscale
     decals I had that showed some Spitfires with the black and white undersides.
-    Plus, after having freehanded the camouflage on {{ 'my previous build' | linkTo('../1102/') | safe }},
+    Plus, after having freehanded the camouflage on {{f.linkTo('my previous build','../1102/')}},
     I wanted to try it again, with Tamiya paints.
 </p>
 <p>
@@ -16,10 +17,10 @@ kit: TAM61032
     keep the seat low.  Perhaps the retooled Mk I doesn't have this issue.
 </p>
 <p>
-    I used Tamiya paints on this one.  The bottom is {{'2'|txf|safe}} Flat White and
-    {{'1'|txf|safe}} Flat Black.  For the dark earth on the top, I used {{'72'|txf|safe}}
-    Brown / JGSDF, as suggested by Jon Bius at {{ 'Agape Models' | linkTo('https://www.agapemodels.com/') | safe }}.
-    The dark green was {{'81'|txf|safe}} Dark Green 2 (RAF).  As mentioned above, I
+    I used Tamiya paints on this one.  The bottom is {{f.txf('2')}} Flat White and
+    {{f.txf('1')}} Flat Black.  For the dark earth on the top, I used {{f.txf('72')}}
+    Brown / JGSDF, as suggested by Jon Bius at {{f.linkTo('Agape Models','https://www.agapemodels.com/')}}.
+    The dark green was {{f.txf('81')}} Dark Green 2 (RAF).  As mentioned above, I
     freehanded it, and it turned out okay.
 </p>
 <p>

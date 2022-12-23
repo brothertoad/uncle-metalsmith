@@ -3,6 +3,7 @@ layout: build.njk
 kit: MENGWWT011
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     July was another month of FUBAR'ed kits.  I think I messed up four of them before
     finishing this Meng kit.  After the FUBARs, I wanted something simple that I could
@@ -10,7 +11,7 @@ kit: MENGWWT011
 </p>
 <p>
     It went together well, although not as well as I remember the first two going
-    together, especially {{ 'the T-34/76' | linkTo('../../2018/0901/') | safe }}.  I primed with
+    together, especially {{f.linkTo('the T-34/76','../../2018/0901/')}}.  I primed with
     Tamiya Grey Primer from the 40 ml jar.  The exterior was an old bottle of
     Floquil SP Lark Dark Grey, which quite frankly didn't go on as smoothly as
     it seemed to in the past.  That being said, it has been a while since I used
