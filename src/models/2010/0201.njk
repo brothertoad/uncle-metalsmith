@@ -3,9 +3,10 @@ layout: build.njk
 kit: ACA1664
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     I was not pleased with how this kit turned out - as a matter of fact, I have
-    since tossed the build.  I did {{ 'another build' | linkTo('../../2016/1101/') | safe }}
+    since tossed the build.  I did {{f.linkTo('another build','../../2016/1101/')}}
     of this kit in 2016, and it turned out much better.
 </p>
 <p>

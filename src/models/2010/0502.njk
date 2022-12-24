@@ -3,9 +3,10 @@ layout: build.njk
 kit: TAM61016
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     An undocumented build, but looking at the paint, I think it is Tamiya
-    {{'12'|txf|safe}} JN Grey.
+    {{f.txf('12')}} JN Grey.
 </p>
 {{ m.buildPhotoLink(path, 1) }}
 {{ m.buildPhotoLink(path, 2) }}
