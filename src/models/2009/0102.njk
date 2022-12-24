@@ -3,8 +3,9 @@ layout: build.njk
 kit: HASA8
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-	An undocumented build.  According to {{ 'Scalemates' | linkTo('https://www.scalemates.com/') | safe }},
+	An undocumented build.  According to {{f.linkTo('Scalemates','https://www.scalemates.com/')}},
 	this is the same kit as B008.  Both the NMF and the decals seemed to have turned out okay on this one.
 </p>
 {{ m.buildPhotoLink(path, 1) }}

@@ -3,6 +3,7 @@ layout: build.njk
 kit: MONOPA90
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	When I decided to get back into modeling, I visited a local shop to
 	pick up a kit and supplies.  When I walked in, I saw a couple of tables
@@ -15,7 +16,7 @@ kit: MONOPA90
 	Unfortunately, I messed up the first one.  When I started the second one, I found
 	that the landing gears struts were missing.  I wish I had known that before I
 	threw out the first one!  I posted a message on the "Buy and Sell" forum at
-	the {{ 'Aircraft Resource Center' | linkTo('http://www.arcair.com') | safe }},
+	the {{f.linkTo('Aircraft Resource Center','http://www.arcair.com')}},
 	and within a
 	couple of hours a gentleman in Florida said he had what I needed.  Thanks, Larry!
 </p>

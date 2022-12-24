@@ -3,9 +3,10 @@ layout: build.njk
 kit: REV5225
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	Here is Revell's Me109G.
-	{{ 'Scalemates' | linkTo('https://www.scalemates.com/') | safe }} shows this
+	{{f.linkTo('Scalemates','https://www.scalemates.com/')}} shows this
 	as being a Monogram kit.
 </p>
 <p>

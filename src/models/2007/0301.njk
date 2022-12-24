@@ -3,6 +3,7 @@ layout: build.njk
 kit: OT205
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	One of the first kits I picked up was the Otaki Spitfire.  It didn't make it past
 	the painting stage, but it was quite a good kit, with good fit and a reasonable
@@ -19,7 +20,7 @@ kit: OT205
 	though the box showed three options.  I learned that finding aftermarket decals for
 	Japanese aircraft is not easy (the exception might be the Frank).  I did find one
 	Aeromaster set (48-381, "Ki-43 IJAAF Falcons") that fit the bill and ordered it
-	from {{ 'Squadron' | linkTo('http://www.squadron.com') | safe }}.
+	from {{f.linkTo('Squadron','http://www.squadron.com')}}.
 	I then learned they were out of stock,
 	and that set was no longer being made.  I eventually ordered it from
 	Sandle Hobbies in Australia (now defunct).  The decals

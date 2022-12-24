@@ -3,9 +3,10 @@ layout: build.njk
 kit: OT227
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	Another build that I did not document.  I think the Sea Blue is Tamiya
-	{{'17'|txf|safe}} Sea Blue, but I'm not sure about the other colors.
+	{{f.txf('17')}} Sea Blue, but I'm not sure about the other colors.
 </p>
 {{ m.buildPhotoLink(path, 1) }}
 {{ m.buildPhotoLink(path, 2) }}
