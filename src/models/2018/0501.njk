@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09196
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     This is my first Hasegawa J2M in this scale.  I've build Tamiya's 1/48 J2M3 (which I
     believe is actually 1/50 scale), and their 1/72 J2M3 twice.  I've got two 1/48
@@ -14,30 +15,30 @@ kit: HAS09196
     kits, which have a better reputation in terms of fit.
 </p>
 <p>
-    As with the {{ 'Fw 190A-8' | linkTo('../0301/') | safe }}, I used mostly Tamiya paints on this kit.
+    As with the {{f.linkTo(f.nowrap('Fw 190A-8'),'../0301/')}}, I used mostly Tamiya paints on this kit.
     This made things a bit simpler, as Tamiya offers nearly all the needed colors
-    right out of the bottle.  The cockpit was painted {{'71'|txf|safe}} Cockpit Green, which is
+    right out of the bottle.  The cockpit was painted {{f.txf('71')}} Cockpit Green, which is
     intended for Mitsubishi aircraft.  The yellow on the front of the wings was
-    my Tamiya mix for {{'04'|txf|safe}}, which is a reasonably close match for Japanese
+    my Tamiya mix for {{f.txf('04')}}, which is a reasonably close match for Japanese
     Orange-Yellow.  I also used this for the tips of the propellor blades.
-    The underside was {{'12'|txf|safe}} JN Grey.  This was also used for the landing gear
+    The underside was {{f.txf('12')}} JN Grey.  This was also used for the landing gear
     and wheel wells.  This made the painting process simpler!
-    The top was {{'70'|txf|safe}} Dark Green 2
-    (IJN), which is Mitsubishi Dark Green.  (I believe {{'11'|txf|safe}} is for Nakajima
-    aircraft.)  The {{'70'|txf|safe}} has a slight bluish tint to it.  When I first saw the paint,
+    The top was {{f.txf('70')}} Dark Green 2
+    (IJN), which is Mitsubishi Dark Green.  (I believe {{f.txf('11')}} is for Nakajima
+    aircraft.)  The {{f.txf('70')}} has a slight bluish tint to it.  When I first saw the paint,
     I thought that the blue was bit too much, but after the fact I think it looks
     right.  It seems a close match to FS34092, and might be appropriate for a P-47
     cockpit, although it would probably have to be lightened a bit.
 </p>
 <p>
-    The anti-glare panel was painted {{'18'|tx|safe}} Semi Gloss Black.  I believe it is
+    The anti-glare panel was painted {{f.tx('18')}} Semi Gloss Black.  I believe it is
     actually supposed to have a bit of a bluish tint.  The tires were hand-painted
-    {{'69'|txf|safe}} NATO Black.  I used Tamiya Acrylic Retarder to thin the paint a bit
+    {{f.txf('69')}} NATO Black.  I used Tamiya Acrylic Retarder to thin the paint a bit
     when I brushed it on, and it worked very well.  As a matter of fact, I have
     made some home-brew thinner for Tamiya using a mix of denatured alcohol and
     the Tamiya Retarder, and it works very well.  The gun barrels were painted
-    a 50/50 mix of {{'1'|txf|safe}} Flat Black and {{'56'|txf|safe}} Metallic Grey.  I use this rather than
-    Tamiya's own {{'10'|tx|safe}} Gun Metal because the {{'10'|tx|safe}} is glossy, which makes it more
+    a 50/50 mix of {{f.txf('1')}} Flat Black and {{f.txf('56')}} Metallic Grey.  I use this rather than
+    Tamiya's own {{f.tx('10')}} Gun Metal because the {{f.tx('10')}} is glossy, which makes it more
     difficult to use.  I had purchases some aftermarket gun barrels from Master
     Models, but decided to save those for a future build.
 </p>

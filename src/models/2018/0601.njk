@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61033
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     I picked up the Eagle Strike 48228 U.S. Spitfires Part 2 (Africa and Italy) some
     time ago (meaning years), and I was struck by the second subject on the sheet.
@@ -11,19 +12,19 @@ kit: TAM61033
     the plane may have been RAF Dark Earth and RAF Dark Green instead of the two
     shades of green.  The book Spitfires And Yellow Tail Mustangs: The U.S. 52nd Fighter
     Group in WWII contains
-    {{ 'artwork and a photo' | linkTo('https://books.google.com/books?id=DZtIAQAAQBAJ&lpg=PP1&pg=PA192-IA10#v=onepage&q=curtis&f=false') | safe }}
+    {{f.linkTo('artwork and a photo','https://books.google.com/books?id=DZtIAQAAQBAJ&lpg=PP1&pg=PA192-IA10#v=onepage&q=curtis&f=false')}}
     of this plane, in the two shades of green.  Even if the camouflage is fictious,
     I found it striking, so I decided to go with it.
 </p>
 <p>
     I don't recall running into any issues when building this kit, with one exception
     that happened at the end.  I used Model Master Enamel RAF Interior Green for the
-    cockpit.  As I was building {{ 'the Raiden' | linkTo('../0501/') | safe }} at the same time,
-    I compared this cockpit with the Raiden's cockpit, which was painted Tamiya {{'71'|txf|safe}}
-    Cockpit Green.  Although the {{'71'|txf|safe}} is intended to represent Mitsubishi cockpits,
+    cockpit.  As I was building {{f.linkTo('the Raiden','../0501/')}} at the same time,
+    I compared this cockpit with the Raiden's cockpit, which was painted Tamiya {{f.txf('71')}}
+    Cockpit Green.  Although the {{f.txf('71')}} is intended to represent Mitsubishi cockpits,
     not British ones, it is pretty close, and
-    Brett Green of {{ 'Hyperscale' | linkTo('http://www.hyperscale.com') | safe }} has used it for
-    RAF planes.  The {{'71'|txf|safe}} is a bit more yellow, whereas the RAF Interior Green is
+    Brett Green of {{f.linkTo('Hyperscale','http://www.hyperscale.com')}} has used it for
+    RAF planes.  The {{f.txf('71')}} is a bit more yellow, whereas the RAF Interior Green is
     a bit more gray, but they are close.
 </p>
 <p>
@@ -52,7 +53,7 @@ kit: TAM61033
 </p>
 <p>
     For a post-decal flat coat, I used a mixture of Future and
-    Tamiya {{'21'|tx|safe}} Flat Base.  This didn't work too well at first.  I had what I thought
+    Tamiya {{f.tx('21')}} Flat Base.  This didn't work too well at first.  I had what I thought
     was a bottle of the Flat Base, and I mixed it with Future in what I thought
     was the correct ratio, but it was still glossy.  Turns out that what I thought
     was Flat Base was a Future/Flat Base mixture I had made some years ago.  I was

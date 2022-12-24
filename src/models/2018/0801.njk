@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61032
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     I spent the first part of August struggling with the Eduard Spitfire IXe.
     I knew from many reviews on the web that it was a fiddly kit, and in the end
@@ -19,10 +20,10 @@ kit: TAM61032
 </p>
 <p>
     I primed the exterior with Brite Touch Gray Primer that I purchased at Pep Boys.
-    The exterior colors were Tamiya - {{'21'|txf|safe}} Sky on the underside,
-    {{'72'|txf|safe}} Brown (JGSDF) for the Dark Earth and {{'81'|txf|safe}} RAF Dark Green.
-    Jon Bius at {{ 'Agape Models' | linkTo('http://www.agapemodels.com') | safe }} has mentioned
-    that he uses {{'72'|txf|safe}} for RAF Dark Earth, and I thought it looked pretty good.
+    The exterior colors were Tamiya - {{f.txf('21')}} Sky on the underside,
+    {{f.txf('72')}} Brown (JGSDF) for the Dark Earth and {{f.txf('81')}} RAF Dark Green.
+    Jon Bius at {{f.linkTo('Agape Models','http://www.agapemodels.com')}} has mentioned
+    that he uses {{f.txf('72')}} for RAF Dark Earth, and I thought it looked pretty good.
 </p>
 <p>
     One nice thing about the Mk I over the Mk Vb is that there are no yellow bands

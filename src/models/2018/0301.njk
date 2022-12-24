@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61095
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     This build was much longer than expected.  I began the build in December,
     and had the underside painted by the just after Chrismas.  But then I lost my
@@ -26,20 +27,20 @@ kit: TAM61095
     forth between several brands of paint.  For this build, I decided to try to stick
     with acrylics.  I have struggled with water-based acrylics in the past, although
     I've had some luck with Tamiya, which are alcohol-based.  I have had good results
-    using Tamiya when thinned with either Tamiya lacquer thinner or {{'Mr. Color'|nowrap|safe}} Leveling
+    using Tamiya when thinned with either Tamiya lacquer thinner or {{f.nowrap('Mr. Color')}} Leveling
     Thinner.
 </p>
 <p>
     Well, it didn't quite go as I planned.  The rudder was sprayed with Polly Scale
-    {{'04'|rlm|safe}}, and the underside was underside was Polly Scale {{'76'|rlm|safe}}.  I have
+    {{f.rlm('04')}}, and the underside was underside was Polly Scale {{f.rlm('76')}}.  I have
     discovered through my travails with using Future, that acrylics - at least the water-based
     ones - spray better at about 20 psi, which is a little higher than I normally use.
     Using this higher pressure, and by not thinning the paint at all, the Polly Scale went on well.
     But then came the two month lull, and at that point I decided to abandon my
-    experiment.  Model Master Enamel was used for the {{'74'|rlm|safe}} and {{'75'|rlm|safe}}.
+    experiment.  Model Master Enamel was used for the {{f.rlm('74')}} and {{f.rlm('75')}}.
     I used my Badger Rage Velocity, a recent acquisition, to spray the mottling, and I
     thought it came out quite well, much better than some of my previous attempts.  I
-    thinned the Model Master Enamel with either {{'Mr. Color'|nowrap|safe}} Leveling Thinner or with
+    thinned the Model Master Enamel with either {{f.nowrap('Mr. Color')}} Leveling Thinner or with
     Xylene (which I picked up on a trip to Vegas last year - it isn't sold here in
     California) - I can't remember which.  Both work well.
 </p>
@@ -47,7 +48,7 @@ kit: TAM61095
     I used Testors Glosscote for my decal undercoat.  It didn't seem to have much effect,
     but the Model Master Enamel Luftwaffe colors are semi-gloss, so there probably
     wasn't much difference.  The decals came from Aeromaster 48-233 Rammj&auml;gers Part 3.
-    I used Tamiya {{'8'|txf|safe}} Flat Blue for the spinner, which matched the blue 4 on the
+    I used Tamiya {{f.txf('8')}} Flat Blue for the spinner, which matched the blue 4 on the
     fuselage.  Since I don't enjoy applying decals that much, I only applied the stencils
     to the drop tank.
 </p>
@@ -56,8 +57,8 @@ kit: TAM61095
     drop tank, and so forth.  I always seem to have trouble attaching the landing
     gear on 190's, due to the actuating arm.  The model does not sit quite level,
     but since I do not enter contests, I didn't worry about it.  The pitot tube was
-    from the {{ 'Quickboost' | linkTo('http://www.quickboost.net/catalogue.htm') | safe }} 48120 set,
-    and the wheels were {{ 'Ultracast' | linkTo('http://www.ultracast.ca') | safe }} 48231.
+    from the {{f.linkTo('Quickboost','http://www.quickboost.net/catalogue.htm')}} 48120 set,
+    and the wheels were {{f.linkTo('Ultracast','http://www.ultracast.ca')}} 48231.
     After attaching everything, I gave the model a
     final gloss coat of Future, sprayed though my Badger Anthem at about 20 psi.
     I used Right Step Matte as a final flat coat.

@@ -3,8 +3,9 @@ layout: build.njk
 kit: HAS09011
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-    Like {{ 'the Bf 109G-6 I built a year ago' | linkTo('../../2017/0701/') | safe }}, this kit was
+    Like {{f.linkTo('the Bf 109G-6 I built a year ago','../../2017/0701/')}}, this kit was
     one of a lot that I purchased cheaply.  It did not have decals, so I used
     Aeromaster 48-129C Mediteranean Bf 109s of JG 53.  I decided to try
     a couple of new things with this build.  This is actually the first 109F that
@@ -20,17 +21,17 @@ kit: HAS09011
 <p>
     I think I primed with Ace Hardware brand gray primer from a spray can.  One of the
     things that I decided to try with this kit was to use water-based paint, which I
-    haven't used for a while and have never had good luck with.  The {{'76'|rlm|safe}} was
+    haven't used for a while and have never had good luck with.  The {{f.rlm('76')}} was
     Model Master Acryl.  I think I tried using Createx 4012 High Performance reducer
-    to thin it.  It did go on pretty well.  The {{'75'|rlm|safe}} and {{'74'|rlm|safe}} were
+    to thin it.  It did go on pretty well.  The {{f.rlm('75')}} and {{f.rlm('74')}} were
     Lifecolor, a brand I had not tried before.  I first tried using airbrush medium
     and water.  That worked okay, but not great.  I then tried using
-    {{ "Jason Jones' reducer" | linkTo('http://jason-jones.com/articles/106-airbrushing/302-homemade-reducer') | safe }},
+    {{f.linkTo("Jason Jones' reducer",'http://jason-jones.com/articles/106-airbrushing/302-homemade-reducer')}},
     and that worked better.
 </p>
 <p>
     It wasn't until after I had painted the camouflage that I realized I had forgotten
-    to paint the white fuselage stripe and the {{'04'|rlm|safe}} under the cowling, so they
+    to paint the white fuselage stripe and the {{f.rlm('04')}} under the cowling, so they
     were masked and painted.  It was much more difficult that way - need to make a note
     to myself to do these first!  After they were done, I hand-painted the mottling,
     which matched the way the mottling was shown on the decal sheet.
@@ -38,9 +39,9 @@ kit: HAS09011
 <p>
     Another new technique I tried was to polish the canopy.  I used Blue Magic Metal
     Polish, which had been recommended by Gregg Cooper on his
-    {{ 'Gekko build on Hyperscale' | linkTo('http://hyperscale.com/features/2002/gekkogc_3.htm') | safe }}.
+    {{f.linkTo('Gekko build on Hyperscale','http://hyperscale.com/features/2002/gekkogc_3.htm')}}.
     It did not seem to make any difference, and in the end I dipped the canopy in
-    Future as I usually do.  I used a mask from {{ 'EZ Masks' | linkTo('http://www.ezmasks.com') | safe }}
+    Future as I usually do.  I used a mask from {{f.linkTo('EZ Masks','http://www.ezmasks.com')}}
     to mask the canopy.
 </p>
 <p>

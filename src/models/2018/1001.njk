@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM35353
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     After the frustrations of last month, I wanted something different, so I grabbed
     an armor model from my stash - the Tamiya Sturmpanzer.
@@ -27,7 +28,7 @@ kit: TAM35353
 </p>
 <p>
     I primed the exterior with Krylon Red Oxide Primer.  The primary exterior color
-    was Tamiya {{'60'|txf|safe}} Dark Yellow.  The camouflage was Tamiya {{'58'|txf|safe}} Olive Green
+    was Tamiya {{f.txf('60')}} Dark Yellow.  The camouflage was Tamiya {{f.txf('58')}} Olive Green
     and Model Master Acryl Burnt Sienna.  All three of these were thinned with a mixture
     of denatured alcohol and Createx 4012 High Performace Reducer.  I was hesitant
     to try this with the Acryl, but it worked well.

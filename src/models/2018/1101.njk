@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61034
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     This build may be one of my fastest in several years - I started on October 30
     and finished on November 13.  With my lifestyle and the way I build kits, I
@@ -23,7 +24,7 @@ kit: TAM61034
 </p>
 <p>
     I used Future as a gloss coat prior to applying the decals.  As with
-    {{ 'the Sturmpanzer' | linkTo('../1001/') | safe }}, I used Mr. Mark Setter on the decals.
+    {{f.linkTo('the Sturmpanzer','../1001/')}}, I used Mr. Mark Setter on the decals.
     However, these decals were quite thick, after Mr. Mark Softer failed to get them
     to settle, I use Solvaset.  They still didn't conform completely, partially
     because this kit has lots of prominent rivets.  After I was satisfied - in other
