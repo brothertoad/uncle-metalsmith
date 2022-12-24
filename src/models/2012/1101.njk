@@ -3,12 +3,13 @@ layout: build.njk
 kit: ACA2213
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   Here is the Academy 1/72 Focke-Wulf Fw 190A-8, kit number 2213.  The kit also
   includes the K&uuml;belwagen, but I have not built that yet.
 </p>
 <p>
-  I built this kit to try out {{'Mr. Surfacer'|nowrap|safe}} as a primer for a camouflaged airplane.  It worked very
+  I built this kit to try out {{f.nowrap('Mr. Surfacer')}} as a primer for a camouflaged airplane.  It worked very
   well.  As it happens, the kit was missing a sprue, so I used some left-over parts from a previous
   build.  There is no cockpit, but I think everything else is there.  The drop tank was quite a bit
   too small for the bracket that holds it.
@@ -16,9 +17,9 @@ kit: ACA2213
 <p>
   The canopy was masked by hand.  I used Eagle Strike 72053 Focke-Wulf Fw 190.  According to the
   decal instruction sheet, this plane was flown by Kurt Petzsch as part of 7II./JG26.
-  The colors are {{'75/82'|rlm|safe}} over {{'76'|rlm|safe}}.  I used {{'Mr. Color'|nowrap|safe}} for
-  the 76 and 75, and Tamiya {{'26'|txf|safe}} Deep Green
-  for the 82.  The yellow was Floquil Reefer Yellow, which I think is a close match for {{'04'|rlm|safe}}.
+  The colors are {{f.rlm('75/82')}} over {{f.rlm('76')}}.  I used {{f.nowrap('Mr. Color')}} for
+  the 76 and 75, and Tamiya {{f.txf('26')}} Deep Green
+  for the 82.  The yellow was Floquil Reefer Yellow, which I think is a close match for {{f.rlm('04')}}.
   The exhaust panels are a bit too long - they should not extend back quite as far as I made
   them.  Other than that, I thought the colors came out well.  This particular plane did not have much
   mottling, so I didn't put much on.  The work numbers on the fin came off while I was

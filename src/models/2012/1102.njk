@@ -3,6 +3,7 @@ layout: build.njk
 kit: ARIIA328
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   Here is the Arii 1/48 Ki 44.  This is the second time I've built this kit (the first was
   the Otaki boxing) and represented another chance to create a natural metal finish (NMF).
@@ -13,7 +14,7 @@ kit: ARIIA328
   accurate, and is due to the butterfly flaps.  Good thing I didn't fix it.
 </p>
 <p>
-  I used Tamiya {{'1'|tx|safe}} Black as a primer for the NMF.  I created a mixture of the Tamiya paint and
+  I used Tamiya {{f.tx('1')}} Black as a primer for the NMF.  I created a mixture of the Tamiya paint and
   91% isopropyl alcohol, mixed 50/50, some time before priming this.  I created the mixture because I
   figured that I'd be using it for several NMF projects, and I've had good luck with storing thinned
   Tamiya paint.  Unfortunately, it did not stick that well, and some came off on the anti-glare panel.
@@ -29,7 +30,7 @@ kit: ARIIA328
   bit of old T shirt and applied some Floquil gloss clear before handling.
 </p>
 <p>
-  The leading edges of the wings and the drop tanks were painted {{'58'|mrcolor|safe}} Orange Yellow.
+  The leading edges of the wings and the drop tanks were painted {{f.mrcolor('58')}} Orange Yellow.
   It looked too orange when I was painting it, but I think it looks better now.  I knew the drop tanks
   would be difficult to attach, which is why I left them off the last time I built this kit.  I ended
   up drilling the four mounting holes in the tanks and using brass tubing to run to the bottom of the

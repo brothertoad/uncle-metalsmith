@@ -3,9 +3,10 @@ layout: build.njk
 kit: ACA2174
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   Another undocumented build.  The NMF on this one is quite grainy - I wonder if
-  I used Tamiya {{'16'|txf|safe}} Flat Aluminum.  I know I used aftermarket decals,
+  I used Tamiya {{f.txf('16')}} Flat Aluminum.  I know I used aftermarket decals,
   Superscale, but I can't remember which set.
 </p>
 {{ m.buildPhotoLink(path, 1) }}

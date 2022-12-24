@@ -3,24 +3,25 @@ layout: build.njk
 kit: OT226
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-    This is the Otaki 1/48 Fw 190A-8.
+    This is the Otaki 1/48 Fw {{f.nowrap('190A-8')}}.
     I originally started this to use the Play-Doh techinque of masking, but
-    since it didn't work well for the {{ 'Hurricane' | linkTo('../0401/') | safe }},
+    since it didn't work well for the {{f.linkTo('Hurricane','../0401/')}},
     I didn't use it here.
 </p>
 <p>
     I primed with Krylon Gray primer. I had a little trouble covering the primer
-    with the {{'76'|rlm|safe}}, and had to use a couple of coats.
+    with the {{f.rlm('76')}}, and had to use a couple of coats.
     I did notice that in spots where I had to lay down a second coat of primer,
     the primer was much smoother. Since I always have a devil of a time trying
     to get a good gloss coat, I am going to use two coats on my next kit.
 </p>
 <p>
-    Colors are mostly Model Master Enamels, {{'76/75/74'|rlm|safe}} for the exterior
-    and {{'02'|rlm|safe}} for the wheel wells.
-    The cockpit and tires are Tamiya {{'63'|txf|safe}} German Grey. I masked the windscreen
-    with an {{ 'EZ Mask' | linkTo('http://www.ezmasks.com') | safe }}, and hand masked the
+    Colors are mostly Model Master Enamels, {{f.rlm('76/75/74')}} for the exterior
+    and {{f.rlm('02')}} for the wheel wells.
+    The cockpit and tires are Tamiya {{f.txf('63')}} German Grey. I masked the windscreen
+    with an {{f.linkTo('EZ Mask','http://www.ezmasks.com')}}, and hand masked the
     canopy. It came out pretty good.
 </p>
 <p>

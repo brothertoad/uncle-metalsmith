@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09600
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   At last I have a French plane in my collection - Hasegawa's French
   F6F-5 Hellcat, kit number 09600.  I built this one because
@@ -12,7 +13,7 @@ kit: HAS09600
   tried to build - I did not complete the Otaki kit.
 </p>
 <p>
-  As with the {{ 'Otaki Fw 190A-8' | linkTo('../0501/') | safe }},
+  As with the {{f.linkTo('Otaki Fw 190A-8','../0501/')}},
   I primed with Krylon Gray primer.
   This primer is rather dark, but I didn't think it would be a problem since
   the main color is so dark.
@@ -25,7 +26,7 @@ kit: HAS09600
   there isn't much contrast between the blue of the wheels and the black of the tires.
 </p>
 <p>
-  Again I used an {{ 'EZ Mask' | linkTo('http://www.ezmasks.com') | safe }}
+  Again I used an {{f.linkTo('EZ Mask','http://www.ezmasks.com')}}
   for the canopy, which worked well.
 </p>
 <p>
