@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09531
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     This was one of those builds that makes me wonder why I engage in this hobby.
     It started out okay, but once it got to the decaling stage it went downhill.
@@ -11,26 +12,26 @@ kit: HAS09531
 <p>
     The cockpit was painted Model Master Enamel Green FS34258.  This is not a precise
     match for Nakajima cockpits, but is rather close.  I think the actual color has
-    a bit more of an olive tone to it.  The propellor blades were painted {{'131'|mrcolor|safe}}
+    a bit more of an olive tone to it.  The propellor blades were painted {{f.mrcolor('131')}}
     Propellor Color.  I knew I was going to be using Lifelike decals 48-036
     Nakajima Ki-44 part 1, so I painted the spinner Testors Flat Red (from the 1/4
-    ounce bottle) to match the red on the decals.  The tires were Tamiya {{'85'|txf|safe}} Rubber
+    ounce bottle) to match the red on the decals.  The tires were Tamiya {{f.txf('85')}} Rubber
     Black.
 </p>
 <p>
     The exterior was primed with Ace Hardware Primer from a spray can.  The yellow
-    on the front edges of the wing was the Tamiya mix for {{'04'|rlm|safe}}, which I figured
-    was close enough for Japanese Orange-Yellow.  The rudder was painted Tamiya {{'13'|txf|safe}}
+    on the front edges of the wing was the Tamiya mix for {{f.rlm('04')}}, which I figured
+    was close enough for Japanese Orange-Yellow.  The rudder was painted Tamiya {{f.txf('13')}}
     JA Green.  After masking the wing edges and rudder, I primed again to cover
     the yellow and green overspray, and then painted the bottom with Model Master Lacquer
-    Silver, which had worked out well on {{ 'my previous build' | linkTo('../1101/') | safe }}.
+    Silver, which had worked out well on {{f.linkTo('my previous build','../1101/')}}.
     It turned out a bit rough at a few spots.
 </p>
 <p>
-    The underside was masked, and the top was painted Tamiya {{'69'|txf|safe}} NATO Black.  The
+    The underside was masked, and the top was painted Tamiya {{f.txf('69')}} NATO Black.  The
     decal instructions said the actual plane was black misted over natural metal.  I
     thought the NATO black turned out well.  I masked the NATO Black, and then used
-    Tamiya {{'18'|tx|safe}} Semi Gloss Black for the anti-glare panel.  When I removed the masking,
+    Tamiya {{f.tx('18')}} Semi Gloss Black for the anti-glare panel.  When I removed the masking,
     I ran into my first major issue.  The masking lifed up the NATO black in places,
     so this was touched up.
     It turned out the Silver had not adhered to the primer.  I think in the future I

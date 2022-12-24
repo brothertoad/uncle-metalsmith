@@ -3,6 +3,7 @@ layout: build.njk
 kit: HAS09063
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     Some time ago, I purchased a collection of seventeen bagged Hasegawa 1/48
     Bf 109 kits.  I got them very cheaply, and intended to use them as test
@@ -11,36 +12,36 @@ kit: HAS09063
     mind after the clear coats proved disastrous.
 </p>
 <p>
-    {{'Mr. Color'|nowrap|safe}} paints were used almost exclusively throughout the build.  The
-    cockpit was painted {{'C-116'|nowrap|safe}} {{'66'|rlm|safe}},
+    {{f.mrcolor('Mr. Color')}} paints were used almost exclusively throughout the build.  The
+    cockpit was painted {{f.nowrap('C-116')}} {{f.rlm('66')}},
     the propellor blades and spinner were painted
-    {{'C-18'|nowrap|safe}} {{'70'|rlm|safe}}, and
+    {{f.nowrap('C-18')}} {{f.rlm('70')}}, and
     the landing gear and insides of the wheel wells were
-    painted {{'C-60'|nowrap|safe}} {{'02'|rlm|safe}}.
+    painted {{f.nowrap('C-60')}} {{f.rlm('02')}}.
     I used Model Master Metalizer Burnt Iron for the
-    exhaust, Tamiya {{'18'|tx|safe}} Semi Gloss Black for the wheels, and
-    Tamiya {{'63'|txf|safe}}
+    exhaust, Tamiya {{f.tx('18')}} Semi Gloss Black for the wheels, and
+    Tamiya {{f.txf('63')}}
     German Grey for the tires.
 </p>
 <p>
-    The camouflage was all {{'Mr. Color'|nowrap|safe}} - {{'C-117'|nowrap|safe}} {{'76'|rlm|safe}}
-    on the bottom, and {{'C-37'|nowrap|safe}}
-    {{'75'|rlm|safe}} and {{'C-124'|nowrap|safe}} {{'83'|rlm|safe}} on the top.
+    The camouflage was all {{f.nowrap('Mr. Color')}} - {{f.nowrap('C-117')}} {{f.rlm('76')}}
+    on the bottom, and {{f.nowrap('C-37')}}
+    {{f.rlm('75')}} and {{f.nowrap('C-124')}} {{f.rlm('83')}} on the top.
     I was going to try for a soft-edged
     demarcation, but got lazy.  For the demarcation on the fuselage, I first
     applied masking tape in a rough outline of where the demarcation was, and
     then applied masking fluid at the edge to make a wavy line.  It worked
     rather well.  For the mottling on the fin, I first applied it using a
     microbrush.  That looked terrible, so I stripped the paint, re-applied
-    the {{'75'|rlm|safe}}. and then used more masking fluid to outline the
-    {{'83'|rlm|safe}} areas.
+    the {{f.rlm('75')}}. and then used more masking fluid to outline the
+    {{f.rlm('83')}} areas.
     This approach gave much better results.
 </p>
 <p>
     I decided to try something a little different for a pre-decal gloss coat, so
     I tried spraying with Testor's Glosscote.  It didn't damage the paint or
     anything, but to be honest, I did not see a difference.  Perhaps it is
-    because the {{'Mr. Color'|nowrap|safe}} RLM colors are semi-gloss.  Anyway, I decided to
+    because the {{f.nowrap('Mr. Color')}} RLM colors are semi-gloss.  Anyway, I decided to
     spray Future.  It went on terribly splotchy.  I then applied Krylon clear
     acrylic gloss from a spray bomb to the bottom of the plane - that went on
     terribly.  I was almost crushed, as I had been very pleased with how the

@@ -3,22 +3,23 @@ layout: build.njk
 kit: TAM61090
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     This build had took longer than expected.  I started it in February (I think),
     and hoped to complete it by the end of that month.  I kind of lost my mojo for a
     few weeks, so I didn't finish it until the first weekend of April.
 </p>
 <p>
-    Like the {{ 'Razorback' | linkTo('../../2016/0501/') | safe }}, it went together well,
+    Like the {{f.linkTo('Razorback','../../2016/0501/')}}, it went together well,
     although there are a lot of pieces.  I used Humbrol 88 Deck Green for the cockpit and
     Testor's Yellow Zinc Chromate (from the 1/4 ounce bottle) for the wheel wells.
-    The landing gear was painted Gaianotes {{'EX-07'|nowrap|safe}} Silver.
+    The landing gear was painted Gaianotes {{f.nowrap('EX-07')}} Silver.
 </p>
 <p>
     I primed with Tamiya Gray Primer, from the 40 ml bottle.  I painted the cowling,
     the area where the invasion stripes would go, and the area where the recognition
     stripes (the stripes on the tail and horizontal stabilizers)
-    would go with Tamiya {{'2'|txf|safe}} Flat White.  I masked the white invasion stripes and
+    would go with Tamiya {{f.txf('2')}} Flat White.  I masked the white invasion stripes and
     painted the black ones.  I think masked the cowling, the recognition stripes and the black
     invasion stripes and gave the areas with white overspray another coat of primer.
     I then painted the underside Model Master Enamel Sky, masked that, and painted

@@ -3,8 +3,9 @@ layout: build.njk
 kit: HAS09147
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-    This build even longer than the {{ 'Bubbletop Thunderbolt' | linkTo('../0401/') | safe }}.
+    This build even longer than the {{f.linkTo('Bubbletop Thunderbolt','../0401/')}}.
     I definitely lost my mojo for a
     few while.  One reason was that I custom made the canopy mask for this, using
     a Silhouette Portrait vinyl cutter.  It took a while to get around to creating
@@ -18,14 +19,14 @@ kit: HAS09147
 </p>
 <p>
     There isn't too much to say about the build.  I used Model Master Enamel
-    Engine Gray FS36076 for the {{'66'|rlm|safe}} in the cockpit.  The underside was {{'76'|rlm|safe}},
-    and the upper was painted {{'75'|rlm|safe}} and {{'74'|rlm|safe}}.  All of these were also Model
-    Master Enamels, as was the {{'04'|rlm|safe}} on the underside of the cowling, the underside
+    Engine Gray FS36076 for the {{f.rlm('66')}} in the cockpit.  The underside was {{f.rlm('76')}},
+    and the upper was painted {{f.rlm('75')}} and {{f.rlm('74')}}.  All of these were also Model
+    Master Enamels, as was the {{f.rlm('04')}} on the underside of the cowling, the underside
     of the wing tips, and the fuselage stripe.  I also used Model Master Enamel
-    {{'02'|rlm|safe}} for the landing gear and wheel bays.  The guns were Model Master Metalizer
+    {{f.rlm('02')}} for the landing gear and wheel bays.  The guns were Model Master Metalizer
     Gun Metal and the exhausts were Metalizer Burnt Iron.  The spinner was part
-    {{'21'|rlm|safe}} Semi-Gloss White and {{'70'|rlm|safe}} Black Green, with some black mixed into the
-    {{'70'|rlm|safe}} to make it darker.  These were also Model Master Enamels.
+    {{f.rlm('21')}} Semi-Gloss White and {{f.rlm('70')}} Black Green, with some black mixed into the
+    {{f.rlm('70')}} to make it darker.  These were also Model Master Enamels.
 </p>
 <p>
     The mottling was applied by hand.  I have used this before in 1/72 scale, and
@@ -33,7 +34,7 @@ kit: HAS09147
     and dabbled away.  On the plus side, it was quick.
 </p>
 <p>
-    The tires were painted Tamiya {{'85'|txf|safe}} Rubber Black.  The wheels were painted
+    The tires were painted Tamiya {{f.txf('85')}} Rubber Black.  The wheels were painted
     with Liquitex Soft Body Mars Black.  I was hoping for a little more contrast
     between the tires and the wheels.
 </p>
@@ -54,7 +55,7 @@ kit: HAS09147
     Model Master Acryl Flat Clear.  This went on rather chalky.
 </p>
 <p>
-    As with the {{ 'Thunderbolt' | linkTo('../0401/') | safe }}, I manually created an SVG file for the canopy and
+    As with the {{f.linkTo('Thunderbolt','../0401/')}}, I manually created an SVG file for the canopy and
     used it to make my own masks.  They really didn't fit that well, so I will have
     to work on improving them for the next tiime.  I applied the canopy after weathering,
     which is why it looks pristine.
