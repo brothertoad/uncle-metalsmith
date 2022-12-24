@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM35142
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     Here's another old Tamiya kit, the KV-1B. One of my modeling goals for this year
     was to complete at least one piece of Soviet armor. This is the second time I've
@@ -10,7 +11,7 @@ kit: TAM35142
     of these, I also managed to FUBAR a Dragon SU-100.
 </p>
 <p>
-    Like the {{ 'Tamiya A6M5c' | linkTo('../1101/') | safe }}, this was built out of the box.
+    Like the {{f.linkTo('Tamiya A6M5c','../1101/')}}, this was built out of the box.
     Also like the A6M5c,
     I used Ace primer on it, and had the same problem with the top coat being
     absorbed by the primer. I ended up using Rustoleum Satin Spruce Green enamel

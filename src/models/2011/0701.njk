@@ -3,6 +3,7 @@ layout: build.njk
 kit: ACA2133
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     This is Academy's Bf109E, kit 2133.
 </p>
@@ -21,9 +22,9 @@ kit: ACA2133
     hozizontal stabilizer struts, so I used Evergreen strips, epoxied in.
 </p>
 <p>
-    Tamiya paints were used. I used {{'23'|txf|safe}} Light Blue for the {{'65'|rlm|safe}}, a custom mix
-    of roughly 50/50 {{'2'|txf|safe}} Flat White and {{'22'|txf|safe}} RLM Grey for the {{'02'|rlm|safe}},
-    and {{'13'|txf|safe}} JA Green for the {{'71'|rlm|safe}}. The JA Green looked a little too dark at
+    Tamiya paints were used. I used {{f.txf('23')}} Light Blue for the {{f.rlm('65')}}, a custom mix
+    of roughly 50/50 {{f.txf('2')}} Flat White and {{f.txf('22')}} RLM Grey for the {{f.rlm('02')}},
+    and {{f.txf('13')}} JA Green for the {{f.rlm('71')}}. The JA Green looked a little too dark at
     first, but I was happy with the end result. I did the mottling by hand,
     but I thought it came out pretty good.
 </p>

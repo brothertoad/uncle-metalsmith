@@ -3,13 +3,14 @@ layout: build.njk
 kit: TAM61027
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
   This is Tamiya's old A6M5c, kit number 61027.  I believe it was originally released in the 1970's.
 </p>
 <p>
   Built out of the box.  I wanted to get something done rather quickly, and this fit the bill.
   I used Ace primer on it, but it did not work as well as it did on the
-  {{ 'Hasegawa Hien' | linkTo('../0901/') | safe }}.
+  {{f.linkTo('Hasegawa Hien','../0901/')}}.
   The paint turned out rather rough, and it took
   several coats to cover.  It looked splotchy, as if the primer absorbed some of the top coat.
   Nearly all paints were Tamiya.  I did use Floquil Reefer Yellow for the bands on the wings.
@@ -28,7 +29,7 @@ kit: TAM61027
 </p>
 <p>
   The antenna is thread.  This is only my second attempt at adding an antenna, the first
-  being my {{ 'Tamiya P-51B' | linkTo('../0702/') | safe }}.  It turned out
+  being my {{f.linkTo('Tamiya P-51B','../0702/')}}.  It turned out
   much better this time.  I drilled a small hole at the top of the rudder, and then enlarged
   it using a heated pin.  I epoxied one end of the thread to the rudder.  When that was dry,
   I then pulled the thread to the mast over the cockpit and wrapped it around the mast.

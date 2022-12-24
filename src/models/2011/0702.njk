@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61042
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
     This is Tamiya's 1/48 North American P-51B, kit 61042.
 </p>
@@ -18,9 +19,9 @@ kit: TAM61042
 <p>
     I used Krylon Flat White for the primer. I was not pleased, as the texture
     was very rough. The search for a good primer continues. Tamiya acrylics were
-    used for the exterior. {{'62'|txf|safe}} Olive Drab was used for the olive drab. I used
-    {{'66'|txf|safe}} Light Grey for the bottom. I was going to use
-    {{'53'|txf|safe}} Neutral Grey, but it
+    used for the exterior. {{f.txf('62')}} Olive Drab was used for the olive drab. I used
+    {{f.txf('66')}} Light Grey for the bottom. I was going to use
+    {{f.txf('53')}} Neutral Grey, but it
     looked too dark. Even the Light Grey was much darker than I would have preferred.
     Also, the red on the spinner is lighter than the red on the nose. This is
     because the nose was painted over the Light Grey, whereas the spinner was
