@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61041
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	Although I've built several Fw 190's before, this is my first Dora. It went together
 	like a typical Tamiya kit - very easily.
@@ -10,11 +11,11 @@ kit: TAM61041
 <p>
 	There really isn't much to say about the construction. It represents Theo Nibel's aircraft
 	from Operation Bodenplatte, which is one of the options included with the kit decals.
-	The {{'04'|rlm|safe}} under the cowling and on the rudder are not shown on the kit instructions,
+	The {{f.rlm('04')}} under the cowling and on the rudder are not shown on the kit instructions,
 	but I noticed that
-	{{ 'Tom Cleaver painted them that way' | linkTo('http://www.modelingmadness.com/review/axis/cleaver/cleaver24190d.htm') | safe }}.
-	I used Floquil Reefer Yellow for the {{'04'|rlm|safe}}, and Model Master Enamels for the
-	{{'76/82/83'|rlm|safe}}. I freehanded the mottling on the fin, which is actually one of my
+	{{f.linkTo('Tom Cleaver painted them that way','http://www.modelingmadness.com/review/axis/cleaver/cleaver24190d.htm')}}.
+	I used Floquil Reefer Yellow for the {{f.rlm('04')}}, and Model Master Enamels for the
+	{{f.rlm('76/82/83')}}. I freehanded the mottling on the fin, which is actually one of my
 	better attempts. One of the reasons I chose these markings is the lack of mottling
 	on the fuselage.
 </p>

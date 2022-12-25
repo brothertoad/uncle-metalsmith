@@ -3,6 +3,7 @@ layout: build.njk
 kit: ACA12474
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	Another attempt at a natural metal finish (NMF) that didn't turn out terribly
 	well - and I did this one twice.
@@ -11,17 +12,17 @@ kit: ACA12474
 	This is the Academy 1/72 P-47D Thunderbolt in the "Eileen" boxing.  This had new
 	box art, and a new kit number, 12474.  The first attempt at painting went like this,
 	with the appropriate masking between steps: prime with a 50/50 mix of Tamiya
-	Flat White {{'2'|txf|safe}} and Sky Grey {{'19'|txf|safe}}; paint the red on the cowling ring, the top of
+	Flat White {{f.txf('2')}} and Sky Grey {{f.txf('19')}}; paint the red on the cowling ring, the top of
 	the fin and the warning areas on the wings with Polly Scale Pacemaker Red;
-	prime again with Tamiya Flat Black {{'1'|txf|safe}};
-	then paint with Gaianotes {{'EX-07'|nowrap|safe}}.  This did not
+	prime again with Tamiya Flat Black {{f.txf('1')}};
+	then paint with Gaianotes {{f.nowrap('EX-07')}}.  This did not
 	come out well at all.  I almost chucked the model at that point (as I usually do when
 	a paint job turns out that bad).  Then I decided to try stipping the paint.  I used
 	isopropyl alcohol, which stripped it quite well.
 </p>
 <p>
 	The second time, I again primed with the Tamiya mix, then painted the red with Tamiya
-	{{'7'|txf|safe}}.  After masking, I painted the black with Auto Air's Air Borne Dark Sealer.  After
+	{{f.txf('7')}}.  After masking, I painted the black with Auto Air's Air Borne Dark Sealer.  After
 	that was masked, I used Air Borne Black as a primer, as it is quite glossy.  I then
 	painted the NMF with Auto Air Aluminum Base (Fine).  That turned out poorly too, so I
 	then painted with Golden Fluid Acrylic Silver, which improved the look considerably.
