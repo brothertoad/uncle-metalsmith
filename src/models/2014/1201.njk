@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM61050
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	This must be my December kit, as I just noticed that the first time I built
 	this was a year ago. This particular build started out well, but crumbled near the end.
@@ -10,7 +11,7 @@ kit: TAM61050
 <p>
 	Assembly went pretty well. As you expect with a modern Tamiya kit, it went together
 	easily. Interestingly enough, the first part I assembled was the prop, but that
-	was because I was building the {{ 'Academy Bf 109G-6' | linkTo('../1101/') | safe }}
+	was because I was building the {{f.linkTo('Academy Bf 109G-6','../1101/')}}
 	at the same time, and it used the same colors.
 </p>
 <p>
@@ -18,10 +19,10 @@ kit: TAM61050
 	lacquer thinner. It went on pretty smoothly, but I still rubbed down the airframe
 	with an old T-shirt before putting on the exterior colors. The last time I built
 	this kit, I used all Tamiya for the exterior. This time, I used Polly Scale for
-	the {{'65'|rlm|safe }}, and Tamiya for the {{'02'|rlm|safe}} (a custom mix) and
-	{{'71'|rlm|safe}} ({{'61'|txf|safe}} Dark Green)
+	the {{f.rlm('65')}}, and Tamiya for the {{f.rlm('02')}} (a custom mix) and
+	{{f.rlm('71')}} ({{f.txf('61')}} Dark Green)
 	on the top. Everything sprayed well, but when I pulled off the masking tape,
-	some of the {{'65'|rlm|safe}} came up with it. There were several spots where a chunk
+	some of the {{f.rlm('65')}} came up with it. There were several spots where a chunk
 	came off. On closer examination, it was clear that the primer had come off - not
 	just the top coat. I was so frustrated at this time that I did not bother to mask
 	and respray, but rather tried to touch up with a hand brush. Unfortunately,

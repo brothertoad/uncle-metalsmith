@@ -3,8 +3,9 @@ layout: build.njk
 kit: HAS09067
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-	This is my first Hasegawa Frank, and, as with the {{ 'Oscar' | linkTo('../../2011/0301/') | safe }},
+	This is my first Hasegawa Frank, and, as with the {{f.linkTo('Oscar','../../2011/0301/')}},
 	I had a little trouble. This kit has a great reputation on the web, and it is
 	quite detailed, but I found it a bit over-engineered. For example, there are no
 	less than nine parts that attach to the cockpit floor, and that does not count
@@ -16,8 +17,8 @@ kit: HAS09067
 	hold the main landing gear, as the kit is a bit wobbly.
 </p>
 <p>
-	I primed with {{'Mr. Surfacer'|nowrap|safe}} 1200, sprayed through my airbrush. The bottom is
-	Tamiya {{'14'|txf|safe}} JA Grey and the top is Tamiya {{'13'|txf|safe}} JA Green.
+	I primed with {{f.nowrap('Mr. Surfacer')}} 1200, sprayed through my airbrush. The bottom is
+	Tamiya {{f.txf('14')}} JA Grey and the top is Tamiya {{f.txf('13')}} JA Green.
 	The bottom looked fine, but the top looked blotchy (for want of a better term).
 	I can never consistent results when spraying large areas.
 </p>
@@ -38,21 +39,21 @@ kit: HAS09067
 	being inaccurate, having them open make it quite difficult to handle the finished model.
 </p>
 <p>
-	The engine and guns are {{'28'|mrcolor|safe}} Steel. The tarp on the tail wheel is Floquil
-	CN Gray #17. I had used this color on the {{ 'Hasegawa A6M3' | linkTo('../../2010/0901/') | safe }},
+	The engine and guns are {{f.mrcolor('28')}} Steel. The tarp on the tail wheel is Floquil
+	CN Gray #17. I had used this color on the {{f.linkTo('Hasegawa A6M3','../../2010/0901/')}},
 	thinking it would be a light gray with a hint of green, but it turned out to be
 	a light tannish gray. It was not what I wanted for the A6M3, but it fit the bill here.
 </p>
 <p>
 	The prop blades were Model Master Enamel Green FS34258, and the yellow IFF bands
-	on the wings are Floquil Reefer Yellow. I used Tamiya {{'76'|txf|safe}}
+	on the wings are Floquil Reefer Yellow. I used Tamiya {{f.txf('76')}}
 	Grey Green (IJN),
 	which was recommended on a forum somewhere. I think it was
-	{{ 'Britmodeller' | linkTo('http://www.britmodeller.com') | safe }}, but I can't remember
+	{{f.linkTo('Britmodeller','http://www.britmodeller.com')}}, but I can't remember
 	now. Note: Looking back at this page a few years later, I confess I have no
-	idea where I used the {{'76'|txf|safe}}. The inside of the cowling and the wheel
-	wells are {{'57'|mrcolor|safe}} Metallic
-	Blue Green, and the spinner is Tamiya {{'1'|txf|safe}} Flat White.
+	idea where I used the {{f.txf('76')}}. The inside of the cowling and the wheel
+	wells are {{f.mrcolor('57')}} Metallic
+	Blue Green, and the spinner is Tamiya {{f.txf('1')}} Flat White.
 </p>
 <p>
 	I used the Eduard mask for the canopy, and it fit very well.

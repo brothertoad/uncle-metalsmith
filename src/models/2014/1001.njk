@@ -3,8 +3,9 @@ layout: build.njk
 kit: TAM61033
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
-	This is my second completed Tamiya Spitfire, the first being {{ 'the Trop version' | linkTo('../../2010/0801/') | safe }}.
+	This is my second completed Tamiya Spitfire, the first being {{f.nowrap('the Trop version','../../2010/0801/')}}.
 	As always, I had a few issues with this kit.  This is at least the second time, and maybe the third, that
 	I've tried to build this kit, and I almost tossed it after the painting stage.  More on that below.
 </p>
@@ -20,8 +21,8 @@ kit: TAM61033
 	were Floquil Old Silver.  After painting these, I noticed that the instructions said they were supposed
 	to match the underside.  Oh, well.  The spinner and the fuselage band where Model Master Enamel Sky Type S.
 	It did not quite match the squadron codes, but wasn't too far off.  The propellor blades were Floquil
-	Engine Black, and I think I used Tamiya {{'3'|txf|safe}} Flat Yellow for the tips.
-	The exhausts were Tamiya {{'69'|txf|safe}}
+	Engine Black, and I think I used Tamiya {{f.txf('3')}} Flat Yellow for the tips.
+	The exhausts were Tamiya {{f.txf('69')}}
 	NATO Black.  In retrospect, I should have used a more brownish color.
 </p>
 <p>
@@ -62,14 +63,14 @@ kit: TAM61033
 <p>
 	With the surface being so rough, the decals did not go on well.  I used to leave decals in the
 	water for about 20 seconds, but based on my experience with the
-	{{ 'Hasegawa Hayate' | linkTo('../0901/') | safe }}, I let them sit for
+	{{f.linkTo('Hasegawa Hayate','../0901/')}}, I let them sit for
 	45 seconds this time, and they slid off the paper much more easily.  According to the kit instructions,
 	this represents a plane from No. 316 Squadron.  I used Future with a bit of Tamiya
-	{{'21'|tx|safe}} Flat Base for
+	{{f.tx('21')}} Flat Base for
 	the final flat coat.  It added a touch of white, but does dull the finish well.
 </p>
 <p>
-	The mask for the windscreen came from the {{ 'EZ Masks' | linkTo('http://www.ezmasks.com') | safe }} set number 6.
+	The mask for the windscreen came from the {{f.linkTo('EZ Masks','http://www.ezmasks.com')}} set number 6.
 	I masked the canopy and the rear section by hand, since the edges are pretty much straight.  I used
 	FBS 48530 ProBand Fineline tape, cut into thin strips, for the canopy, and it worked very well.  There
 	was no seepage underneath it, and it did not leave any residue after removal.  It is quite thick,
