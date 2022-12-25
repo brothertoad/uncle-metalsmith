@@ -3,10 +3,11 @@ layout: build.njk
 kit: HAS09111
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	This is the Hasegawa 1/48 Bf 109E, kit Jt11.  I got this as a bagged kit, which
 	is why there is no scan of the box art.  I effectively took two kits to build
-	this, and, as with the {{ 'Oscar' | linkTo('../0501/') | safe }}, I thought it turned out poorly.
+	this, and, as with the {{f.linkTo('Oscar','../0501/')}}, I thought it turned out poorly.
 </p>
 <p>
 	I started to build the Revell kit (04572), which has the same plastic, although it
@@ -22,7 +23,7 @@ kit: HAS09111
 </p>
 <p>
 	The windscreen was masked using the appropriate
-	{{ 'E-Z Mask' | linkTo('http://www.ezmasks.com') | safe }},
+	{{f.linkTo('E-Z Mask','http://www.ezmasks.com')}},
 	but the canopy itself was masked by hand.  The black is Floquil Engine Black, which
 	seemed a close match to the coal black that was recommended.  The hue was fine, but
 	it came out very rough.  I thinned it with Ronsonol, which I've used with other enamel

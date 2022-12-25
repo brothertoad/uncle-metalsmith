@@ -3,11 +3,12 @@ layout: build.njk
 kit: ACA2174
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	As with my previous completion, the
-	{{ 'Arii Bf 109G-6' | linkTo('../0801/') | safe }},
-	this is my second build of a kit, in this case the Academy {{'P-47D'|nowrap|safe}}, kit 2174.
-	I was working on the HobbyBoss 1/48 {{'P-51D'|nowrap|safe}}, and was planning on using the Mr. Finishing
+	{{f.linkTo('Arii Bf 109G-6','../0801/')}},
+	this is my second build of a kit, in this case the Academy {{f.nowrap('P-47D')}}, kit 2174.
+	I was working on the HobbyBoss 1/48 {{f.nowrap('P-51D')}}, and was planning on using the Mr. Finishing
 	Surfacer 1500 Black as a primer.  Just to be on the safe side, I decided to
 	try it on a smaller kit first, and
 	since I had this one in the stash, it became my guinea pig.  (As it happened, the
@@ -16,36 +17,36 @@ kit: ACA2174
 <p>
 	I was glad I did.  The Mr. Finishing Surfacer covered very well, but it was quite
 	flat.  Gunze recommends it as a primer for metallic finishes, so I expected
-	it to be gloss.  I actually sprayed some Tamiya {{'1'|tx|safe}} Black over it, but that didn't help
+	it to be gloss.  I actually sprayed some Tamiya {{f.tx('1')}} Black over it, but that didn't help
 	much.
 </p>
 <p>
-	The kit went together very well, as Academy kits do.  I used Tamiya {{'5'|txf|safe}} Flat Green
+	The kit went together very well, as Academy kits do.  I used Tamiya {{f.txf('5')}} Flat Green
 	for the cockpit.  I didn't bother to paint the walls of the cockpit.  For the exterior,
 	I first painted the white area for the invasion stripes with Mr. Base White 1000.
 	This goes on very smoothly.  I then masked the areas I wanted to stay white, and
 	painted the rest of the airframe with the Mr. Finishing Surfacer 1500 Black.  I
 	masked the black areas and proceeded to paint the NMF, using
 	Auto Air Aluminum Base (Fine).  This paint really needs a gloss undercoat.  On this
-	kit, the landing gear - which was primed only with Tamiya {{'1'|tx|safe}}, turned out pretty good,
+	kit, the landing gear - which was primed only with Tamiya {{f.tx('1')}}, turned out pretty good,
 	but the main airframe - which was primed with the Mr. Finishing Surfacer - turned out
 	quite grainy.
 </p>
 <p>
-	The landing gear is Tamiya {{'11'|tx|safe}} Chrome Silver, the tires are Tamiya
-	{{'63'|txf|safe}} German Grey,
-	the propellor blades are Tamiya {{'1'|tx|safe}} Black, and the propellor hub is Floquil Old Silver.
+	The landing gear is Tamiya {{f.tx('11')}} Chrome Silver, the tires are Tamiya
+	{{f.txf('63')}} German Grey,
+	the propellor blades are Tamiya {{f.tx('1')}} Black, and the propellor hub is Floquil Old Silver.
 	The bombs are Mr. Color Olive Drab, the anti-glare panel is Model Master Enamel Olive
-	Drab {{'ANA-613'|nowrap|safe}}, and the landing gear bay and doors are Tamiya {{'4'|txf|safe}} Yellow Green.
+	Drab {{f.nowrap('ANA-613')}}, and the landing gear bay and doors are Tamiya {{f.txf('4')}} Yellow Green.
 </p>
 <p>
-	As with most of my Academy kits, I used aftermarket decals - Superscale {{'72-886'|nowrap|safe}}.  I chose
+	As with most of my Academy kits, I used aftermarket decals - Superscale {{f.nowrap('72-886')}}.  I chose
 	the Black Panther for the simple reason that it had a relatively simple scheme.  The
 	decals went on very well.
 </p>
 <p>
 	I	used the Eduard precut mask for the windshield, but masked the canopy by hand.  It is
-	not hard to do with {{'P-47'|nowrap|safe}} bubbletops.
+	not hard to do with {{f.nowrap('P-47')}} bubbletops.
 </p>
 {{ m.buildPhotoLink(path, 1) }}
 {{ m.buildPhotoLink(path, 2) }}

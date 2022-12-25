@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM97103
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	This is the second time I've build the Tamiya 1/72 Jack.
 	As with several of my previous models, I wanted to try some new
@@ -19,11 +20,11 @@ kit: TAM97103
 	Floquil Engine Black.  I thinned all both of these with regular paint thinner.
 </p>
 <p>
-	The cockpit was Tamiya {{'5'|txf|safe}} Flat Green, which was too dark.  The yellow on
-	the winge edge was Tamiya {{'3'|txf|safe}} Flat Yellow, which matched the yellow lightning
-	bolts rather well.  The engine and fan were Tamiya {{'56'|txf|safe}} Metallic Gray, and
-	the prop was {{'131'|mrcolor|safe}} Propellor Color.  The bombs were Tamiya {{'1'|txf|safe}} Flat
-	Black.  The guns were Tamiya {{'10'|tx|safe}} Gun Metal, and the landing gear were {{'8'|mrcolor|safe}}
+	The cockpit was Tamiya {{f.txf('5')}} Flat Green, which was too dark.  The yellow on
+	the winge edge was Tamiya {{f.txf('3')}} Flat Yellow, which matched the yellow lightning
+	bolts rather well.  The engine and fan were Tamiya {{f.txf('56')}} Metallic Gray, and
+	the prop was {{f.mrcolor('131')}} Propellor Color.  The bombs were Tamiya {{f.txf('1')}} Flat
+	Black.  The guns were Tamiya {{f.tx('10')}} Gun Metal, and the landing gear were {{f.mrcolor('8')}}
 	Silver.  The tires were Polly Scale Grimy Black.  For the wheels, I used
 	Liquitex Soft Body Black.
 </p>

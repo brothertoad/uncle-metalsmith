@@ -3,6 +3,7 @@ layout: build.njk
 kit: TAM35072
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	Here is another armor kit, my second Soviet piece and third total.
 	Although the kit box and instructions list this as a Russian tank destroyer,
@@ -15,7 +16,7 @@ kit: TAM35072
 	the barrel, but I didn't use any filler.
 </p>
 <p>
-	The overall color is Tamiya {{'13'|txf|safe}} IJA Green.  It looked very good when sprayed,
+	The overall color is Tamiya {{f.txf('13')}} IJA Green.  It looked very good when sprayed,
 	but the clear gloss made it much too dark.  I used Krylon Acrylic Gloss.  I may try
 	Right Step Clear Gloss in the future, as it may not darken the base coat as much.
 	The only areas
@@ -42,11 +43,11 @@ kit: TAM35072
 </p>
 <p>
 	The wheels were Liquitex Soft Body Mars Black.
-	The blanket is Tamiya {{'60'|txf|safe}} Dark Yellow.  I think I used Tamiya
-	{{'64'|txf|safe}} Red Brown for the
+	The blanket is Tamiya {{f.txf('60')}} Dark Yellow.  I think I used Tamiya
+	{{f.txf('64')}} Red Brown for the
 	straps.  It wasn't until after I attached the blanket that I realized there was
 	a huge molding seam on the blanket that I neglected to remove.  The silver on the
-	shovel is {{'8'|mrcolor|safe}} and the shovel handle is the same color as the strap on the
+	shovel is {{f.mrcolor('8')}} and the shovel handle is the same color as the strap on the
 	blanket.
 </p>
 <p>

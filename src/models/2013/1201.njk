@@ -3,9 +3,10 @@ layout: build.njk
 kit: HASB008
 ---
 {% import "layouts/macros.njk" as m %}
+{% import "layouts/filters.njk" as f %}
 <p>
 	Two P-47D Bubbletops in a row - and both in 1/72.  This is also my second build of this
-	kit.  As with the {{ 'Academy kit' | linkTo('../0901/') | safe }}, this was done to try out yet another NMF technique.
+	kit.  As with the {{f.linkTo('Academy kit','../0901/')}}, this was done to try out yet another NMF technique.
 	This one didn't work out all that well either.
 </p>
 <p>
@@ -16,10 +17,10 @@ kit: HASB008
 	off.
 </p>
 <p>
-	Construction didn't really present any problems.  I used Tamiya {{'1'|tx|safe}} Black to prime, thinned with
+	Construction didn't really present any problems.  I used Tamiya {{f.tx('1')}} Black to prime, thinned with
 	Tamiya Lacquer Thinner.  I used Floquil Bright Silver for the NMF.  Once again, I had adhesion
 	problems - the NMF came off, even after letting it dry for several days.  I don't have this
-	issue with other colors.  I'm now thinking that the Tamiya {{'1'|tx|safe}} is not sticking well, so I may have
+	issue with other colors.  I'm now thinking that the Tamiya {{f.tx('1')}} is not sticking well, so I may have
 	to stick with flat primers.
 </p>
 <p>
@@ -27,16 +28,16 @@ kit: HASB008
 	indicate that I used Humbrol 11 for the landing gear structs and wheels.  When I was applying
 	the decals, I learned that the wheels are supposed to be red.  Oh, well.  I apparently made
 	the same mistake on the
-	{{ 'Academy kit' | linkTo('../0901/') | safe }},
+	{{f.linkTo('Academy kit','../0901/')}},
 	since the decals came from
 	the same aftermarket sheet.  The tires and prop blades were Model Master Acryl Flat Black, hand
 	painted.  The prop tips are insignia yellow.  The red - all of which is painted - is Tamiya
-	{{'3'|txf|safe}} Flat Red.  I also used this to hand paint the hub of the spinner.
+	{{f.txf('3')}} Flat Red.  I also used this to hand paint the hub of the spinner.
 	The anti-glare panel is Model Master Enamel Olive Drab ANA-613.
 </p>
 <p>
-	I used the leftover decals from Superscale {{'72-886'|nowrap|safe}}, which I had used on the
-	{{ 'Academy kit' | linkTo('../0901/') | safe }}.  The kit is not quite right - it should have
+	I used the leftover decals from Superscale {{f.nowrap('72-886')}}, which I had used on the
+	{{f.linkTo('Academy kit','../0901/')}}.  The kit is not quite right - it should have
 	a filet on the rear fuselage.
 </p>
 {{ m.buildPhotoLink(path, 1) }}
