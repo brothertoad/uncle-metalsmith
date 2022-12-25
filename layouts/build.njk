@@ -1,6 +1,7 @@
 {% extends "layout.njk" %}
 
 {% block body %}
+{% import "filters.njk" as f %}
   {% include "partials/navbar.njk" %}
 
   {# This is where we put build-specific stuff. #}
@@ -9,7 +10,7 @@
   </div>
   {% if scalematesUrl %}
   <div class="build-scalemates-div">
-    {{ 'scalemates.com link' | linkTo(scalematesUrl) | safe }}
+    {{f.linkTo('scalemates.com link',scalematesUrl)}}
   </div>
   {% endif %}
   {% if boxartUrl %}
@@ -21,7 +22,7 @@
   <div class="row-parent">
     <div class="tl column-25">
       {% if previousUrl %}
-        {{ 'Previous' | linkTo(previousUrl) | safe }}
+        {{f.linkTo('Previous',previousUrl)}}
       {% endif %}
     </div>
     <div class="tc column-50">
@@ -29,7 +30,7 @@
     </div>
     <div class="tr column-25">
       {% if nextUrl %}
-        {{ 'Next' | linkTo(nextUrl) | safe }}
+        {{f.linkTo('Next',nextUrl)}}
       {% endif %}
     </div>
   </div>

@@ -2,14 +2,15 @@
 title: About Uncle Uncool
 layout: body.njk
 ---
+{% import "layouts/filters.njk" as f %}
 
 <h3>
   The domain
 </h3>
 <p>
-  I am a member of {{ 'ARC' | linkTo("http://www.arcair.com/") | safe }},
+  I am a member of {{f.linkTo('ARC',"http://www.arcair.com/")}},
   where my user name is zeus60.
-  There was another member whose user name is Uncle Uncool. I was so impressed
+  There was another member whose user name was Uncle Uncool. I was so impressed
   by his moniker that I asked him if he had a web site, and, if not, if he would
   mind if I used his user name as a domain name. He did not have a web site and was gracious enough
   to let me use the name. Since I am an uncle, and not a dad, and am very uncool,
@@ -22,21 +23,21 @@ layout: body.njk
   This is a static web site, created with <a href="https://metalsmith.io/">Metalsmith</a>,
   a static site generation tool written in Javascript.
   The source code for this site is available on
-  {{ 'github' | linkTo("https://github.com/brothertoad/uncle-metalsmith") | safe }}.
+  {{f.linkTo('github',"https://github.com/brothertoad/uncle-metalsmith")}}.
   The web pages themselves are hosted on
-  {{ "Google's Firebase" | linkTo('https://firebase.google.com') | safe }},
+  {{f.linkTo("Google's Firebase",'https://firebase.google.com')}},
   the images are hosted on
-  {{ 'Amazon S3' | linkTo('https://aws.amazon.com/s3/') | safe }},
+  {{f.linkTo('Amazon S3','https://aws.amazon.com/s3/')}},
   and the email is handled by
-  {{ 'Zoho Mail' | linkTo('https://www.zoho.com/mail/') | safe }}.
+  {{f.linkTo('Zoho Mail','https://www.zoho.com/mail/')}}.
   The web pages are written in
-  {{ 'Nunjucks' | linkTo('https://mozilla.github.io/nunjucks/') | safe }}
+  {{f.linkTo('Nunjucks','https://mozilla.github.io/nunjucks/')}}
   and the stylesheets are written in
-  {{ 'Sass' | linkTo('https://sass-lang.com/') | safe }}.
+  {{f.linkTo('Sass','https://sass-lang.com/')}}.
 </p>
 <p>
   This site was originally created using
-  {{ 'Middleman' | linkTo('https://middlemanapp.com/') | safe }}.  It was migrated
+  {{f.linkTo('Middleman','https://middlemanapp.com/')}}.  It was migrated
   to Metalsmith in June 2020.
 <p>
   You can contact me at uncleATuncleuncoolDOTnet.

@@ -13,7 +13,13 @@ layout: body.njk
 </p>
 {% for image in [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ] %}
   <p>
-    {% set target = "https://d1dems3vhrlf9r.cloudfront.net/images/stash-2021-04-10/" + ( image | make3digits ) + "-1000.jpg" %}
+    {% set two = image < 10 %}
+    {% if two %}
+      {% set suffix = '00' + image %}
+    {% else %}
+      {% set suffix = '0' + image %}
+    {% endif %}
+    {% set target = "https://d1dems3vhrlf9r.cloudfront.net/images/stash-2021-04-10/" + suffix + "-1000.jpg" %}
     <img src="{{ target }}" class="build-photo">
   </p>
 {% endfor %}

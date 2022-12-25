@@ -7,42 +7,6 @@
 
 'use strict';
 
-const linkTo = function(label, url) {
-  return '<a href="' + url + '">' + label + '</a>';
-}
-
-const txf = function(color) {
-  return '<span style="white-space: nowrap">XF-' + color + '</span>';
-}
-
-const tx = function(color) {
-  return '<span style="white-space: nowrap">X-' + color + '</span>';
-}
-
-const mrcolor = function(color) {
-  return 'Mr.&nbsp;Color&nbsp;<span style="white-space: nowrap">C-' + color + '</span>';
-}
-
-const mrhobbycolor = function(color) {
-  return 'Mr.&nbsp;Hobby&nbsp;Color&nbsp;<span style="white-space: nowrap">H-' + color + '</span>';
-}
-
-const rlm = function(color) {
-  return 'RLM&nbsp;' + color;
-}
-
-const nowrap = function(s) {
-  return '<span style="white-space: nowrap">' + s + '</span>';
-}
-
-const make3digits = function(j) {
-  let s = j.toString();
-  while (s.length < 3) {
-    s = "0" + s;
-  }
-  return s;
-}
-
 const inplace = require('@metalsmith/in-place');
 const layouts = require('@metalsmith/layouts');
 const metalsmith = require('metalsmith');
@@ -57,14 +21,6 @@ const lastModified = require('./lastModified.js');
 const templateConfig = {
     engineOptions: {
         filters: {
-            linkTo: linkTo,
-            txf: txf,
-            tx: tx,
-            mrcolor: mrcolor,
-            mrhobbycolor: mrhobbycolor,
-            rlm: rlm,
-            nowrap: nowrap,
-            make3digits: make3digits
         }
     }
 };

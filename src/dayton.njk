@@ -2,15 +2,16 @@
 title: IPMS Dayton Tamiya Mixes
 layout: body.njk
 ---
+{% import "layouts/filters.njk" as f %}
 
 <div class="noprint">
   <p>
     This page contains a set of mixes using Tamiya paint.  It was originally posted on
-    {{ 'the IPMS Dayton web site' | linkTo('https://www.ipmsdayton.com/') | safe }} at
+    {{f.linkTo('the IPMS Dayton web site','https://www.ipmsdayton.com/')}} at
     http://www.ipmsdayton.com/sites/default/files/Tamiya_Mixes.txt,
     but as of this writing (January 2022) you get a Forbidden message if you go there.
     I found a copy on
-    {{ "Old Sarge's blog" | linkTo('https://oldsargesaircraft.blogspot.com/2019/12/ipms-dayton-tamiya-mixes.html') | safe }}.
+    {{f.linkTo("Old Sarge's blog",'https://oldsargesaircraft.blogspot.com/2019/12/ipms-dayton-tamiya-mixes.html')}}.
     I decided to post the contents here.  I have fixed a few typos, cleaned up the formatting
     a bit and also made the FS numbers into actual links.
   </p>
@@ -23,9 +24,9 @@ layout: body.njk
   <p>
     I have created two PDF's of this information that you can download.  After all, this site
     won't be around forever.  I've also provided the original raw text version.
-    <br>{{ 'US letter formatted' | linkTo('/docs/IPMS-Dayton-Tamiya-mixes-US-letter.pdf') | safe }}
-    <br>{{ 'A4 formatted' | linkTo('/docs/IPMS-Dayton-Tamiya-mixes-A4.pdf') | safe }}
-    <br>{{ 'Original text version' | linkTo('/docs/IPMS-Dayton-Tamiya-mixes.txt') | safe }}
+    <br>{{f.linkTo('US letter formatted','/docs/IPMS-Dayton-Tamiya-mixes-US-letter.pdf')}}
+    <br>{{f.linkTo('A4 formatted','/docs/IPMS-Dayton-Tamiya-mixes-A4.pdf')}}
+    <br>{{f.linkTo('Original text version','/docs/IPMS-Dayton-Tamiya-mixes.txt')}}
   </p>
 </div>
 

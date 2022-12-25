@@ -3,6 +3,7 @@ title: "Uncle Uncool: The Builds"
 banner: The Builds
 layout: body.njk
 ---
+{% import "layouts/filters.njk" as f %}
 <p>
   Here is a list of my completions. Note that I do say 'completions',
   as for each one I've completed, several have ended up as FUBAR, although
@@ -34,7 +35,7 @@ layout: body.njk
       <td>{{ b.brand }}</td>
       <td>{{ b.scale }}</td>
       {% if b.url %}
-      <td>{{ b.name | linkTo(b.url) | safe }}</td>
+      <td>{{f.linkTo(b.name,b.url)}}</td>
       {% else %}
       <td>{{ b.name | safe }}</td>
       {% endif %}

@@ -3,6 +3,7 @@ title: Uncle Uncool
 banner: Uncle Uncool
 layout: body.njk
 ---
+{% import "layouts/filters.njk" as f %}
 <div class="motto">The uncoolest guy on the planet...</div>
 
 <p>
@@ -23,7 +24,7 @@ layout: body.njk
   do attempt to weather my armor builds).
 </p>
 <p>
-  You can peruse my completions on my {{ 'builds page' | linkTo('builds/') | safe }}.
+  You can peruse my completions on my {{f.linkTo('builds page','builds/')}}.
 </p>
 <p>
   Here are some photos of my work area.

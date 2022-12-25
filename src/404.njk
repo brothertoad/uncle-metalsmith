@@ -4,16 +4,17 @@ banner: Page Not Found
 layout: body.njk
 permalink: false
 ---
+{% import "layouts/filters.njk" as f %}
 
 <p>
   Oops!  You've tried to navigate to a page that does not exist.
-  You can go to {{ 'the home page' | linkTo('/') | safe }} to try to find
+  You can go to {{f.linkTo('the home page','/')}} to try to find
   the page you're looking for.
 </p>
 <p>
   Note: In June of 2020, I changed the layout of this site to use permalinks.
   All the URL's changed at that point.  If you're looking for a build,
   you can go to
-  {{ 'the builds page' | linkTo("/builds/") | safe }}
+  {{f.linkTo('the builds page',"/builds/")}}
   to find the build you're looking for.  Sorry for the inconvenience.
 </p>
