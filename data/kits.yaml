@@ -875,6 +875,14 @@ ARIIA328:
     boxart: '48/Arii/Ki44-800.jpg'
     scalematesId: 'arii-a328-600-nakajima-ki44-shoki-tojo--937425'
 
+ARIIA332:
+    brand: Arii
+    number: 'A332'
+    name: 'Curtiss P-40E Warhawk'
+    scale: '1/48'
+    boxart: '48/Arii/P-40E-800.jpg'
+    scalematesId: 'arii-a332-800-curtiss-p-40e-warhawk--1009281'
+
 ARIIA334:
     brand: Arii
     number: 'A334'
