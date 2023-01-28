@@ -284,6 +284,14 @@ HAS64742:
     boxart: '48/Hasegawa/64742-500.jpg'
     scalematesId: 'hasegawa-64742-mitsubishi-j2m3-raiden-jack-type21-nakayoshi--1078854'
 
+HAS09010:
+    brand: Hasegawa
+    number: '09010/J10'
+    name: 'Messerschmitt Bf 109F-2'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09010-800.jpg'
+    scalematesId: 'hasegawa-09010-messerschmitt-bf109f-2--135876'
+
 HAS09011:
     brand: Hasegawa
     number: '09011/J11'
