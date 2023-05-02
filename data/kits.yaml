@@ -1,4 +1,4 @@
-### == Tamiya 1/48 kits
+### == Tamiya 1/48 aircraft
 
 TAM61013:
     brand: Tamiya
@@ -239,6 +239,16 @@ TAM61096:
     scale: '1/48'
     boxart: '48/Tamiya/61096-800.jpg'
     scalematesId: 'tamiya-61096-republic-p-47m-thunderbolt--120293'
+
+### == Tamiya 1/48 armor
+
+TAM32599:
+    brand: Tamiya
+    number: '32599'
+    name: 'Russian Medium Tank T-34-85'
+    scale: '1/48'
+    boxart: '48/Tamiya-armor/32599-800.jpg'
+    scalematesId: 'tamiya-32599-t-34-85--1316316'
 
 ### == Hasegawa 1/48 kits
 
